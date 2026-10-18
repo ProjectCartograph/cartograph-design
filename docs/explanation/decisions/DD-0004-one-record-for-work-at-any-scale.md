@@ -6,7 +6,7 @@
 
 ## Context
 
-The project, programme and portfolio standards distinguish the three by purpose: a project delivers outputs, a programme brings about outcomes through related work, a portfolio decides where to invest ([APM](../../reference/bibliography.md), [PMI-STANDARDS](../../reference/bibliography.md), [ISO-21500](../../reference/bibliography.md)). They do not require different structures; the PMI standard says a large project split into related projects with managed benefits becomes a programme, so the kind follows the structure. The open data standards use one record at any scale, with typed links between parents and children ([IATI](../../reference/bibliography.md), [OCDS](../../reference/bibliography.md), [360GIVING](../../reference/bibliography.md)). People stopped when asked to classify their work first ([FIELD](../../reference/bibliography.md)).
+The project, programme and portfolio standards distinguish the three by purpose and by time. A project is temporary and delivers outputs. A programme is temporary and coordinates related work toward outcomes and benefits its parts share. A portfolio is part or all of an organisation's investment toward its objectives: it is managed in cycles with no end, and its members need not be related to one another ([APM](../../reference/bibliography.md), [PMI-STANDARDS](../../reference/bibliography.md), [PMI-PORTFOLIO](../../reference/bibliography.md) 1.2, [GOVS002](../../reference/bibliography.md) glossary, [TEAL](../../reference/bibliography.md) chapters 3 and 12, [ISO-21500](../../reference/bibliography.md)). They do not require different structures; the PMI standard says a large project split into related projects with managed benefits becomes a programme, so the kind follows the structure. The open data standards use one record at any scale, with typed links between parents and children ([IATI](../../reference/bibliography.md), [OCDS](../../reference/bibliography.md), [360GIVING](../../reference/bibliography.md)). People stopped when asked to classify their work first ([FIELD](../../reference/bibliography.md)).
 
 ## Options
 
@@ -19,6 +19,14 @@ The project, programme and portfolio standards distinguish the three by purpose:
 ## Decision (proposed)
 
 Option B. The core record is a **piece of work**. Its label (project, programme, portfolio, service, grant, product, or the organisation's own words) comes from the profile and is suggested from what the person says. Rules that differ by label (one objective for a project, outcomes and components for a programme, a sponsor and a budget of its own) are **checks attached to the label in the profile**, never separate schemas. Links between pieces of work are typed and declared on one side.
+
+A **portfolio** follows the standards' definition: a piece of work labelled portfolio that holds an organisation's standing investment in other work toward its goals ([PMI-PORTFOLIO](../../reference/bibliography.md) 1.2, [GOVS002](../../reference/bibliography.md) glossary, [TEAL](../../reference/bibliography.md) chapter 12). The checks on its label say what makes it one:
+
+- it has no end date ([R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end));
+- its intended results point to shared goals and hold no objectives of their own ([DD-0012](DD-0012-strategy-is-shared-context.md));
+- the parts of the case about one change and how it comes about are not asked, because its members need not share an outcome;
+- it names a sponsor, a budget and a review cycle ([S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points));
+- its decisions fund, hold, stop or move money between its members, with the criteria it ranks them by when it uses them ([D10](../../reference/requirements/case-and-decisions.md#d10-portfolio-decisions)).
 
 ```mermaid
 flowchart TB
@@ -34,8 +42,5 @@ flowchart TB
 - One schema, one walk and one set of views serve every scale.
 - "This may be a programme" becomes advice on a label, offered when the structure suggests it, not a choice at the door.
 - A portfolio adds members from its own page, since membership is one link seen from either end.
+- Members that need one another to bring about one change are a programme, not a portfolio; the tool advises the label when the structure suggests it.
 - Rules lose the static guarantee a separate schema gives; checks enforce them.
-
-## Open questions
-
-- Is a portfolio a piece of work, or a view over many with decisions of its own? This record treats it as a piece of work whose results are its objectives.

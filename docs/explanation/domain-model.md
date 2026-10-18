@@ -63,7 +63,7 @@ The relations, in domain-driven design's terms:
 
 **Is a benefit a record of its own?** A benefit is an intended result of the work with an owner, a measure and a date, so its definition belongs with the work. What happens to it after delivery (acceptance, readings, benefit reviews) outlives the work, so that belongs to Benefits and learning.
 
-**Is a portfolio a piece of work?** It is treated as one, whose results are its objectives and whose decisions fund, hold or stop its members. The alternative, a view over many pieces of work, would give it nowhere to keep its own reviews ([DD-0004 open questions](decisions/DD-0004-one-record-for-work-at-any-scale.md#open-questions)).
+**Is a portfolio a piece of work?** The standards define a portfolio as part or all of an organisation's investment toward its objectives, managed with no end, whose members need not share an outcome ([PMI-PORTFOLIO](../reference/bibliography.md) 1.2, [GOVS002](../reference/bibliography.md) glossary, [TEAL](../reference/bibliography.md) chapter 12). It is treated as a piece of work labelled portfolio, because it has a sponsor, a budget, reviews and decisions to fund, hold or stop its members, which a view over many pieces of work would have nowhere to keep. Its objectives are not its own: they are the shared goals of Strategy, which its intended results point to ([DD-0004](decisions/DD-0004-one-record-for-work-at-any-scale.md)).
 
 **Why is Strategy supporting, not core?** Purpose and goals matter, but they are shared context that work points at, and the logic is simple. The hard problems are in how work justifies itself against them.
 

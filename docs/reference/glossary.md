@@ -6,6 +6,9 @@ The words of the new model, by context. Inside a context a word means one thing.
 |---|---|---|---|
 | Piece of work | Work definition | The one record of something an organisation does, at any scale | A label such as project or programme, which it carries |
 | Label | Work definition | What a piece of work is called (project, programme, portfolio, service, grant, product), from the profile | A separate kind with its own schema, as before |
+| Project | Work definition | The label for temporary work that delivers outputs toward an intended result | A programme, whose parts share one change |
+| Programme | Work definition | The label for temporary work whose parts together bring about one change and its benefits | A portfolio, whose members need not share an outcome |
+| Portfolio | Work definition | The label for an organisation's standing investment in other work toward its goals, with no end; its decisions fund, hold, stop or move money between its members | A programme; a view over many pieces of work, which holds no decisions |
 | Case | Work definition | The justification inside a piece of work: need, change wanted, if nothing is done, options, intended results, theory of change, assumptions, cost, delivery | A business case document, which is one view of it |
 | Intended result | Work definition | A change sought: an output (produced), an outcome (changes for people) or an impact (lasting) | A goal, which is shared strategy |
 | Theory of change | Work definition | The steps from what is done to the change, with what must hold at each | The goal tree |
