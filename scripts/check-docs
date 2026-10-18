@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+"""Check the design documents. One argument names the check:
+
+  links     every relative link and anchor resolves
+  ids       every decision named exists; every record has a valid status;
+            every citation names a bibliography key
+  words     no em dashes; no client's words
+  diagrams  every Mermaid diagram parses (mermaid-cli)
+  index     rewrite the generated indexes from the records
+"""
+import os
+import re
+import subprocess
+import sys
+import tempfile
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REQ_DIR = os.path.join(ROOT, "docs", "reference", "requirements")
+DD_DIR = os.path.join(ROOT, "docs", "explanation", "decisions")
+BIB = os.path.join(ROOT, "docs", "reference", "bibliography.md")
+
+REQ_STATUS = {"Proposed", "Approved", "Changed", "Dropped"}
+DD_STATUS = re.compile(r"^\*\*Status:\*\* (Proposed|Accepted|Rejected|Superseded by DD-\d{4})\b", re.M)
+PRIORITY = {"Must", "Should", "Could"}
+
+
+def markdown_files():
+    for base, dirs, files in os.walk(ROOT):
+        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "result"]
+        for f in files:
+            if f.endswith(".md"):
+                yield os.path.join(base, f)
+
+
+def read(path):
+    with open(path, encoding="utf-8") as f:
+        return f.read()
+
+
+def strip_code(text):
+    return re.sub(r"```.*?```", "", text, flags=re.S)
+
+
+def slug(heading):
+    s = heading.strip().lower()
+    s = re.sub(r"[^\w\- ]", "", s)
+    return s.replace(" ", "-")
+
+
+def anchors(path):
+    found = set()
+    seen = {}
+    for m in re.finditer(r"^#{1,6} (.+)$", strip_code(read(path)), re.M):
+        s = slug(re.sub(r"[`*]", "", m.group(1)))
+        n = seen.get(s, 0)
+        found.add(s if n == 0 else f"{s}-{n}")
+        seen[s] = n + 1
+    return found
+
+
+def check_links():
+    bad = []
+    for path in markdown_files():
+        for m in re.finditer(r"\]\(([^)\s]+)\)", strip_code(read(path))):
+            target = m.group(1)
+            if re.match(r"^[a-z]+:", target):
+                continue
+            file_part, _, frag = target.partition("#")
+            dest = path if not file_part else os.path.normpath(os.path.join(os.path.dirname(path), file_part))
+            rel = os.path.relpath(path, ROOT)
+            if not os.path.exists(dest):
+                bad.append(f"{rel}: {target} does not exist")
+            elif frag and dest.endswith(".md") and frag not in anchors(dest):
+                bad.append(f"{rel}: {target} names no heading there")
+    report(bad, "every link resolves")
+
+
+def requirements():
+    """Yield (file, id, title, fields) for every requirement record."""
+    for f in sorted(os.listdir(REQ_DIR)):
+        if not f.endswith(".md") or f == "README.md":
+            continue
+        text = read(os.path.join(REQ_DIR, f))
+        for block in re.split(r"^### ", text, flags=re.M)[1:]:
+            head, _, body = block.partition("\n")
+            rid, _, title = head.partition(" ")
+            fields = dict(re.findall(r"^- \*\*([A-Za-z ]+):\*\* (.+)$", body, re.M))
+            yield f, rid, title.strip(), fields, body
+
+
+def decisions():
+    for f in sorted(os.listdir(DD_DIR)):
+        m = re.match(r"(DD-\d{4})-.+\.md$", f)
+        if m:
+            text = read(os.path.join(DD_DIR, f))
+            title = re.search(r"^# (.+)$", text, re.M).group(1)
+            st = DD_STATUS.search(text)
+            yield f, m.group(1), title, (st.group(1) if st else None), text
+
+
+def check_ids():
+    bad = []
+    ids = set()
+    for f, rid, title, fields, _ in requirements():
+        if rid in ids:
+            bad.append(f"{f}: {rid} appears twice")
+        ids.add(rid)
+        if fields.get("Status", "").split(" ")[0] not in REQ_STATUS:
+            bad.append(f"{f}: {rid} has no status of {sorted(REQ_STATUS)}")
+        if fields.get("Priority") not in PRIORITY:
+            bad.append(f"{f}: {rid} has no priority of {sorted(PRIORITY)}")
+    known = set()
+    for f, did, _, status, _ in decisions():
+        known.add(did)
+        if not status:
+            bad.append(f"{f}: no **Status:** line (Proposed, Accepted, Rejected, Superseded by DD-NNNN)")
+    keys = set(re.findall(r"^\| ([A-Z0-9][A-Z0-9-]+) \|", read(BIB), re.M))
+    for path in markdown_files():
+        rel = os.path.relpath(path, ROOT)
+        for key in re.findall(r"\[([^\]]+)\]\([^)]*bibliography\.md\)", strip_code(read(path))):
+            if re.fullmatch(r"[A-Z0-9][A-Z0-9-]+", key) and key not in keys:
+                bad.append(f"{rel}: cites {key}, which is not in the bibliography")
+        for did in set(re.findall(r"\bDD-\d{4}\b", read(path))):
+            if did not in known:
+                bad.append(f"{os.path.relpath(path, ROOT)}: {did} is not a decision record")
+    report(bad, f"{len(ids)} requirements and {len(known)} decisions, each with a status; every citation in the bibliography")
+
+
+def check_words():
+    bad = []
+    client = re.compile(r"trinidad|tobago|ministry of education|\bMoE\b", re.I)
+    for path in markdown_files():
+        rel = os.path.relpath(path, ROOT)
+        for n, line in enumerate(read(path).splitlines(), 1):
+            if "—" in line:
+                bad.append(f"{rel}:{n}: an em dash; use a colon, a comma or two sentences")
+            if client.search(line):
+                bad.append(f"{rel}:{n}: a client's words stay out of the repository")
+    report(bad, "no em dashes, no client's words")
+
+
+def check_diagrams():
+    bad = []
+    count = 0
+    cfg = os.path.join(ROOT, "scripts", "puppeteer.json")
+    with tempfile.TemporaryDirectory() as tmp:
+        for path in markdown_files():
+            for i, m in enumerate(re.finditer(r"```mermaid\n(.*?)```", read(path), re.S)):
+                count += 1
+                src = os.path.join(tmp, f"d{count}.mmd")
+                with open(src, "w", encoding="utf-8") as f:
+                    f.write(m.group(1))
+                r = subprocess.run(["mmdc", "-q", "-p", cfg, "-i", src, "-o", src + ".svg"],
+                                   capture_output=True, text=True)
+                if r.returncode != 0:
+                    err = (r.stderr or r.stdout).strip().splitlines()
+                    bad.append(f"{os.path.relpath(path, ROOT)}: diagram {i + 1} does not parse: {err[0] if err else ''}")
+    report(bad, f"{count} diagrams parse")
+
+
+def write_index():
+    rows = ["| Requirement | Area | Priority | Status |", "|---|---|---|---|"]
+    for f, rid, title, fields, _ in requirements():
+        rows.append(f"| [{rid}]({f}#{slug(rid + ' ' + title)}) {title} | {f[:-3].replace('-', ' ')} | {fields.get('Priority', '')} | {fields.get('Status', '')} |")
+    replace_between(os.path.join(REQ_DIR, "README.md"), "\n".join(rows))
+    rows = ["| Decision | Status |", "|---|---|"]
+    for f, did, title, status, _ in decisions():
+        rows.append(f"| [{title}](../explanation/decisions/{f}) | {status} |")
+    replace_between(os.path.join(ROOT, "docs", "reference", "decision-log.md"), "\n".join(rows))
+    print("indexes written")
+
+
+def replace_between(path, body):
+    text = read(path)
+    new = re.sub(r"(<!-- index:start -->\n).*?(\n<!-- index:end -->)", lambda m: m.group(1) + body + m.group(2), text, flags=re.S)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(new)
+
+
+def report(bad, ok):
+    if bad:
+        print("\n".join(bad))
+        sys.exit(1)
+    print(ok)
+
+
+if __name__ == "__main__":
+    {"links": check_links, "ids": check_ids, "words": check_words,
+     "diagrams": check_diagrams, "index": write_index}[sys.argv[1]]()
