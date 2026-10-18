@@ -63,16 +63,16 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [O4](openness-and-exchange.md#o4-mappings-to-open-standards) Mappings to open standards | openness and exchange | Should | Proposed |
 | [O5](openness-and-exchange.md#o5-personal-data-separable) Personal data separable | openness and exchange | Must | Proposed |
 | [O6](openness-and-exchange.md#o6-published-packages-say-who-and-how) Published packages say who and how | openness and exchange | Should | Proposed |
-| [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Proposed |
-| [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Proposed |
-| [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Proposed |
-| [P4](people-and-first-use.md#p4-the-persons-own-words) The person's own words | people and first use | Must | Proposed |
-| [P5](people-and-first-use.md#p5-the-full-workspace-one-step-away) The full workspace one step away | people and first use | Must | Proposed |
-| [P6](people-and-first-use.md#p6-home-names-the-next-thing) Home names the next thing | people and first use | Must | Proposed |
-| [P7](people-and-first-use.md#p7-finishable-unaided-by-anyone) Finishable unaided by anyone | people and first use | Must | Proposed |
-| [P8](people-and-first-use.md#p8-help-organised-by-need) Help organised by need | people and first use | Must | Proposed |
-| [P9](people-and-first-use.md#p9-save-anything-completeness-only-when-deciding) Save anything; completeness only when deciding | people and first use | Must | Proposed |
-| [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Proposed |
+| [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Approved |
+| [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Approved |
+| [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Approved |
+| [P4](people-and-first-use.md#p4-the-persons-own-words) The person's own words | people and first use | Must | Approved |
+| [P5](people-and-first-use.md#p5-the-full-workspace-one-step-away) The full workspace one step away | people and first use | Must | Approved |
+| [P6](people-and-first-use.md#p6-home-names-the-next-thing) Home names the next thing | people and first use | Must | Approved |
+| [P7](people-and-first-use.md#p7-finishable-unaided-by-anyone) Finishable unaided by anyone | people and first use | Must | Approved |
+| [P8](people-and-first-use.md#p8-help-organised-by-need) Help organised by need | people and first use | Must | Approved |
+| [P9](people-and-first-use.md#p9-save-anything-completeness-only-when-deciding) Save anything; completeness only when deciding | people and first use | Must | Approved |
+| [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Approved |
 | [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Proposed |
 | [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Proposed |
 | [K3](platform.md#k3-reviewable-change-straight-in-when-alone) Reviewable change, straight in when alone | platform | Must | Proposed |

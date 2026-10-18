@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 A first-time person starts from the first screen without choosing a kind of work, a level or a method, and is first asked what they want to change.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The frameworks for justifying work ask first for the problem and the change wanted. A design built on its own categories, rather than what people already believe about their work, is misread, and explaining it seldom helps because people resist reading instructions; the research favours redesigning to match people's model where that is feasible.
 - **Accepted when:**
   - The first screen after sign-in offers to start from the change, and offers no choice of kind or method.
@@ -23,7 +23,7 @@ A first-time person starts from the first screen without choosing a kind of work
 Each screen of a walk asks for one decision, and the action that moves the person on is the most prominent on the screen.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** People put a decision off most when they are unsure what they want, the options are hard to compare or the task is difficult, which is the position of someone defining work for the first time. One question per page helps people with little confidence, and makes errors, branches and saving easier to handle; people barely mind moving through pages of straightforward questions. A primary action that stands apart from the others prevents mistakes, at the cost of a little more looking. The findings are qualified: across studies, the number of options alone has on average almost no effect, and harms only under the conditions above; the law relating choice time to the number of options rarely governs the use of software; and questions people answer together may share a screen where research with them shows it helps.
 - **Accepted when:**
   - Each walk screen asks one question, or a group of questions that research with people has shown belong together.
@@ -38,7 +38,7 @@ Each screen of a walk asks for one decision, and the action that moves the perso
 A person can leave a walk at any point, return to where they stopped, and see what is left to do.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Defining work happens over days and between meetings.
 - **Accepted when:**
   - Leaving and reopening a walk returns to the same question with the answers kept.
@@ -52,7 +52,7 @@ A person can leave a walk at any point, return to where they stopped, and see wh
 Every term shown is one the person would use, and the standard term for it is one step away.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Domains name the same thing differently. When a system's terms differ from what people expect, they misread it and can repeat the mistake through a session without questioning it; familiar labels reduce the learning a screen demands.
 - **Accepted when:**
   - Every term on a walk screen is drawn from the workspace's words.
@@ -66,7 +66,7 @@ Every term shown is one the person would use, and the standard term for it is on
 The full workspace is one step from any walk, and coming back returns to the same place in the walk.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Experienced people must lose nothing; a walk must not become a second product.
 - **Accepted when:**
   - Every walk screen has one control to the full record.
@@ -80,7 +80,7 @@ The full workspace is one step from any walk, and coming back returns to the sam
 Home names the single most useful next thing to do, drawn from the state of the person's records.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** An excess of options can lead people to put off or abandon a decision, above all when they are unsure what they want or the options are hard to compare; highlighting a recommended option and setting a smart default take part of the decision off them. How many options is right depends on the context and on the person's commitment and expertise, so the recommendation is one step, not the only one.
 - **Accepted when:**
   - Home shows one recommended next step, with the reason it is next.
@@ -94,7 +94,7 @@ Home names the single most useful next thing to do, drawn from the state of the 
 A person using a screen reader, a keyboard only, or with little confidence with computers can finish the first walk unaided.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Public bodies must meet accessibility standards, and the tool is for non-technical people as much as technical ones.
 - **Accepted when:**
   - The first walk meets WCAG 2.2 at level AA.
@@ -108,7 +108,7 @@ A person using a screen reader, a keyboard only, or with little confidence with 
 Each help page does one Diataxis job (learn, do, look up or understand) and links to the others, and the facts for a field can be reached from the field.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** A page that mixes the four jobs serves none of them well; a person stuck on a field needs its facts there.
 - **Accepted when:**
   - Every help page is classed as tutorial, how-to guide, reference or explanation.
@@ -122,7 +122,7 @@ Each help page does one Diataxis job (learn, do, look up or understand) and link
 A person can save at any point; only a step that asks for a decision or a handover requires completeness, and it says what is missing.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Staged cases approve an outline before a full case exists; refusing a save loses work.
 - **Accepted when:**
   - Saving never fails because a part is missing.
@@ -136,7 +136,7 @@ A person can save at any point; only a step that asks for a decision or a handov
 The depth asked of a piece of work follows what the person and whoever approves it agree it needs; nothing appears that was not asked for or needed.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every framework asks for proportion, and a hobbyist and a national government use the same tool.
 - **Accepted when:**
   - A piece of work records the depth agreed for it and why.
