@@ -1,6 +1,6 @@
 # People and first use
 
-How a person first meets Cartograph: the first screen, the guided walk, the words and the help. Field sessions showed people giving up when shown everything at once and finishing only a guided walk of one question per screen; the design research explains why.
+How a person first meets Cartograph: the first screen, the guided walk, the words and the help. Design research finds that people learn faster and make fewer mistakes when they are shown the few things that matter first, in words they already use, with the rest on request ([NNG](../bibliography.md) progressive disclosure, mental models).
 
 Each requirement is a statement that can be checked. Its status starts Proposed and becomes Approved, Changed or Dropped in review ([how to review a requirement](../../how-to/review-a-requirement.md)). Sources are in [the bibliography](../bibliography.md).
 
@@ -10,27 +10,28 @@ A first-time person starts from the first screen without choosing a kind of work
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** People stopped when asked to classify their work in the tool's nouns; every framework asks first for the problem and the change wanted.
+- **Why:** The frameworks for justifying work ask first for the problem and the change wanted. A design built on its own categories, rather than what people already believe about their work, is misread, and explaining it seldom helps because people resist reading instructions; the research favours redesigning to match people's model where that is feasible.
 - **Accepted when:**
   - The first screen after sign-in offers to start from the change, and offers no choice of kind or method.
   - The first question of the first walk asks what should be different.
-- **Holds across:** field observation, public services, UK public sector, charity, design research
-- **Evidence:** [FIELD](../bibliography.md); [GDS-MANUAL](../bibliography.md) user needs; [HMT-CASES](../bibliography.md) 4.13; [KELLOGG](../bibliography.md); [NNG](../bibliography.md) mental models
+- **Holds across:** public services, UK public sector, charity, design research
+- **Evidence:** [GDS-MANUAL](../bibliography.md) user needs; [HMT-CASES](../bibliography.md) 4.13; [KELLOGG](../bibliography.md); [NNG](../bibliography.md) mental models
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
-### P2 One thing per screen
+### P2 One decision per screen
 
-Each screen of a walk asks one thing and offers one clear next step, with few enough other controls that the step stands out.
+Each screen of a walk asks for one decision, and the action that moves the person on is the most prominent on the screen.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** The only screen people finished showed 7 controls and one primary action; the median screen of the exploratory implementation showed 49 and two.
+- **Why:** People put a decision off most when they are unsure what they want, the options are hard to compare or the task is difficult, which is the position of someone defining work for the first time. One question per page helps people with little confidence, and makes errors, branches and saving easier to handle; people barely mind moving through pages of straightforward questions. A primary action that stands apart from the others prevents mistakes, at the cost of a little more looking. The findings are qualified: across studies, the number of options alone has on average almost no effect, and harms only under the conditions above; the law relating choice time to the number of options rarely governs the use of software; and questions people answer together may share a screen where research with them shows it helps.
 - **Accepted when:**
-  - Each walk screen has exactly one primary action.
-  - Each walk screen shows no more than ten controls and one way to move on.
-- **Holds across:** field observation, public services, design research
-- **Evidence:** [FIELD](../bibliography.md); [GDS-PATTERNS](../bibliography.md) question pages; [NNG](../bibliography.md) minimise cognitive load; [LAWS-OF-UX](../bibliography.md) Hick's law
-- **Verified by:** the screen audit, and a session with people
+  - Each walk screen asks one question, or a group of questions that research with people has shown belong together.
+  - Each walk screen has exactly one primary action, visually distinct from every other action.
+  - Every other action is at most one step away, and no more than two levels deep.
+- **Holds across:** public services, design research, decision research
+- **Evidence:** [GDS-PATTERNS](../bibliography.md) question pages; [GDS-FORMS](../bibliography.md); [CHOICE-OVERLOAD](../bibliography.md); [HCI-HICK](../bibliography.md); [WROBLEWSKI](../bibliography.md); [NNG](../bibliography.md) progressive disclosure, minimise cognitive load
+- **Verified by:** a session with people, measuring whether they find the next step and how often they leave a walk unfinished
 
 ### P3 Leave and come back
 
@@ -52,12 +53,12 @@ Every term shown is one the person would use, and the standard term for it is on
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Domains name the same thing differently, and unfamiliar terms were part of what frightened people.
+- **Why:** Domains name the same thing differently. When a system's terms differ from what people expect, they misread it and can repeat the mistake through a session without questioning it; familiar labels reduce the learning a screen demands.
 - **Accepted when:**
   - Every term on a walk screen is drawn from the workspace's words.
   - Each such term links to its definition and its standard equivalent.
-- **Holds across:** field observation, design research, public services
-- **Evidence:** [FIELD](../bibliography.md); [NNG](../bibliography.md) mental models; [GDS-MANUAL](../bibliography.md) user needs
+- **Holds across:** design research, public services
+- **Evidence:** [NNG](../bibliography.md) mental models, minimise cognitive load; [GDS-MANUAL](../bibliography.md) user needs
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
 ### P5 The full workspace one step away
@@ -80,12 +81,12 @@ Home names the single most useful next thing to do, drawn from the state of the 
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** An open question with no direction left people stuck on the home screen.
+- **Why:** An excess of options can lead people to put off or abandon a decision, above all when they are unsure what they want or the options are hard to compare; highlighting a recommended option and setting a smart default take part of the decision off them. How many options is right depends on the context and on the person's commitment and expertise, so the recommendation is one step, not the only one.
 - **Accepted when:**
   - Home shows one recommended next step, with the reason it is next.
   - With nothing in progress, the next step is to start from a change.
-- **Holds across:** field observation, design research
-- **Evidence:** [FIELD](../bibliography.md); [NNG](../bibliography.md) simplicity and choice
+- **Holds across:** design research
+- **Evidence:** [NNG](../bibliography.md) simplicity and choice, minimise cognitive load; [CHOICE-OVERLOAD](../bibliography.md); [LAWS-OF-UX](../bibliography.md) Hick's law
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
 ### P7 Finishable unaided by anyone

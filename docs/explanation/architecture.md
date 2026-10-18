@@ -87,7 +87,7 @@ A decision follows the same route, and names the journal version of the case it 
 | Attribute | What it means here | Requirements |
 |---|---|---|
 | Scale without a second product | The same binary, record and walk for one person and a nation | [R1](../reference/requirements/shape-of-the-record.md#r1-one-shape-at-any-scale), [K2](../reference/requirements/platform.md#k2-from-files-to-a-shared-database) |
-| Learnability | A first-time person finishes the first walk unaided | [P1](../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [P2](../reference/requirements/people-and-first-use.md#p2-one-thing-per-screen), [P7](../reference/requirements/people-and-first-use.md#p7-finishable-unaided-by-anyone) |
+| Learnability | A first-time person finishes the first walk unaided | [P1](../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [P2](../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen), [P7](../reference/requirements/people-and-first-use.md#p7-finishable-unaided-by-anyone) |
 | Portability | The record leaves the tool whole, as files and as open standards | [O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [O4](../reference/requirements/openness-and-exchange.md#o4-mappings-to-open-standards) |
 | Durability | History and decisions survive any rebuild | [K4](../reference/requirements/platform.md#k4-durable-history) |
 | Privacy | Personal data separable; roles in the record, people outside | [O5](../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [R8](../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on) |

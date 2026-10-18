@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [P1](../../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [P2](../../reference/requirements/people-and-first-use.md#p2-one-thing-per-screen), [E1](../../reference/requirements/change-and-evaluation.md#e1-how-the-change-is-expected-to-happen), [R2](../../reference/requirements/shape-of-the-record.md#r2-the-kind-is-a-label-given-after)
+**Requirements:** [P1](../../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [P2](../../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen), [E1](../../reference/requirements/change-and-evaluation.md#e1-how-the-change-is-expected-to-happen), [R2](../../reference/requirements/shape-of-the-record.md#r2-the-kind-is-a-label-given-after)
 
 ## Context
 
