@@ -29,7 +29,7 @@ Each screen of a walk asks one thing and offers one clear next step, with few en
   - Each walk screen has exactly one primary action.
   - Each walk screen shows no more than ten controls and one way to move on.
 - **Holds across:** field observation, public services, design research
-- **Evidence:** [FIELD](../bibliography.md); [GDS-PATTERNS](../bibliography.md) question pages; [NNG](../bibliography.md) minimise cognitive load; [NNG](../bibliography.md) Hick's law
+- **Evidence:** [FIELD](../bibliography.md); [GDS-PATTERNS](../bibliography.md) question pages; [NNG](../bibliography.md) minimise cognitive load; [LAWS-OF-UX](../bibliography.md) Hick's law
 - **Verified by:** the screen audit, and a session with people
 
 ### P3 Leave and come back

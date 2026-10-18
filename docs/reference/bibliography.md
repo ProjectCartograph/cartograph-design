@@ -84,5 +84,6 @@ Every source the design cites, by key. Requirements and decisions cite a key and
 | Key | Source | Read |
 |---|---|---|
 | DIATAXIS | Procida, D. [*Diátaxis*](https://diataxis.fr/): [start here](https://diataxis.fr/start-here/), [the compass](https://diataxis.fr/compass/), [the map](https://diataxis.fr/map/) | In full |
-| NNG | Nielsen Norman Group: [progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/), [mental models](https://www.nngroup.com/articles/mental-models/), [minimise cognitive load](https://www.nngroup.com/articles/minimize-cognitive-load/), [Hick's law](https://www.nngroup.com/articles/hicks-law/), [simplicity and choice](https://www.nngroup.com/articles/simplicity-vs-choice/) | In full |
+| NNG | Nielsen Norman Group: [progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/), [mental models](https://www.nngroup.com/articles/mental-models/), [minimise cognitive load](https://www.nngroup.com/articles/minimize-cognitive-load/), [simplicity and choice](https://www.nngroup.com/articles/simplicity-vs-choice/) | In full |
+| LAWS-OF-UX | Yablonski, J. *Laws of UX*: [Hick's law](https://lawsofux.com/hicks-law/) | In full |
 | FIELD | Cartograph (2026). Observations of in-person sessions with technical and non-technical people using the exploratory implementation, and an audit of its screens. Unpublished; no sessions were recorded. | Primary |
