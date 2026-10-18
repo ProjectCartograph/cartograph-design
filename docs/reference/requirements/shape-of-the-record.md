@@ -34,7 +34,7 @@ The kind of work (project, programme, portfolio, service, grant, product) is a l
 
 ### R3 Work without an end
 
-Work with no end date (a service, a product, an ongoing programme) has the same core as work with one, and a life of its own (planned, running, retired) with a reason for retiring.
+Work with no end date (a service, a product, a portfolio) has the same core as work with one, and a life of its own (planned, running, retired) with a reason for retiring.
 
 - **Priority:** Must
 - **Status:** Proposed
@@ -43,7 +43,7 @@ Work with no end date (a service, a product, an ongoing programme) has the same 
   - A piece of work may have no end date.
   - Retiring a piece of work records why.
 - **Holds across:** public sector elsewhere, software, UK public sector
-- **Evidence:** [TBS-RESULTS](../bibliography.md); [SCRUM](../bibliography.md); [NISTA-GATES](../bibliography.md) Gate 5
+- **Evidence:** [TBS-RESULTS](../bibliography.md); [SCRUM](../bibliography.md); [NISTA-GATES](../bibliography.md) Gate 5; [PMI-PORTFOLIO](../bibliography.md) 1.2; [TEAL](../bibliography.md) chapter 12
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### R4 Typed links between work
