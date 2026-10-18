@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 One shape of record serves one person's single idea and a national strategy; a person never moves to a larger form to add a field.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every domain studied holds the same core, and the open data standards use one record at any scale.
 - **Accepted when:**
   - A piece of work labelled as a project and one labelled as a programme share one schema.
@@ -23,7 +23,7 @@ One shape of record serves one person's single idea and a national strategy; a p
 The kind of work (project, programme, portfolio, service, grant, product) is a label given after the person has said what the work is, suggested by the tool, and changeable without loss.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Classifying first is where people stopped; in the standards, structure decides the kind (a large project split into related projects with managed benefits becomes a programme).
 - **Accepted when:**
   - The walk suggests a label from the person's answers.
@@ -37,7 +37,7 @@ The kind of work (project, programme, portfolio, service, grant, product) is a l
 Work with no end date (a service, a product, a portfolio) has the same core as work with one, and a life of its own (planned, running, retired) with a reason for retiring.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Governments, service managers and product teams steer ongoing work, not only time-bound projects.
 - **Accepted when:**
   - A piece of work may have no end date.
@@ -51,7 +51,7 @@ Work with no end date (a service, a product, a portfolio) has the same core as w
 Links between pieces of work are typed (part of, depends on, funds, hands over to), declared on one side and readable from both; a piece of work may serve more than one parent.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Shared parts are common in large work, and declaring a link on one side keeps the record consistent.
 - **Accepted when:**
   - A link is stored once and shown on both pieces of work.
@@ -65,7 +65,7 @@ Links between pieces of work are typed (part of, depends on, funds, hands over t
 The same record can be read as several views (a charter, a business case, a logical framework, a theory of change, a funder's form, an open data file) that stay consistent because they are rendered from it, not copied.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Each audience accepts its own document, and copies drift apart.
 - **Accepted when:**
   - Every view is produced from the record and stores nothing of its own.
@@ -79,7 +79,7 @@ The same record can be read as several views (a charter, a business case, a logi
 Each concept has one place: one place for how progress will be known, one list of parties with roles, one word for each thing.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** In the exploratory implementation, how success would be known was asked in seven places and who was involved in eight, and people did not know which was right.
 - **Accepted when:**
   - No two fields in the schema hold the same concept.
@@ -93,7 +93,7 @@ Each concept has one place: one place for how progress will be known, one list o
 The record keeps apart what is produced, what changes for people and the lasting benefit, and a reader can tell which each item is.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Evaluators ask for inputs, outputs, outcomes and impacts to be kept distinct, and a benefit is the improvement that follows from an outcome.
 - **Accepted when:**
   - Each intended result is marked output, outcome or impact.
@@ -107,7 +107,7 @@ The record keeps apart what is produced, what changes for people and the lasting
 Every result, decision, indicator and risk names one accountable role at a time; a change of accountable role is recorded and accepted by the new holder. Roles are in the record; people are linked to roles outside it.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every domain names one answerable role, and accountability moves: a senior responsible owner may pass benefits to a business owner, who must accept them.
 - **Accepted when:**
   - Each result, decision, indicator and risk has exactly one accountable role.
