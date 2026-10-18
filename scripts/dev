@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+# Run a command in the test environment, inside this repository's flake:
+# scripts/dev just test (docs/CONTAINERS.md). The host needs Docker or
+# Podman, with compose, and nothing else; the engine need not be beside
+# it.
+#
+# The environment never makes a change: the repository is read-only in
+# it, and each command first syncs it into the container's own copy,
+# then runs there. Commit, describe and push on the host.
+#
+# The container starts on first use and keeps running, so a server a
+# command starts outlives the command; scripts/dev --down stops it.
+set -euo pipefail
+
+root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+runtime=${CARTOGRAPH_RUNTIME:-$(command -v docker || command -v podman)}
+compose=("$runtime" compose -f "$root/compose.dev.yaml")
+
+export CARTOGRAPH_UID=$(id -u) CARTOGRAPH_GID=$(id -g)
+
+if [ "${1:-}" = "--down" ]; then
+  exec "${compose[@]}" down
+fi
+
+"${compose[@]}" up -d --build --quiet-pull dev >/dev/null 2>&1 || "${compose[@]}" up -d --build dev
+# The container's volumes belong to whoever runs in it: the host user.
+for vol in /nix /home/dev /workspace; do
+  if [ "$("${compose[@]}" exec -T --user 0 dev stat -c %u "$vol")" != "$CARTOGRAPH_UID" ]; then
+    echo "dev: giving $vol to uid $CARTOGRAPH_UID (once)" >&2
+    "${compose[@]}" exec -T --user 0 dev chown -R "$CARTOGRAPH_UID:$CARTOGRAPH_GID" "$vol"
+  fi
+done
+
+# A name for the host user inside, which some tools ask for.
+"${compose[@]}" exec -T --user 0 dev sh -c "grep -q '^[^:]*:[^:]*:$CARTOGRAPH_UID:' /etc/passwd || echo 'dev:x:$CARTOGRAPH_UID:$CARTOGRAPH_GID:dev:/home/dev:/bin/sh' >> /etc/passwd"
+
+# Whether the repository changed since it was last synced (#108, in
+# cartograph-engine): a native find on the host, fast where the share
+# into the container is slow (Docker Desktop on a Mac). A new token when
+# something is newer than the stamp, else the last; the container syncs
+# only when its copy holds another, so a sync cut short is redone.
+cache=${XDG_CACHE_HOME:-$HOME/.cache}/cartograph-dev
+mkdir -p "$cache"
+stamp="$cache/cartograph-design.stamp" next="$cache/cartograph-design.next"
+printf '%s' "$(date +%s)-$$-$RANDOM" > "$next"
+if [ -f "$stamp" ] && [ -z "$(find "$root" \( -name .jj -o -name result \) -prune -o -newer "$stamp" -print 2>/dev/null | head -n 1)" ]; then
+  rm -f "$next"
+else
+  mv "$next" "$stamp"
+fi
+token=$(cat "$stamp")
+
+# On an arm64 host the container is aarch64-linux; Nix builds x86_64-linux
+# there only when told the platform is there (Rosetta or binfmt runs it).
+nixconf=""
+case "$(uname -m)" in
+  arm64 | aarch64) nixconf="extra-platforms = x86_64-linux" ;;
+esac
+
+# The same directory in the copy, when the caller is in the repository.
+here=$(pwd)
+case "$here" in
+  "$root"/*) wd="/workspace/cartograph-design${here#"$root"}" ;;
+  *) wd=/workspace/cartograph-design ;;
+esac
+tty=(-T)
+[ -t 0 ] && [ -t 1 ] && tty=(-it)
+
+[ $# -gt 0 ] || set -- bash
+exec "${compose[@]}" exec "${tty[@]}" -e CARTOGRAPH_SYNC="$token" -e NIX_CONFIG="$nixconf" -w /workspace dev sh -c '
+  set -e
+  # The repository, as it stands on the host, into the copy, when it
+  # changed. What the copy installed or built (node_modules, dist) stays.
+  if [ "$(cat /workspace/.synced 2>/dev/null)" != "$CARTOGRAPH_SYNC" ]; then
+    nix develop /src/cartograph-design --command rsync -a --delete \
+      --exclude /.jj --exclude /result \
+      /src/cartograph-design/ /workspace/cartograph-design/
+    printf %s "$CARTOGRAPH_SYNC" > /workspace/.synced
+  fi
+  cd "'"$wd"'" 2>/dev/null || cd /workspace/cartograph-design
+  exec nix develop /workspace/cartograph-design --command "$@"
+' dev "$@"
