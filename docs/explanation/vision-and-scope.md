@@ -32,7 +32,7 @@ The modes are Diataxis's: a person moves between learning, doing, looking up and
 
 A person who has never used Cartograph says what they want to change, one question at a time and in their own words, and ends with a record their board, funder or team accepts. They always know the next step. Anyone who wants the full workspace finds it one step away. The same record serves a hobbyist and a national government, each in its own words and stages, and outlives the tool.
 
-These are measured, not asserted: by sessions with people traced as they work, and by an audit of what each screen shows ([P2](../reference/requirements/people-and-first-use.md#p2-one-thing-per-screen), [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use)).
+These are measured, not asserted: by sessions with people traced as they work, and by an audit of what each screen shows ([P2](../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen), [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use)).
 
 ## In scope
 

@@ -64,7 +64,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [O5](openness-and-exchange.md#o5-personal-data-separable) Personal data separable | openness and exchange | Must | Proposed |
 | [O6](openness-and-exchange.md#o6-published-packages-say-who-and-how) Published packages say who and how | openness and exchange | Should | Proposed |
 | [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Proposed |
-| [P2](people-and-first-use.md#p2-one-thing-per-screen) One thing per screen | people and first use | Must | Proposed |
+| [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Proposed |
 | [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Proposed |
 | [P4](people-and-first-use.md#p4-the-persons-own-words) The person's own words | people and first use | Must | Proposed |
 | [P5](people-and-first-use.md#p5-the-full-workspace-one-step-away) The full workspace one step away | people and first use | Must | Proposed |

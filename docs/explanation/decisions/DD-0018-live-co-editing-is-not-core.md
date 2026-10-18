@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [K3](../../reference/requirements/platform.md#k3-reviewable-change-straight-in-when-alone), [X5](../../reference/requirements/domains-and-configuration.md#x5-methods-are-extensions), [P2](../../reference/requirements/people-and-first-use.md#p2-one-thing-per-screen)
+**Requirements:** [K3](../../reference/requirements/platform.md#k3-reviewable-change-straight-in-when-alone), [X5](../../reference/requirements/domains-and-configuration.md#x5-methods-are-extensions), [P2](../../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen)
 
 ## Context
 

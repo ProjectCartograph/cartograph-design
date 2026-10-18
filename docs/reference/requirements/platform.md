@@ -76,7 +76,7 @@ From the first stable release, a record opens in every later release, and the to
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** People's records must outlive releases. Releases before the first stable one are exploratory and carry no such promise.
+- **Why:** People's records must outlive the releases of the tool that wrote them; open, stable formats are how public services keep data usable as software changes.
 - **Accepted when:**
   - Every release opens records written by every earlier stable release.
 - **Holds across:** public services
@@ -89,9 +89,9 @@ The tool records what people do, by shape and never by content, and design chang
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Field sessions recorded nothing; the design must be judged on evidence.
+- **Why:** What people believe about a system differs from what its designers intend, and the difference shows in what people do rather than in what they say; services are expected to learn from their users' behaviour at every phase, not only before launch.
 - **Accepted when:**
   - Sessions can be traced without recording anything people wrote.
-- **Holds across:** field observation, public services, design research
-- **Evidence:** [FIELD](../bibliography.md); [GDS-MANUAL](../bibliography.md); [NNG](../bibliography.md)
+- **Holds across:** public services, design research
+- **Evidence:** [GDS-MANUAL](../bibliography.md) user needs, live; [NNG](../bibliography.md) mental models
 - **Verified by:** an automated test in the build

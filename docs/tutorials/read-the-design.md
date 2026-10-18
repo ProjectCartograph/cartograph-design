@@ -14,7 +14,7 @@ Open [people and first use](../reference/requirements/people-and-first-use.md) a
 
 ## 3. Check the evidence
 
-P1 cites FIELD and NNG among others. Open [the evidence](../explanation/the-evidence.md) and read "People start from the change". Then open [the bibliography](../reference/bibliography.md), find NNG, and see how far it was read.
+P1 cites HMT-CASES and NNG among others. Open [the evidence](../explanation/the-evidence.md) and read "People start from the change". Then open [the bibliography](../reference/bibliography.md), find NNG, and see how far it was read.
 
 ## 4. See the decision
 

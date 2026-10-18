@@ -24,12 +24,12 @@ The kind of work (project, programme, portfolio, service, grant, product) is a l
 
 - **Priority:** Must
 - **Status:** Approved
-- **Why:** Classifying first is where people stopped; in the standards, structure decides the kind (a large project split into related projects with managed benefits becomes a programme).
+- **Why:** Asking people to sort their work into a tool's categories before they have described it works against what they already believe about it; and in the standards, structure decides the kind (a large project split into related projects with managed benefits becomes a programme).
 - **Accepted when:**
   - The walk suggests a label from the person's answers.
   - Changing a label keeps every part of the record.
-- **Holds across:** field observation, project standards, open data
-- **Evidence:** [FIELD](../bibliography.md); [PMI-STANDARDS](../bibliography.md); [IATI](../bibliography.md) activity standard
+- **Holds across:** design research, project standards, open data
+- **Evidence:** [NNG](../bibliography.md) mental models; [PMI-STANDARDS](../bibliography.md); [IATI](../bibliography.md) activity standard
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### R3 Work without an end
@@ -80,12 +80,12 @@ Each concept has one place: one place for how progress will be known, one list o
 
 - **Priority:** Must
 - **Status:** Approved
-- **Why:** In the exploratory implementation, how success would be known was asked in seven places and who was involved in eight, and people did not know which was right.
+- **Why:** People should not have to wonder whether different words or places mean the same thing; the same concept asked in several places leaves them unsure which answer counts. The results standards hold each result once and point to it.
 - **Accepted when:**
   - No two fields in the schema hold the same concept.
   - The glossary has one term per concept.
-- **Holds across:** field observation, open data
-- **Evidence:** [FIELD](../bibliography.md); [IATI](../bibliography.md) result element
+- **Holds across:** design research, open data
+- **Evidence:** [NNG](../bibliography.md) usability heuristics, consistency and standards; [IATI](../bibliography.md) result element
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### R7 Outputs, outcomes and benefits kept apart

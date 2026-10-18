@@ -14,7 +14,7 @@ Staged business cases, design stages and funding cycles describe one behaviour: 
 |---|---|---|
 | A. A document per stage | Familiar | Copies drift; a person rewrites what they wrote |
 | B. One record whose parts have a level of completeness | Nothing written twice; any stage is a view | Needs a way to say how complete each part must be, and when |
-| C. Everything at once | Simple to build | Overload ([P2](../../reference/requirements/people-and-first-use.md#p2-one-thing-per-screen)) |
+| C. Everything at once | Simple to build | Overload ([P2](../../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen)) |
 
 ## Decision (proposed)
 
