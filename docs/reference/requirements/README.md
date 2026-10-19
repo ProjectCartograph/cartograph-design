@@ -29,17 +29,17 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [B6](benefits-handover-closure.md#b6-a-closing-record-and-a-look-back) A closing record and a look back | benefits handover closure | Must | Approved |
 | [B7](benefits-handover-closure.md#b7-benefits-nobody-planned) Benefits nobody planned | benefits handover closure | Should | Approved |
 | [B8](benefits-handover-closure.md#b8-which-benefits-for-whom-and-why) Which benefits, for whom, and why | benefits handover closure | Should | Approved |
-| [D1](case-and-decisions.md#d1-a-case-that-grows) A case that grows | case and decisions | Must | Proposed |
-| [D2](case-and-decisions.md#d2-five-questions-at-any-scale) Five questions at any scale | case and decisions | Must | Proposed |
-| [D3](case-and-decisions.md#d3-if-nothing-new-is-done) If nothing new is done | case and decisions | Must | Proposed |
-| [D4](case-and-decisions.md#d4-options-considered) Options considered | case and decisions | Should | Proposed |
-| [D5](case-and-decisions.md#d5-a-decision-is-a-record) A decision is a record | case and decisions | Must | Proposed |
-| [D6](case-and-decisions.md#d6-conditions-on-a-decision) Conditions on a decision | case and decisions | Must | Proposed |
-| [D7](case-and-decisions.md#d7-stopping-is-ordinary) Stopping is ordinary | case and decisions | Must | Proposed |
-| [D8](case-and-decisions.md#d8-an-approved-plan-and-changes-to-it) An approved plan, and changes to it | case and decisions | Must | Proposed |
-| [D9](case-and-decisions.md#d9-the-chain-upward) The chain upward | case and decisions | Must | Proposed |
-| [D10](case-and-decisions.md#d10-portfolio-decisions) Portfolio decisions | case and decisions | Must | Proposed |
-| [D11](case-and-decisions.md#d11-still-relevant-and-not-duplicated) Still relevant, and not duplicated | case and decisions | Should | Proposed |
+| [D1](case-and-decisions.md#d1-a-case-that-grows) A case that grows | case and decisions | Must | Approved |
+| [D2](case-and-decisions.md#d2-five-questions-at-any-scale) Five questions at any scale | case and decisions | Must | Approved |
+| [D3](case-and-decisions.md#d3-if-nothing-new-is-done) If nothing new is done | case and decisions | Must | Approved |
+| [D4](case-and-decisions.md#d4-options-considered) Options considered | case and decisions | Should | Approved |
+| [D5](case-and-decisions.md#d5-a-decision-is-a-record) A decision is a record | case and decisions | Must | Approved |
+| [D6](case-and-decisions.md#d6-conditions-on-a-decision) Conditions on a decision | case and decisions | Must | Approved |
+| [D7](case-and-decisions.md#d7-stopping-is-ordinary) Stopping is ordinary | case and decisions | Must | Approved |
+| [D8](case-and-decisions.md#d8-an-approved-plan-and-changes-to-it) An approved plan, and changes to it | case and decisions | Must | Approved |
+| [D9](case-and-decisions.md#d9-the-chain-upward) The chain upward | case and decisions | Must | Approved |
+| [D10](case-and-decisions.md#d10-portfolio-decisions) Portfolio decisions | case and decisions | Must | Approved |
+| [D11](case-and-decisions.md#d11-still-relevant-and-not-duplicated) Still relevant, and not duplicated | case and decisions | Should | Approved |
 | [E1](change-and-evaluation.md#e1-how-the-change-is-expected-to-happen) How the change is expected to happen | change and evaluation | Must | Proposed |
 | [E2](change-and-evaluation.md#e2-assumptions-that-can-be-tested) Assumptions that can be tested | change and evaluation | Must | Proposed |
 | [E3](change-and-evaluation.md#e3-who-is-affected-and-would-it-have-happened-anyway) Who is affected, and would it have happened anyway | change and evaluation | Should | Proposed |
