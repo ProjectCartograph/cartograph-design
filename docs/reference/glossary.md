@@ -22,10 +22,12 @@ The words of the new model, by context. Inside a context a word means one thing.
 | Review | Governance | An assurance look at the work, recording how independent the reviewer was (self, peer or independent); it advises, never approves | Accepting a proposal |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
 | Handover | Governance | The acceptance of a result, its benefit tracking and its open risks by the role that carries them on | Closure |
-| Indicator | Measurement | What is measured, how, by whom, with a baseline and targets | A reading |
+| Indicator | Measurement | What is measured, on what scale, how, by whom, with a baseline and targets | A reading |
 | Baseline | Measurement | An indicator's measured starting value, or a stated unknown with when it will be known | The approved plan |
 | Reading | Measurement | A value for one period | A target |
-| Target | Measurement | What is aimed for, by when; a value, a threshold, a graded stretch or a qualitative statement | |
+| Target | Measurement | What is aimed for, by when; a value, a threshold or a level on the indicator's scale | |
+| Aggregation | Measurement | Rolling readings up across pieces of work, periods or groups, by the indicator's aggregation rule | A sum, which is one aggregation rule |
+| Disaggregation | Measurement | Breaking readings down by group, such as gender, age or location | A filter, which hides the other groups |
 | Benefit | Benefits and learning | An intended result valued by someone, with an owner and an expected date; a disbenefit is a harm, with who bears it | An output |
 | Benefit review | Benefits and learning | A judgement after delivery: realised, on track, off track or stopped | |
 | Evaluation plan | Benefits and learning | How much checking is proportionate, the decisions it informs and the questions it asks | Monitoring, which is the readings |
