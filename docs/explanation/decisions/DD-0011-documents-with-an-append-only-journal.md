@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [K4](../../reference/requirements/platform.md#k4-durable-history), [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [D8](../../reference/requirements/case-and-decisions.md#d8-an-approved-plan-and-changes-to-it), [E6](../../reference/requirements/change-and-evaluation.md#e6-a-dated-plan-for-checking), [E9](../../reference/requirements/change-and-evaluation.md#e9-the-theory-keeps-its-history), [O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [K2](../../reference/requirements/platform.md#k2-from-files-to-a-shared-database)
+**Requirements:** [K4](../../reference/requirements/platform.md#k4-durable-history), [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [D8](../../reference/requirements/case-and-decisions.md#d8-an-approved-plan-and-changes-to-it), [E6](../../reference/requirements/change-and-evaluation.md#e6-the-evaluation-plan-fixed-before-analysis), [E9](../../reference/requirements/change-and-evaluation.md#e9-the-theory-keeps-its-history), [O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [K2](../../reference/requirements/platform.md#k2-from-files-to-a-shared-database)
 
 ## Context
 

@@ -73,17 +73,18 @@ How much evaluation is proportionate, and why, is recorded, with an early check 
 - **Evidence:** [HMT-MAGENTA](../bibliography.md) 1.9; [OECD-CRITERIA](../bibliography.md) principle two; [OECD-APPLYING](../bibliography.md)
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
-### E6 A dated plan for checking
+### E6 The evaluation plan, fixed before analysis
 
-The plan for checking is fixed with a date before outcome data are analysed, and later changes keep their reason.
+An evaluation plan's questions, design, data and method of analysis are fixed, with the date, before outcome data are collected or analysed; each later revision is kept with its reason.
 
 - **Priority:** Should
 - **Status:** Proposed
-- **Why:** Fixing the plan first guards against reading the data to fit the claim.
+- **Why:** Fixing the plan before the data are seen stops the analysis being adjusted until it finds what was hoped for, and keeps unfavourable results from being dropped; it leaves a record of what was intended to compare with what was done. The plan may still change, provided each change is explained. How much is fixed follows the evaluation's scale and stakes ([E5](#e5-evaluation-in-proportion-and-possible)): a short statement for small work, a full protocol and analysis plan where the stakes are high.
 - **Accepted when:**
-  - An evaluation plan has the date it was fixed; later versions record why they changed.
-- **Holds across:** UK public sector
-- **Evidence:** [HMT-MAGENTA](../bibliography.md)
+  - An evaluation plan records its questions, design, data, method of analysis and the date it was fixed.
+  - Each later revision is kept with its reason, and the plan as fixed can be compared with the evaluation as carried out.
+- **Holds across:** UK public sector, evaluation
+- **Evidence:** [HMT-MAGENTA](../bibliography.md) 2.3.3
 - **Verified by:** an automated test in the build
 
 ### E7 Findings change decisions, and lessons are found
