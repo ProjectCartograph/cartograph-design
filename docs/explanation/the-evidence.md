@@ -44,7 +44,7 @@ The software and corporate columns show where a domain leaves a concept implicit
 
 Where the frameworks disagree, they disagree on things a tool can hold as data:
 
-- **Words.** One level is a core responsibility in Canada, a strategic goal in the United States, a purpose in the logical framework and an objective in OKRs ([TBS-RESULTS](../reference/bibliography.md), [OMB-A11](../reference/bibliography.md), [EC-PCM](../reference/bibliography.md), [OKR](../reference/bibliography.md)).
+- **Vocabulary.** One level is a core responsibility in Canada, a strategic goal in the United States, a purpose in the logical framework and an objective in OKRs ([TBS-RESULTS](../reference/bibliography.md), [OMB-A11](../reference/bibliography.md), [EC-PCM](../reference/bibliography.md), [OKR](../reference/bibliography.md)).
 - **The shape of the results hierarchy.** Two levels, a fixed tree, four rows of a matrix, or perspectives that are not a hierarchy at all ([OKR](../reference/bibliography.md), [TBS-RESULTS](../reference/bibliography.md), [EC-PCM](../reference/bibliography.md), [BALANCED-SCORECARD](../reference/bibliography.md)).
 - **Stages.** PM² has four phases, the RIBA Plan of Work eight stages, Scrum none ([EC-PM2](../reference/bibliography.md), [RIBA](../reference/bibliography.md), [SCRUM](../reference/bibliography.md)).
 - **Who approves.** A steering committee, a minister, a board, a team's own cadence ([EC-PM2](../reference/bibliography.md), [NZT-BBC](../reference/bibliography.md), [SCRUM](../reference/bibliography.md)).

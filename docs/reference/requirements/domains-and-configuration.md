@@ -4,15 +4,15 @@ What differs between domains, held as settings rather than built in.
 
 Each requirement is a statement that can be checked. Its status starts Proposed and becomes Approved, Changed or Dropped in review ([how to review a requirement](../../how-to/review-a-requirement.md)). Sources are in [the bibliography](../bibliography.md).
 
-### X1 The organisation's own words
+### X1 The workspace's taxonomy
 
-An organisation sets its own words for levels, labels, stages and roles, and the standard terms stay one setting away.
+A workspace sets its taxonomy, the terms it uses for levels, labels, stages and roles, and the standard terms stay one setting away.
 
 - **Priority:** Must
 - **Status:** Proposed
 - **Why:** Terms are the first difference every domain shows.
 - **Accepted when:**
-  - Every user-facing term can be renamed in the workspace.
+  - Every user-facing term can be set in the workspace's taxonomy.
 - **Holds across:** public sector elsewhere, corporate strategy, international development
 - **Evidence:** [TBS-RESULTS](../bibliography.md); [OMB-A11](../bibliography.md); [OKR](../bibliography.md); [EC-PCM](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
@@ -45,7 +45,7 @@ The approval route is a setting, and having no formal route is valid.
 
 ### X4 Profiles as starting points
 
-Profiles bundle words, levels, stages, routes, required parts and calendars as starting points (for example public investment, project delivery, product team, charity, research, improvement), and can be changed.
+Profiles bundle a taxonomy, levels, stages, routes, required parts and calendars as starting points (for example public investment, project delivery, product team, charity, research, improvement), and can be changed.
 
 - **Priority:** Should
 - **Status:** Proposed

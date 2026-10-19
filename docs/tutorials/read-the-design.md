@@ -6,7 +6,7 @@ You need a web browser and a GitHub account.
 
 ## 1. Start from people
 
-Open [vision and scope](../explanation/vision-and-scope.md) and read the table of needs. The first is to say what we want to change, in our own words, without learning a method first.
+Open [vision and scope](../explanation/vision-and-scope.md) and read the table of needs. The first is to say what we want to change, in plain language, without learning a method first.
 
 ## 2. Find the requirement
 

@@ -28,7 +28,7 @@ flowchart TB
     CLI["Command line"]
   end
   subgraph Engine["Engine, one binary"]
-    API["Contract API: schemas, walks, words, checks, served as data"]
+    API["Contract API: schemas, walks, vocabulary, checks, served as data"]
     APP["Application: proposals, checks, decisions, views"]
     DOM["Domain: the bounded contexts"]
     PORTS["Ports"]
@@ -50,7 +50,7 @@ The engine is one program, from a single person's laptop to a national deploymen
 
 | Choice | Chosen | Instead of | Because | At the cost of |
 |---|---|---|---|---|
-| Contract as data | Schemas, walks, words and checks served by the engine | Each interface hard-coding the model | One definition for every interface and agent ([K1](../reference/requirements/platform.md#k1-the-contract-as-data)); profiles change the served data, not the code | A generic interface is harder to make beautiful than a bespoke one |
+| Contract as data | Schemas, walks, vocabulary and checks served by the engine | Each interface hard-coding the model | One definition for every interface and agent ([K1](../reference/requirements/platform.md#k1-the-contract-as-data)); profiles change the served data, not the code | A generic interface is harder to make beautiful than a bespoke one |
 | One program | A modular monolith with a module per context | Services per context | Runs anywhere from a laptop to a cluster; contexts stay separate by architecture tests, not by networks | Scaling is of the whole, not of a part |
 | Ports and adapters | Storage, identity, rendering, meaning and sync behind ports | Direct dependencies | Files for a hobbyist, Postgres for a nation ([K2](../reference/requirements/platform.md#k2-from-files-to-a-shared-database)); each swappable | An interface to keep per port |
 | Documents and a journal | Plain documents as the truth, an append-only journal of versions | Event sourcing; git | Readable files ([O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways)) with durable history ([K4](../reference/requirements/platform.md#k4-durable-history)) ([DD-0011](decisions/DD-0011-documents-with-an-append-only-journal.md)) | Two structures to keep consistent |
@@ -91,7 +91,7 @@ A decision follows the same route, and names the journal version of the case it 
 | Portability | The record leaves the tool whole, as files and as open standards | [O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [O4](../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole) |
 | Durability | History and decisions survive any rebuild | [K4](../reference/requirements/platform.md#k4-durable-history) |
 | Privacy | Personal data separable; roles in the record, people outside | [O5](../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [R8](../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on) |
-| Adaptability | A domain expresses itself through a profile, not a fork | [X1](../reference/requirements/domains-and-configuration.md#x1-the-organisations-own-words), [X2](../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy), [X3](../reference/requirements/domains-and-configuration.md#x3-the-approval-route) |
+| Adaptability | A domain expresses itself through a profile, not a fork | [X1](../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy), [X3](../reference/requirements/domains-and-configuration.md#x3-the-approval-route) |
 | Accountability | Who changed what, and who decided, always known | [K3](../reference/requirements/platform.md#k3-reviewable-change-straight-in-when-alone), [D5](../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record) |
 | Evidence | The tool records how people use it, by shape | [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use) |
 

@@ -49,7 +49,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [E7](change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found) Findings change decisions, and lessons are found | change and evaluation | Must | Approved |
 | [E8](change-and-evaluation.md#e8-evaluation-lenses-as-views) Evaluation lenses as views | change and evaluation | Should | Approved |
 | [E9](change-and-evaluation.md#e9-the-theory-keeps-its-history) The theory keeps its history | change and evaluation | Must | Approved |
-| [X1](domains-and-configuration.md#x1-the-organisations-own-words) The organisation's own words | domains and configuration | Must | Proposed |
+| [X1](domains-and-configuration.md#x1-the-workspaces-taxonomy) The workspace's taxonomy | domains and configuration | Must | Proposed |
 | [X2](domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy) The shape of the results hierarchy | domains and configuration | Must | Proposed |
 | [X3](domains-and-configuration.md#x3-the-approval-route) The approval route | domains and configuration | Must | Proposed |
 | [X4](domains-and-configuration.md#x4-profiles-as-starting-points) Profiles as starting points | domains and configuration | Should | Proposed |
@@ -66,7 +66,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Approved |
 | [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Approved |
 | [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Approved |
-| [P4](people-and-first-use.md#p4-the-persons-own-words) The person's own words | people and first use | Must | Approved |
+| [P4](people-and-first-use.md#p4-the-persons-vocabulary) The person's vocabulary | people and first use | Must | Approved |
 | [P5](people-and-first-use.md#p5-the-full-workspace-one-step-away) The full workspace one step away | people and first use | Must | Approved |
 | [P6](people-and-first-use.md#p6-home-names-the-next-thing) Home names the next thing | people and first use | Must | Approved |
 | [P7](people-and-first-use.md#p7-finishable-unaided-by-anyone) Finishable unaided by anyone | people and first use | Must | Approved |

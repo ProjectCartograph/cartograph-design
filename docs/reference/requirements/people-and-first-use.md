@@ -1,6 +1,6 @@
 # People and first use
 
-How a person first meets Cartograph: the first screen, the guided walk, the words and the help. Design research finds that people learn faster and make fewer mistakes when they are shown the few things that matter first, in words they already use, with the rest on request ([NNG](../bibliography.md) progressive disclosure, mental models).
+How a person first meets Cartograph: the first screen, the guided walk, the vocabulary and the help. Design research finds that people learn faster and make fewer mistakes when they are shown the few things that matter first, in terms they already use, with the rest on request ([NNG](../bibliography.md) progressive disclosure, mental models).
 
 Each requirement is a statement that can be checked. Its status starts Proposed and becomes Approved, Changed or Dropped in review ([how to review a requirement](../../how-to/review-a-requirement.md)). Sources are in [the bibliography](../bibliography.md).
 
@@ -47,7 +47,7 @@ A person can leave a walk at any point, return to where they stopped, and see wh
 - **Evidence:** [GDS-PATTERNS](../bibliography.md) complete multiple tasks
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
-### P4 The person's own words
+### P4 The person's vocabulary
 
 Every term shown is one the person would use, and the standard term for it is one step away.
 
@@ -55,7 +55,7 @@ Every term shown is one the person would use, and the standard term for it is on
 - **Status:** Approved
 - **Why:** Domains name the same thing differently. When a system's terms differ from what people expect, they misread it and can repeat the mistake through a session without questioning it; familiar labels reduce the learning a screen demands.
 - **Accepted when:**
-  - Every term on a walk screen is drawn from the workspace's words.
+  - Every term on a walk screen is drawn from the workspace's taxonomy.
   - Each such term links to its definition and its standard equivalent.
 - **Holds across:** design research, public services
 - **Evidence:** [NNG](../bibliography.md) mental models, minimise cognitive load; [GDS-MANUAL](../bibliography.md) user needs

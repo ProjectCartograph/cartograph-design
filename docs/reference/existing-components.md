@@ -43,7 +43,7 @@ The parts of the exploratory implementation ([cartograph-engine](https://github.
 | API client and generated types | Adapt | Regenerated from the new contract |
 | Onboarding walk | Adapt | The one screen people finished; the pattern for every walk (P2) |
 | Screens per kind (projects, programmes, portfolios, services, indicators, problems) | Replace | Built for the replaced kinds |
-| Words written per kind | Replace | Words come from the profile (X1) |
-| Change review, comments, access and trace screens | Adapt | Follow the words of [DD-0014](../explanation/decisions/DD-0014-proposals-saved-straight-in-when-alone.md) |
+| Vocabulary written per kind | Replace | The vocabulary comes from the profile's taxonomy (X1) |
+| Change review, comments, access and trace screens | Adapt | Follow the terminology of [DD-0014](../explanation/decisions/DD-0014-proposals-saved-straight-in-when-alone.md) |
 | Screen audit | Reuse | Measures P2 |
 | User guide | Replace | Describes the exploratory screens |

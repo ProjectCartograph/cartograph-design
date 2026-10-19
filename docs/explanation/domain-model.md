@@ -19,7 +19,7 @@ It also separates what must be excellent from what only has to work. The **core 
 | Strategy | Supporting | Purpose, goals, gaps, groups affected: the shared context work serves |
 | Risk | Supporting | Risks, issues, dependencies, appetite and tolerance, escalation |
 | Parties and money | Supporting | Organisations and roles, funding sources, funding lines and allocations |
-| Configuration | Supporting | Profiles: words, hierarchy, stage model, approval route, required parts, calendar, views, extensions |
+| Configuration | Supporting | Profiles: taxonomy, results hierarchy, life cycle, approval route, required parts, calendar, views, extensions |
 | Publishing | Supporting | Views, printing, exchange mappings, identifiers, packages |
 | Assistance | Supporting | Agents' access and the meaning model |
 | Collaboration | Generic | Proposals, comments, access, presence |
@@ -51,7 +51,7 @@ flowchart TB
 
 The relations, in domain-driven design's terms:
 
-- **Configuration publishes a language** the other contexts read: the profile's words, stages and required parts. They conform to it and never change it.
+- **Configuration publishes a language** the other contexts read: the profile's taxonomy, life cycle and required parts. They conform to it and never change it.
 - **Work definition is upstream of Governance.** A decision refers to a version of the case and never edits it.
 - **Measurement is downstream of Work definition** for what to measure, and upstream of Benefits and learning, which reads readings to judge benefits.
 - **Publishing keeps an anticorruption layer** toward the open standards, so their shapes never leak into the model ([DD-0016](decisions/DD-0016-exchange-through-mappings.md)).

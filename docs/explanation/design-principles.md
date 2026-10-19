@@ -34,7 +34,7 @@ Benefits are owned, accepted and tracked after the work closes, until a review s
 
 ## 6. Domains configure; they do not fork
 
-What differs between domains (words, hierarchy, stages, approval routes, required parts, calendars) is data in a profile. The core stays small and common; a method is an extension.
+What differs between domains (taxonomy, results hierarchy, life cycle, approval routes, required parts, calendars) is data in a profile. The core stays small and common; a method is an extension.
 
 *Rules out:* building one domain's method into the core. *Applied in:* [DD-0008](decisions/DD-0008-profiles-hold-what-differs-between-domains.md), [DD-0009](decisions/DD-0009-a-small-core-with-extensions.md).
 
