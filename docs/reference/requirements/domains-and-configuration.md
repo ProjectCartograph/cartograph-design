@@ -6,55 +6,61 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 
 ### X1 The workspace's taxonomy
 
-A workspace sets its taxonomy, the terms it uses for levels, labels, stages and roles, and the standard terms stay one setting away.
+A workspace sets its taxonomy, the terms it uses for levels, labels, stages and roles; each term maps to exactly one standard term, which stays one step away.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Terms are the first difference every domain shows.
+- **Why:** Terms are the first difference every domain shows; one level is a core responsibility in Canada, a strategic goal in the United States, a purpose in the logical framework and an objective in OKRs. Mapping each term to one standard term lets every workspace speak its own taxonomy while its records stay comparable and exportable.
 - **Accepted when:**
   - Every user-facing term can be set in the workspace's taxonomy.
+  - Each term in the taxonomy maps to exactly one standard term.
+  - Exports and standard views use the standard terms.
 - **Holds across:** public sector elsewhere, corporate strategy, international development
 - **Evidence:** [TBS-RESULTS](../bibliography.md); [OMB-A11](../bibliography.md); [OKR](../bibliography.md); [EC-PCM](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### X2 The shape of the results hierarchy
+### X2 Results hierarchies mapped to reference levels
 
-The depth and shape of the results hierarchy (two levels, a tree, a logical framework's four rows, perspectives) is a setting.
+A profile chooses a recognised results hierarchy, and each of its levels maps to a reference level: activity, output, outcome or impact. Category schemes, such as a balanced scorecard's perspectives or a government's core responsibilities, classify results and are not levels.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Objectives and key results have two levels, the logical framework four rows, some governments a fixed tree, the balanced scorecard perspectives.
+- **Why:** The recognised hierarchies name their levels differently but share one chain. The logical framework's overall objective, purpose, results and activities are impact, outcome, output and activity; Canada's departmental results are outcomes, and its programs have outputs and outcomes; an objective's key results describe outcomes, not activities, so they are its indicators rather than a level. Perspectives and responsibilities cut across the chain. Mapping every level keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)) and lets [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) check any hierarchy.
 - **Accepted when:**
-  - A profile sets the levels of the results hierarchy and their names.
+  - A profile sets its results hierarchy by choosing a recognised one, and names its levels in the taxonomy.
+  - Each level maps to activity, output, outcome or impact.
+  - A category scheme classifies results without adding a level.
 - **Holds across:** corporate strategy, international development, public sector elsewhere
-- **Evidence:** [OKR](../bibliography.md); [EC-PCM](../bibliography.md); [TBS-RESULTS](../bibliography.md); [BALANCED-SCORECARD](../bibliography.md)
+- **Evidence:** [EC-PCM](../bibliography.md) 3.3.2; [TBS-RESULTS](../bibliography.md) Directive on Results A.2.2, A.2.5; [OKR](../bibliography.md); [BALANCED-SCORECARD](../bibliography.md); [KELLOGG](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### X3 The approval route
+### X3 A decider at every decision point
 
-The approval route is a setting, and having no formal route is valid.
+Each decision point names the role with authority to decide, from recognised roles (a sponsor, a senior responsible owner, a board, a funder, a product owner); in a workspace of one, that person decides, and the record says so.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Boards, ministers, steering committees and teams' own cycles all approve.
+- **Why:** Every stage is preceded by a decision taken with authority ([S1](stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference)). Who holds that authority differs: boards, ministers, steering committees, funders and product owners all decide. A person working alone is their own authority, recorded as such, as a self-review is ([A5](risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals)).
 - **Accepted when:**
-  - A profile sets who decides at each point; a profile may set none.
-- **Holds across:** project standards, public sector elsewhere, software
-- **Evidence:** [EC-PM2](../bibliography.md); [TBS-RESULTS](../bibliography.md); [NZT-BBC](../bibliography.md); [SCRUM](../bibliography.md)
+  - Every decision point in a profile names a deciding role.
+  - The profile draws its roles from recognised roles, named in its taxonomy.
+  - In a workspace of one, a decision records that its author decided alone.
+- **Holds across:** project standards, public sector elsewhere, software, UK public sector
+- **Evidence:** [GOVS002](../bibliography.md) 6.3; [EC-PM2](../bibliography.md); [TBS-RESULTS](../bibliography.md); [NZT-BBC](../bibliography.md); [SCRUM](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### X4 Profiles as starting points
+### X4 Standard profiles, tailored within their references
 
-Profiles bundle a taxonomy, levels, stages, routes, required parts and calendars as starting points (for example public investment, project delivery, product team, charity, research, improvement), and can be changed.
+Cartograph ships standard profiles, each built from recognised patterns and citing its sources (for example public investment, project delivery, product team, charity, research); a workspace tailors its profile only within the references each part maps to.
 
 - **Priority:** Should
 - **Status:** Proposed
-- **Why:** Domains differ in bundles of settings; a starting profile saves configuring each one. People's wish to choose one at the start is untested.
+- **Why:** Domains differ in recognisable bundles of settings, and a standard profile spares each organisation configuring them one by one. Tailoring within fixed references (the standard terms, the reference levels, the reference life cycle, date intervals, the fields a published standard requires) keeps work comparable across workspaces and the standards met. Whether people want to choose a profile at the start is untested.
 - **Accepted when:**
-  - Cartograph ships starting profiles.
-  - A workspace can change any setting of its profile.
+  - Cartograph ships standard profiles, each naming the patterns and sources it draws on.
+  - Every tailoring keeps each part of the profile mapped to its reference; a change that would not is refused, naming the reference it breaks.
 - **Holds across:** public sector elsewhere, project standards, software, charity
-- **Evidence:** [TBS-RESULTS](../bibliography.md); [EC-PM2](../bibliography.md); [SCRUM](../bibliography.md); [KELLOGG](../bibliography.md)
+- **Evidence:** [TBS-RESULTS](../bibliography.md); [EC-PM2](../bibliography.md); [SCRUM](../bibliography.md); [KELLOGG](../bibliography.md); [GOVS002](../bibliography.md) 6.3
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
 ### X5 Methods are extensions
@@ -77,24 +83,26 @@ Cartograph holds the result of a domain's own analysis (an appraisal, a building
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Absorbing each domain's analysis would make the core everyone's tool and no one's.
+- **Why:** Absorbing each domain's analysis would make the core everyone's tool and no one's: a core built to do every domain's specialist work (appraisal models, building models, backlogs) would do each worse than the domain's own tools, while loading every other user with features they do not need. Cartograph holds what those tools conclude, and links to where the work was done.
 - **Accepted when:**
   - A part of the record can hold a result with a link to its source tool.
 - **Holds across:** construction, software, UK public sector
 - **Evidence:** [ISO-19650](../bibliography.md); [SCRUM](../bibliography.md); [HMT-GREEN](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### X7 The organisation's calendar
+### X7 Reporting periods as date intervals
 
-Reporting periods follow the organisation (financial year, quarter, season, term, sprint, custom periods).
+Every reporting period is an interval with ISO 8601 start and end dates, generated by a recognised calendar (a financial year with its start month, a quarter, a month, an academic term, a season, a sprint) or given explicitly.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Reporting cycles differ by domain and country.
+- **Why:** Reporting cycles differ by domain and country. Results standards report a period as its start and end dates, which lets periods from different calendars be compared, aggregated and exported without translation.
 - **Accepted when:**
-  - A profile sets the reporting periods.
+  - Every period has ISO 8601 start and end dates.
+  - A profile sets the calendar that generates its periods.
+  - A period given explicitly has both dates.
 - **Holds across:** public sector elsewhere, software, open data
-- **Evidence:** [OMB-A11](../bibliography.md); [TBS-RESULTS](../bibliography.md); [SCRUM](../bibliography.md); [IATI](../bibliography.md)
+- **Evidence:** [IATI](../bibliography.md) result period; [OMB-A11](../bibliography.md); [TBS-RESULTS](../bibliography.md); [SCRUM](../bibliography.md); [O3](openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form)
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### X8 More than one language

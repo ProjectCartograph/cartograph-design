@@ -14,7 +14,7 @@ Every life cycle studied turns on a few acts: a decision at a point in the work'
 |---|---|---|
 | A. Fields on the piece of work | Small | History is lost; a review and its recommendations do not fit a field |
 | B. Small records of their own, linked to the work and to a version of its case | Each has its own life, owner and history, at any scale | More records to show; the walk must stay light |
-| C. A workflow engine | Powerful | Builds one method in; fails domains without gates ([X3](../../reference/requirements/domains-and-configuration.md#x3-the-approval-route), [S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates)) |
+| C. A workflow engine | Powerful | Builds one method in; fails work steered by cycles rather than gates ([S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates)) |
 
 ## Decision (proposed)
 

@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [D9](../../reference/requirements/case-and-decisions.md#d9-the-chain-upward), [B3](../../reference/requirements/benefits-handover-closure.md#b3-from-benefit-to-work-and-back), [M5](../../reference/requirements/results-and-measures.md#m5-aggregation-and-disaggregation), [X2](../../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy)
+**Requirements:** [D9](../../reference/requirements/case-and-decisions.md#d9-the-chain-upward), [B3](../../reference/requirements/benefits-handover-closure.md#b3-from-benefit-to-work-and-back), [M5](../../reference/requirements/results-and-measures.md#m5-aggregation-and-disaggregation), [X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels)
 
 ## Context
 
@@ -17,7 +17,7 @@ Many pieces of work serve the same goal and report the same indicator. Results f
 
 ## Decision (proposed)
 
-Option B. **Purpose, goals, problems, indicators, groups and parties** are shared records in the workspace. A piece of work's intended results point to the goals they serve; its measures may be its own or a shared indicator. The depth and names of the hierarchy come from the profile ([X2](../../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy)).
+Option B. **Purpose, goals, problems, indicators, groups and parties** are shared records in the workspace. A piece of work's intended results point to the goals they serve; its measures may be its own or a shared indicator. The hierarchy is the profile's recognised one, its levels mapped to the reference levels ([X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels)).
 
 ## Consequences
 
