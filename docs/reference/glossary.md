@@ -17,8 +17,16 @@ The words of the new model, by context. Inside a context a word means one thing.
 | Option | Work definition | A way forward considered, including doing nothing | |
 | Decision | Governance | A recorded act by a role with authority (approve, approve with conditions, change the scope, try another option, pilot, defer or stop) on a version of the case | A meaning judgement by the meaning model |
 | Condition | Governance | Something a decision requires, with an owner and a due point | |
-| Stage | Governance | A point in the work's life, from the profile's stage model | A cycle |
-| Cycle | Governance | A repeating period that work is steered by (a sprint, a quarter, a season) | A stage |
+| Reference life cycle | Governance | The common sequence every life cycle maps to: feasibility, appraisal, definition, delivery and operation, each stage preceded by a decision point | A profile's own life cycle, which maps to it |
+| Stage | Governance | A part of the work's life between two decision points, mapped to a reference stage | A cycle |
+| Feasibility | Governance | The reference stage that sets out the need and the case for change, and asks whether the work is worth pursuing | Appraisal, which weighs the options |
+| Appraisal | Governance | The reference stage that weighs the options' costs, benefits and risks before a decision, and selects one | Evaluation, which looks back at what happened; an economic appraisal model, which Cartograph links to and does not hold |
+| Definition | Governance | The reference stage that plans the selected option in full (scope, cost, commercial and delivery arrangements), ending in the decision to invest | The case, which grows through every stage |
+| Delivery | Governance | The reference stage, or stages, that produce the outputs | Operation |
+| Operation | Governance | The reference stage in which the outputs are used, the benefits realised and the work closed | Handover, one event within it |
+| Decision point | Governance | The decision that opens a stage: to go on, change course, hold or stop; also called a gate | A review, which advises it |
+| Tranche | Governance | A phase of a programme, grouping projects and related work and ending in a review | A stage of a project |
+| Cycle | Governance | A repeating period that work without an end is steered by (a sprint, a quarter, a season) | A stage |
 | Review | Governance | An assurance look at the work, recording how independent the reviewer was (self, peer or independent); it advises, never approves | Accepting a proposal |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
 | Handover | Governance | The acceptance of a result, its benefit tracking and its open risks by the role that carries them on | Closure |

@@ -101,8 +101,8 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [R6](shape-of-the-record.md#r6-one-place-for-each-concept) One place for each concept | shape of the record | Must | Approved |
 | [R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart) Outputs, outcomes and benefits kept apart | shape of the record | Must | Approved |
 | [R8](shape-of-the-record.md#r8-accountability-named-and-handed-on) Accountability named, and handed on | shape of the record | Must | Approved |
-| [S1](stages-and-cycles.md#s1-where-it-is-in-its-life) Where it is in its life | stages and cycles | Must | Proposed |
-| [S2](stages-and-cycles.md#s2-stages-are-data) Stages are data | stages and cycles | Must | Proposed |
+| [S1](stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference) Life cycles mapped to a reference | stages and cycles | Must | Proposed |
+| [S2](stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference) The current stage, shown against the reference | stages and cycles | Must | Proposed |
 | [S3](stages-and-cycles.md#s3-cycles-without-gates) Cycles without gates | stages and cycles | Must | Proposed |
 | [S4](stages-and-cycles.md#s4-a-groups-own-decision-points) A group's own decision points | stages and cycles | Must | Proposed |
 <!-- index:end -->
