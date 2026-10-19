@@ -80,13 +80,13 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [K5](platform.md#k5-agents-propose-people-decide) Agents propose; people decide | platform | Must | Proposed |
 | [K6](platform.md#k6-records-open-in-later-releases) Records open in later releases | platform | Must | Proposed |
 | [K7](platform.md#k7-measured-on-peoples-use) Measured on people's use | platform | Must | Proposed |
-| [M1](results-and-measures.md#m1-a-complete-indicator) A complete indicator | results and measures | Must | Proposed |
-| [M2](results-and-measures.md#m2-readings-apart-from-definitions) Readings apart from definitions | results and measures | Must | Proposed |
-| [M3](results-and-measures.md#m3-targets-over-time-and-what-achievement-means) Targets over time, and what achievement means | results and measures | Must | Proposed |
-| [M4](results-and-measures.md#m4-every-indicator-on-a-defined-scale) Every indicator on a defined scale | results and measures | Must | Proposed |
-| [M5](results-and-measures.md#m5-aggregation-and-disaggregation) Aggregation and disaggregation | results and measures | Must | Proposed |
-| [M6](results-and-measures.md#m6-recognised-indicator-lists) Recognised indicator lists | results and measures | Should | Proposed |
-| [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) Outcomes measured as change, not as work done | results and measures | Should | Proposed |
+| [M1](results-and-measures.md#m1-a-complete-indicator) A complete indicator | results and measures | Must | Approved |
+| [M2](results-and-measures.md#m2-readings-apart-from-definitions) Readings apart from definitions | results and measures | Must | Approved |
+| [M3](results-and-measures.md#m3-targets-over-time-and-what-achievement-means) Targets over time, and what achievement means | results and measures | Must | Approved |
+| [M4](results-and-measures.md#m4-every-indicator-on-a-defined-scale) Every indicator on a defined scale | results and measures | Must | Approved |
+| [M5](results-and-measures.md#m5-aggregation-and-disaggregation) Aggregation and disaggregation | results and measures | Must | Approved |
+| [M6](results-and-measures.md#m6-recognised-indicator-lists) Recognised indicator lists | results and measures | Should | Approved |
+| [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) Outcomes measured as change, not as work done | results and measures | Should | Approved |
 | [A1](risk-and-assurance.md#a1-owned-risks-on-one-scale) Owned risks on one scale | risk and assurance | Must | Approved |
 | [A2](risk-and-assurance.md#a2-escalation-to-authority) Escalation to authority | risk and assurance | Must | Approved |
 | [A3](risk-and-assurance.md#a3-appetite-and-tolerance) Appetite and tolerance | risk and assurance | Should | Approved |
