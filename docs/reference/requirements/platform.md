@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 The schemas, walks, vocabulary and checks are data served to any interface or agent.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Interfaces, agents and tests then share one definition, and profiles change data rather than code.
 - **Accepted when:**
   - An interface renders a walk from what the engine serves, without knowing its fields.
@@ -22,7 +22,7 @@ The schemas, walks, vocabulary and checks are data served to any interface or ag
 Storage, identity and synchronisation sit behind ports with conformance suites, from plain files to a shared database, in one program.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The same program then serves one person on a laptop and a national deployment.
 - **Accepted when:**
   - Each store passes the same conformance suite.
@@ -35,7 +35,7 @@ Storage, identity and synchronisation sit behind ports with conformance suites, 
 Every change becomes a new version of the record, with who made it, when and why, and any earlier version can be restored; a workspace's policy decides whether a person's change waits for acceptance, and a person working alone may accept their own straight in.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Bodies that must account for their decisions need review and a trail. Anyone, a person working alone included, needs to see what changed and to go back: review is a cost only some need, history a benefit all do. Change tracking that is always on, shown as a clear difference between versions, serves writers better than a tracking mode they must remember to turn on.
 - **Accepted when:**
   - Every change, including one accepted straight in, creates a version recording who, when and why.
@@ -51,7 +51,7 @@ Every change becomes a new version of the record, with who made it, when and why
 Versions, decisions and their reasons survive rebuilding any index.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Approved plans, dated evaluation plans and decisions on a version need history that cannot be lost.
 - **Accepted when:**
   - Rebuilding every index leaves every version and decision intact.
@@ -64,7 +64,7 @@ Versions, decisions and their reasons survive rebuilding any index.
 An agent reads and proposes, and cannot change the record by itself: whatever the workspace's policy, a workspace of one included, an agent's change is always a proposal that a person accepts, and it meets the same checks as a person's.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Accountability stays with people, under one standard for both. The straight-in policy spares a person a review nobody would perform; it must never let an agent's change bypass a person.
 - **Accepted when:**
   - No agent can accept its own or another agent's proposal.
@@ -79,7 +79,7 @@ An agent reads and proposes, and cannot change the record by itself: whatever th
 From the first stable release, a record opens in every later release, and the tool says what it changed; replicas on different releases still merge.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** People's records must outlive the releases of the tool that wrote them; open, stable formats are how public services keep data usable as software changes.
 - **Accepted when:**
   - Every release opens records written by every earlier stable release.
@@ -93,7 +93,7 @@ From the first stable release, a record opens in every later release, and the to
 Measurement of use is off unless a workspace turns it on, and then records a person's use only with their consent, which they can withdraw at any time; it records the shape of what people do, never what they write, and design changes are judged on what it shows.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** How people use a system shows where its design and their understanding differ, and services are expected to learn from it at every phase. Measuring use is not strictly necessary to provide the service, so storing or reading anything on a person's device for it needs their consent, given by a positive act; leading practice asks first and lets people change their choice.
 - **Accepted when:**
   - Measurement is off by default in every workspace.
@@ -109,7 +109,7 @@ Measurement of use is off unless a workspace turns it on, and then records a per
 A person can read and change their records without a connection, on any of their devices; changes made apart merge without loss when the devices reconnect, and the records live on the person's own devices as well as on any server.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Work should not depend on a server being reachable or a service continuing to exist, and records a person holds outlive the tool ([O1](openness-and-exchange.md#o1-plain-open-files-both-ways), [K6](#k6-records-open-in-later-releases)). Replicated data types merge changes made without coordination, and their replicas provably converge.
 - **Accepted when:**
   - Every function that needs no other person works offline.
@@ -124,7 +124,7 @@ A person can read and change their records without a connection, on any of their
 People work on a draft privately or edit it together live, seeing who is present; a draft enters the record only as a proposal under the workspace's policy ([K3](#k3-versioned-change-reviewed-where-the-policy-asks)), and an agent's draft always waits for a person ([K5](#k5-agents-propose-people-decide)).
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Teams need both live and asynchronous collaboration, and writers do not want first drafts watched, so a draft is private until shared. Automatic merging cannot resolve conflicts of meaning, such as an objective and its indicator changed apart in ways that each pass alone, so the record still changes only through proposals and checks.
 - **Accepted when:**
   - A draft is private until its author shares it.
@@ -140,7 +140,7 @@ People work on a draft privately or edit it together live, seeing who is present
 Records are encrypted on the person's devices before they are synchronised or stored remotely, so that a synchronisation or storage server cannot read them.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Privacy and security by default is an ideal of local-first software: a server that only relays and stores what it cannot read cannot leak, misuse or be compelled to disclose it.
 - **Accepted when:**
   - Data leaves a device for synchronisation or remote storage only encrypted.
