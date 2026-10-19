@@ -43,7 +43,7 @@ flowchart TB
   PORTS --> S3["Identity and access"]
   PORTS --> S4["Renderer: print and export"]
   PORTS --> S5["Meaning model"]
-  PORTS --> S6["Sync: optional live co-editing"]
+  PORTS --> S6["Sync: encrypted replicas and live drafts"]
 ```
 
 The engine is one program, from a single person's laptop to a national deployment. The dependencies point inward: the domain knows nothing of adapters, and each adapter passes a conformance suite.
@@ -54,7 +54,7 @@ The engine is one program, from a single person's laptop to a national deploymen
 | One program | A modular monolith with a module per context | Services per context | Runs anywhere from a laptop to a cluster; contexts stay separate by architecture tests, not by networks | Scaling is of the whole, not of a part |
 | Ports and adapters | Storage, identity, rendering, meaning and sync behind ports | Direct dependencies | Files for a hobbyist, Postgres for a nation ([K2](../reference/requirements/platform.md#k2-from-files-to-a-shared-database)); each swappable | An interface to keep per port |
 | Documents and a journal | Plain documents as the truth, an append-only journal of versions | Event sourcing; git | Readable files ([O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways)) with durable history ([K4](../reference/requirements/platform.md#k4-durable-history)) ([DD-0011](decisions/DD-0011-documents-with-an-append-only-journal.md)) | Two structures to keep consistent |
-| Proposals for every write | One route for people and agents, with a per-workspace policy | Direct writes | Review where needed, none where not ([K3](../reference/requirements/platform.md#k3-reviewable-change-straight-in-when-alone)); agents never write ([K5](../reference/requirements/platform.md#k5-agents-propose-people-decide)) | A concept every person meets, made light by the straight-in policy |
+| Proposals for every write | One route for people and agents, with a per-workspace policy | Direct writes | Review where needed, none where not ([K3](../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks)); agents never write ([K5](../reference/requirements/platform.md#k5-agents-propose-people-decide)) | A concept every person meets, made light by the straight-in policy |
 
 ## How a change flows
 
@@ -92,8 +92,8 @@ A decision follows the same route, and names the journal version of the case it 
 | Durability | History and decisions survive any rebuild | [K4](../reference/requirements/platform.md#k4-durable-history) |
 | Privacy | Personal data separable; roles in the record, people outside | [O5](../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [R8](../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on) |
 | Adaptability | A domain expresses itself through a profile, not a fork | [X1](../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels), [X3](../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point) |
-| Accountability | Who changed what, and who decided, always known | [K3](../reference/requirements/platform.md#k3-reviewable-change-straight-in-when-alone), [D5](../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record) |
-| Evidence | The tool records how people use it, by shape | [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use) |
+| Accountability | Who changed what, and who decided, always known | [K3](../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks), [D5](../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record) |
+| Evidence | With their consent, the tool records how people use it, by shape | [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use-by-consent) |
 
 ## Open architectural questions
 

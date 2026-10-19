@@ -22,7 +22,7 @@ It also separates what must be excellent from what only has to work. The **core 
 | Configuration | Supporting | Profiles: taxonomy, results hierarchy, life cycle, approval route, required parts, calendar, views, extensions |
 | Publishing | Supporting | Views, printing, exchange mappings, identifiers, packages |
 | Assistance | Supporting | Agents' access and the meaning model |
-| Collaboration | Generic | Proposals, comments, access, presence |
+| Collaboration | Generic | Drafts, proposals, comments, access, presence |
 | History | Generic | The journal of versions and who changed what |
 
 Four contexts are core because they hold what no other tool holds together: the case and how it grows, the decisions on it, how progress is known, and what happened after. They are what every domain studied shares and what general tools for tracking work lack ([the evidence](the-evidence.md)).
