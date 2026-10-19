@@ -16,7 +16,7 @@ A hobbyist's idea and a national programme are the same kind of record. What dif
 
 ## 3. In proportion
 
-Ask only what the next decision needs. The depth of the case, the rigour of evaluation and the weight of review follow what the person and whoever approves agree the work needs, never the tool's full capacity.
+Ask only what the next decision needs. The depth of the case, the rigour of evaluation and how independent a review must be follow what the person and whoever approves agree the work needs, never the tool's full capacity.
 
 *Rules out:* a walk that asks every question of every piece of work. *Applied in:* [DD-0006](decisions/DD-0006-the-case-grows-inside-the-record.md), [P10](../reference/requirements/people-and-first-use.md#p10-depth-in-proportion), [E5](../reference/requirements/change-and-evaluation.md#e5-evaluation-in-proportion-and-possible).
 
@@ -46,6 +46,6 @@ Each audience reads the same record in the form it accepts: a charter, a busines
 
 ## 8. Open, durable and accountable
 
-The record is plain files that leave the tool whole, its history cannot be lost, every change says who made it and why, agents propose and people decide, and personal data can be kept out of anything published.
+The record is plain files that leave the tool whole and live on people's own devices, usable offline and encrypted before they leave a device. Its history cannot be lost, every change says who made it and why, agents propose and people decide, and personal data can be kept out of anything published.
 
-*Rules out:* a record only the tool can read, or one an agent can change by itself. *Applied in:* [DD-0011](decisions/DD-0011-documents-with-an-append-only-journal.md), [DD-0014](decisions/DD-0014-proposals-saved-straight-in-when-alone.md), [DD-0016](decisions/DD-0016-exchange-through-mappings.md), [DD-0017](decisions/DD-0017-agents-propose-meaning-behind-a-port.md).
+*Rules out:* a record only the tool can read, one that needs a server to be reached, one its host can read, or one an agent can change by itself. *Applied in:* [DD-0011](decisions/DD-0011-documents-with-an-append-only-journal.md), [DD-0014](decisions/DD-0014-proposals-saved-straight-in-when-alone.md), [DD-0016](decisions/DD-0016-exchange-through-mappings.md), [DD-0017](decisions/DD-0017-agents-propose-meaning-behind-a-port.md), [DD-0018](decisions/DD-0018-live-co-editing-in-drafts.md).

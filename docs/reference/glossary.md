@@ -24,21 +24,25 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Definition | Governance | The reference stage that plans the selected option in full (scope, cost, commercial and delivery arrangements), ending in the decision to invest | The case, which grows through every stage |
 | Delivery | Governance | The reference stage, or stages, that produce the outputs | Operation |
 | Operation | Governance | The reference stage in which the outputs are used, the benefits realised and the work closed | Handover, one event within it |
-| Decision point | Governance | The decision that opens a stage: to go on, change course, hold or stop; also called a gate | A review, which advises it |
+| Decision point | Governance | The decision that opens a stage: to go on, change course, hold or stop; also called a gate. It names the role with authority to decide | A review, which advises it |
+| Deciding role | Governance | The role with authority to decide at a decision point, such as a sponsor, a senior responsible owner, a board, a funder or a product owner; in a workspace of one, the person working alone | The accountable role for a result, which may differ |
 | Tranche | Governance | A phase of a programme, grouping projects and related work and ending in a review | A stage of a project |
 | Cycle | Governance | A repeating period that work without an end is steered by (a sprint, a quarter, a season) | A stage |
-| Review | Governance | An assurance look at the work, recording how independent the reviewer was (self, peer or independent); it advises, never approves | Accepting a proposal |
+| Review | Governance | An assurance look at the work, recording how independent the reviewer was; it advises, never approves | Accepting a proposal |
+| Independence | Governance | How far a reviewer stands from the work: self-review (by the author), peer review (by someone not involved in producing it) or independent review (by someone outside its management or organisation) | |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
 | Handover | Governance | The acceptance of a result, its benefit tracking and its open risks by the role that carries them on | Closure |
+| Closing record | Governance | What closing a piece of work records: what was delivered against what was approved, what remains and who answers for it, what was learned, how well it was governed, and the review planned after | A handover; a benefit review, which comes later |
 | Indicator | Measurement | What is measured, on what scale, how, by whom, with a baseline and targets | A reading |
+| Scale | Measurement | What an indicator's values can be: an amount or count, a percentage or rate, ordered levels each with a description, or categories; it sets which summaries apply | A unit, which an amount is counted in |
 | Baseline | Measurement | An indicator's measured starting value, or a stated unknown with when it will be known | The approved plan |
 | Reading | Measurement | A value for one period | A target |
 | Target | Measurement | What is aimed for, by when; a value, a threshold or a level on the indicator's scale | |
-| Aggregation | Measurement | Rolling readings up across pieces of work, periods or groups, by the indicator's aggregation rule | A sum, which is one aggregation rule |
+| Aggregation | Measurement | Rolling readings up across pieces of work, periods or groups, by the indicator's aggregation rule: summed, weighted by its denominator, or not aggregable | A sum, which is one aggregation rule |
 | Disaggregation | Measurement | Breaking readings down by group, such as gender, age or location | A filter, which hides the other groups |
 | Benefit | Benefits and learning | An intended result valued by someone, with an owner and an expected date; a disbenefit is a harm, with who bears it | An output |
 | Benefit review | Benefits and learning | A judgement after delivery: realised, on track, off track or stopped | |
-| Evaluation plan | Benefits and learning | How much checking is proportionate, the decisions it informs and the questions it asks | Monitoring, which is the readings |
+| Evaluation plan | Benefits and learning | How much checking is proportionate, the decisions it informs, the questions it asks, and its design, data and method of analysis, fixed with a date before outcome data are collected or analysed | Monitoring, which is the readings |
 | Lesson | Benefits and learning | What was learned, findable by later work | |
 | Purpose | Strategy | Why the organisation exists | |
 | Goal | Strategy | A result at a level of the profile's hierarchy that work serves | |
@@ -50,13 +54,20 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Risk | Risk | Something that may happen and would affect the work | An issue, which has happened |
 | Risk category | Risk | A grouping of risks by their source, such as legal, financial or technology, from the profile | The kind of work, which is a label |
 | Risk appetite | Risk | How much risk of a category an organisation will take to meet its objectives | A tolerance, a limit set for one piece of work |
+| Tolerance | Risk | A limit set for one piece of work, such as on cost or time; a breach is flagged and can be escalated | Risk appetite, set for the workspace |
+| Escalation | Risk | Passing a risk beyond its owner's authority to a named role that can decide | A handover, which moves accountability for good |
+| Dependency | Risk | One piece of work needing another, with an owner and the effect if the other slips | A part of link |
 | Profile | Configuration | The data that fits Cartograph to a domain: its taxonomy, results hierarchy, life cycle, deciding roles, required parts, calendar, views and extensions, each chosen from a recognised pattern and mapped to a fixed reference | |
 | Taxonomy | Configuration | The terms a workspace uses for levels, labels, stages and roles, each mapped to exactly one standard term in this glossary | Free text a person writes |
+| Standard term | Configuration | The term in this glossary that a taxonomy's term maps to, used by exports and standard views | The workspace's own term, shown to its people |
+| Results hierarchy | Configuration | The levels a profile arranges results in, chosen from a recognised one (a logical framework, a results framework, objectives and key results), each level mapped to a reference level | A category scheme, such as a balanced scorecard's perspectives, which classifies results without adding a level |
+| Reference level | Configuration | One of the four levels every results hierarchy maps to: activity, output, outcome or impact | A profile's own level, which maps to one |
 | Reporting period | Configuration | An interval with ISO 8601 start and end dates, generated by the profile's calendar or given explicitly | A cycle, which steers work |
 | Extension | Configuration | A method-specific addition, off unless turned on | |
 | View | Publishing | A rendering of the record for an audience | A copy |
+| Replica | Collaboration | A copy of a workspace's records on one device, usable offline, synchronised encrypted with the others | A backup |
 | Draft | Collaboration | A set of changes being prepared, private to its author or shared for live editing, that enters the record only as a proposal | The record, which changes only by accepted proposals |
-| Proposal | Collaboration | A set of changes to records, accepted at once or by someone, as the workspace's policy says | A review or a decision |
+| Proposal | Collaboration | A set of changes to records, accepted at once or by someone, as the workspace's policy says; an agent's always waits for a person | A review or a decision |
 | Journal | History | The append-only list of accepted versions, who, when and why | The index |
 | Cryptographic erase | History | Destroying the key that encrypts data, so that every remaining copy becomes unreadable | Deleting a version from the journal, which never happens |
 | Restore | History | Making an earlier version current again by appending it as a new version | Deleting later versions, which never happens |

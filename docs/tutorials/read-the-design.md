@@ -10,7 +10,7 @@ Open [vision and scope](../explanation/vision-and-scope.md) and read the table o
 
 ## 2. Find the requirement
 
-Open [people and first use](../reference/requirements/people-and-first-use.md) and read **P1 Start from the change, with no choice first**. Read its **Why**, then its **Accepted when**: these are the conditions a build must meet.
+Open [people and first use](../reference/requirements/people-and-first-use.md) and read **P1 Start from the change, with no choice first**. Read its **Why**, then its **Accepted when**: these are the conditions a build must meet. Its status is Approved: every requirement was reviewed and approved in milestone M2.
 
 ## 3. Check the evidence
 
@@ -30,6 +30,6 @@ Open [the architecture](../explanation/architecture.md) and read "How a change f
 
 ## 7. Leave a comment
 
-Open the [M2 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/2), choose the review issue for people and first use, and comment with your verdict on P1: approve, change or drop, and why.
+Open the [M3 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/3), choose the issue for DD-0004, and comment with your verdict on it: accept, change or reject, and why, naming the requirements your view rests on.
 
 You have followed one requirement from the field to the shape of the system. Every other requirement can be traced the same way ([trace a requirement](../how-to/trace-a-requirement.md)).

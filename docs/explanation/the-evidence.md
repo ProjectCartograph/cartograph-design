@@ -68,15 +68,29 @@ The Magenta Book, the OECD's criteria and the guidance on applying them, logic m
 
 They differ on three things the design must leave open: how rigorously an effect must be attributed to the work, whether a target is an expectation or a stretch, and whether evaluation must be independent ([HMT-MAGENTA](../reference/bibliography.md), [OKR](../reference/bibliography.md), [SCRUM](../reference/bibliography.md)).
 
+## A measure means the same to every reader
+
+Indicator guidance prefers quantitative indicators, because everyone reads their results the same way, and uses qualitative observation to supplement them ([USAID-TIPS](../reference/bibliography.md) criterion 4). Each scale of measurement allows its own summaries: ordered levels say which is higher but not by how much, so a median holds however they are numbered while a mean does not ([STEVENS](../reference/bibliography.md)). Judgements that resist counting are made credible as rubrics, ordered levels each described ([RUBRICS](../reference/bibliography.md)). Results standards say whether an indicator can be aggregated ([IATI](../reference/bibliography.md)); a rate rolls up only through its numerators and denominators, and an association in an aggregate can disappear or reverse in its parts, so an aggregate is read with its disaggregation ([SIMPSON](../reference/bibliography.md)).
+
+## Assurance advises; authority decides
+
+Assurance reviews advise and approvers decide. The author never gives the formal assurance, and how much assurance is needed grows with the work's complexity and risk ([HMT-AQUA](../reference/bibliography.md) 3, 5.1; [NISTA-GATES](../reference/bibliography.md)). The weight of review is therefore a setting, from a person looking back at their own work to a review from outside the organisation, and never an approval.
+
 ## People start from the change
 
-People in the field could say what they wanted to change. They gave up when the tool asked them first to classify their work into its own kinds, and when a screen showed everything at once: the median screen of the exploratory implementation showed 49 controls; the one screen people finished, a guided walk, showed 7 ([FIELD](../reference/bibliography.md)). Design research explains both: people work from their own mental models, not the designer's; choices and controls on a screen slow and discourage them; and progressive disclosure keeps the advanced one step away rather than in the way ([NNG](../reference/bibliography.md), [GDS-PATTERNS](../reference/bibliography.md)).
+People in the field could say what they wanted to change. They gave up when the tool asked them first to classify their work into its own kinds, and when a screen showed everything at once: the median screen of the exploratory implementation showed 49 controls; the one screen people finished, a guided walk, showed 7 ([FIELD](../reference/bibliography.md)). Design research explains both: people work from their own mental models, not the designer's; a choice put to someone unsure what they want, or between options hard to compare, is put off or abandoned, although across studies the number of options alone has on average almost no effect ([CHOICE-OVERLOAD](../reference/bibliography.md), [HCI-HICK](../reference/bibliography.md)); one question per page helps people with little confidence ([GDS-PATTERNS](../reference/bibliography.md)); and progressive disclosure keeps the advanced one step away rather than in the way ([NNG](../reference/bibliography.md)).
 
 The order in which every framework asks its questions matches what people could do: what is wrong, what should be different and for whom, how it will come about, how we will know, and only then who decides and what it costs.
+
+Watching people use a service is how such mismatches are found, and services are expected to keep learning from use ([GDS-MANUAL](../reference/bibliography.md)). Recording use is not needed to provide the service, so storing or reading anything on a person's device for it needs their consent, given by a positive act ([ICO-PECR](../reference/bibliography.md)); leading practice asks first and lets people change their choice ([GOVUK-COOKIES](../reference/bibliography.md)).
 
 ## The open standards use one record at any scale
 
 IATI's activity, OC4IDS's project and 360Giving's grant are each one record whatever the scale, with typed links to parents and children; the scale is the publisher's choice ([IATI](../reference/bibliography.md), [OCDS](../reference/bibliography.md), [360GIVING](../reference/bibliography.md)). They require identifiers unique beyond one organisation, parties with roles, money with its currency, standard dates, and a small required core with named extensions. None of them holds the reasons, assumptions and decisions that are at the heart of a case, so the record must be richer than any of them and map to each.
+
+## Records outlive the tool, the server and the connection
+
+Local-first software keeps the primary copy of the data on people's own devices: it works offline and across devices, lets people collaborate, keeps data usable after the service is gone, and is private by default ([LOCAL-FIRST](../reference/bibliography.md)). Replicated data types merge changes made apart without coordination, and their replicas provably converge ([CRDT](../reference/bibliography.md)); they settle the mechanics of a merge, not its meaning. Writers want both live collaboration and private drafts with a clear history of versions ([UPWELLING](../reference/bibliography.md), [PATCHWORK](../reference/bibliography.md)). Replicas on different releases can still exchange changes when each schema change ships a translation both ways ([CAMBRIA](../reference/bibliography.md)). An encrypted editor shows that a server can store and relay documents it cannot read ([CRYPTPAD](../reference/bibliography.md)), and access control for replicated data without a central server is still maturing ([KEYHIVE](../reference/bibliography.md)).
 
 ## Limits of the evidence
 

@@ -21,7 +21,8 @@ They share one need, which they state as:
 | Show it to a board, funder, minister or partner in a form they already accept | Doing | Officers, sponsors |
 | Find out what a term means or what a field expects | Looking up | Everyone |
 | Understand why the tool asks what it asks, and how the parts connect | Understanding | Managers, portfolio offices, analysts |
-| Change our minds, and see what changed and who agreed | Doing | Everyone in a team |
+| Change our minds, and see what changed and who agreed | Doing | Everyone, alone or in a team |
+| Keep working without a connection, and keep our records private from whoever hosts them | Doing | Everyone |
 | Have the decisions outlive us, the tool and the organisation | Doing | Administrators, sponsors, public bodies |
 | Load, query and script in bulk, and connect agents, without the walk in the way | Doing, looking up | Analysts, developers, agents |
 | Be fair to the people the work affects, including those who never read it | Understanding | Charities, public bodies, impact funders |
@@ -41,7 +42,8 @@ These are measured, not asserted: by sessions with people traced, with their con
 - How progress and benefits are known, during the work and after it ends.
 - Groups of work: programmes, portfolios and work with parts.
 - Showing the record to each audience in the form it accepts, and publishing it in open standards.
-- Working alone or together, with people and agents.
+- Working alone or together, live or apart, with people and agents.
+- Working offline on any device, with records that stay on people's own devices and are encrypted before they leave them.
 
 ## Out of scope
 

@@ -22,12 +22,13 @@ Option B, with these records:
 
 | Record | Holds |
 |---|---|
-| **Decision** | Who decided, in what role, when; the outcome (approve, approve with conditions, change the scope, try another option, pilot, defer, stop); the reasons; the version of the case; its conditions |
-| **Stage** | A part of the work's life between two decision points, mapped to the reference life cycle |
-| **Review** | When, what it looked at, who and how independent they were ([A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals)), findings, recommendations with owners; never an approval |
+| **Decision** | Who decided, in what role (the deciding role the decision point names, or the author alone in a workspace of one, [X3](../../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point)), when; the outcome (approve, approve with conditions, change the scope, try another option, pilot, defer, stop); the reasons; the version of the case; its conditions |
+| **Stage** | A part of the work's life between two decision points, named in the workspace's taxonomy and mapped to a reference stage |
+| **Review** | When, what it looked at, who and how independent they were (self-review, peer review or independent review, at least what the profile sets for the decision point, [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals)), findings, recommendations with owners; never an approval |
 | **Lesson** | What was learned and where it applies |
 | **Handover** | Who accepts the result, the benefits' tracking and the open risks and actions, when, on what terms |
 | **Benefit review** | Whether a benefit is realised, on track, off track or stopped |
+| **Closing record** | What was delivered against what was approved, what remains and who answers for it, what the benefits need to last, lessons, how well the work was governed, and the review planned after ([B6](../../reference/requirements/benefits-handover-closure.md#b6-a-closing-record-and-a-look-back)) |
 
 ```mermaid
 stateDiagram-v2

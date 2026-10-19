@@ -6,7 +6,7 @@
 
 ## Context
 
-A decision rests on a version of the case; the approved plan is kept apart from the current one; an evaluation plan is fixed with a date before data are analysed; a theory of change keeps its history ([HMT-MAGENTA](../../reference/bibliography.md), [NAO-PROGRAMMES](../../reference/bibliography.md), [GOVS002](../../reference/bibliography.md)). The record must also stay plain files a person can read and take away ([O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways)).
+A decision rests on a version of the case; the approved plan is kept apart from the current one; an evaluation plan is fixed with a date before outcome data are collected or analysed; a theory of change keeps its history ([HMT-MAGENTA](../../reference/bibliography.md), [NAO-PROGRAMMES](../../reference/bibliography.md), [GOVS002](../../reference/bibliography.md)). The record must also stay plain files a person can read and take away ([O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways)).
 
 ## Options
 

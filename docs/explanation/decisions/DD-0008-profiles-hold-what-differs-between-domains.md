@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels), [X3](../../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point), [X4](../../reference/requirements/domains-and-configuration.md#x4-standard-profiles-tailored-within-their-references), [X7](../../reference/requirements/domains-and-configuration.md#x7-reporting-periods-as-date-intervals), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [P4](../../reference/requirements/people-and-first-use.md#p4-the-persons-vocabulary)
+**Requirements:** [A3](../../reference/requirements/risk-and-assurance.md#a3-appetite-and-tolerance), [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals), [E8](../../reference/requirements/change-and-evaluation.md#e8-evaluation-lenses-as-views), [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels), [X3](../../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point), [X4](../../reference/requirements/domains-and-configuration.md#x4-standard-profiles-tailored-within-their-references), [X7](../../reference/requirements/domains-and-configuration.md#x7-reporting-periods-as-date-intervals), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [P4](../../reference/requirements/people-and-first-use.md#p4-the-persons-vocabulary)
 
 ## Context
 
@@ -18,7 +18,7 @@ The frameworks share a core and differ in their vocabulary, the shape of their r
 
 ## Decision (proposed)
 
-Option B. A **profile** is data in a workspace that sets the taxonomy for levels, labels, stages and roles; the results hierarchy; the stage model and the decision at each point; the approval route; the parts each decision needs; the reporting calendar; the views offered; and the extensions turned on. Each part is chosen from a recognised pattern and mapped to a fixed reference: the standard terms, the reference results levels, the reference life cycle, date intervals for periods. Cartograph ships standard profiles (for example public investment, project delivery, product team, charity, research, improvement); an organisation starts from one and tailors it only within those references.
+Option B. A **profile** is data in a workspace that sets the taxonomy for levels, labels, stages and roles; the results hierarchy; the life cycle and the decision at each point; the deciding role at each decision point; the least review independence each needs and the reviews planned before it; the parts and evaluation lenses each decision needs; the risk categories and scale; the reporting calendar; the views offered; and the extensions turned on. Each part is chosen from a recognised pattern and mapped to a fixed reference: the standard terms, the reference results levels, the reference life cycle, date intervals for periods. Cartograph ships standard profiles (for example public investment, project delivery, product team, charity, research, improvement); an organisation starts from one and tailors it only within those references.
 
 ```mermaid
 flowchart LR
@@ -27,6 +27,7 @@ flowchart LR
   PR --> ST["Life cycle and decisions"]
   PR --> RT["Deciding roles"]
   PR --> RQ["Parts each decision needs"]
+  PR --> AS["Review independence and risk categories"]
   PR --> CA["Calendar"]
   PR --> VW["Views"]
   PR --> EX["Extensions"]

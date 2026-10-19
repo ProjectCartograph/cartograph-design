@@ -12,6 +12,7 @@ The design is reviewed and approved here before the code in [cartograph-engine](
 - **The work continues after delivery.** Benefits are accepted by an owner and tracked until a review says whether they arrived.
 - **Domains configure; they do not fork.** A profile holds the taxonomy, life cycles, approval routes and calendars; methods are extensions.
 - **One truth, many views.** A charter, a business case, a logical framework and an open data file are views of the same record.
+- **Records live with the people who keep them.** They work offline on any device, are encrypted before they leave it, keep every version, and change only through proposals a person accepts.
 
 ## Reading it
 
@@ -37,7 +38,7 @@ flowchart LR
 
 ## Status
 
-Every requirement and most decisions are proposed and under review. The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
+The research (M1) is complete and all 87 requirements are approved (M2). The decisions on the domain model (M3) and the architecture (M4) are under review, and the change-first entry is tested with people next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
 
 ## Contributing
 
