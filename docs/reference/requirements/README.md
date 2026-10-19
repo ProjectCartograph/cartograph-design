@@ -45,7 +45,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [E3](change-and-evaluation.md#e3-who-is-affected-and-would-it-have-happened-anyway) Who is affected, and would it have happened anyway | change and evaluation | Should | Proposed |
 | [E4](change-and-evaluation.md#e4-decisions-the-evidence-must-inform) Decisions the evidence must inform | change and evaluation | Must | Proposed |
 | [E5](change-and-evaluation.md#e5-evaluation-in-proportion-and-possible) Evaluation in proportion, and possible | change and evaluation | Must | Proposed |
-| [E6](change-and-evaluation.md#e6-a-dated-plan-for-checking) A dated plan for checking | change and evaluation | Should | Proposed |
+| [E6](change-and-evaluation.md#e6-the-evaluation-plan-fixed-before-analysis) The evaluation plan, fixed before analysis | change and evaluation | Should | Proposed |
 | [E7](change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found) Findings change decisions, and lessons are found | change and evaluation | Must | Proposed |
 | [E8](change-and-evaluation.md#e8-evaluation-lenses-as-views) Evaluation lenses as views | change and evaluation | Should | Proposed |
 | [E9](change-and-evaluation.md#e9-the-theory-keeps-its-history) The theory keeps its history | change and evaluation | Must | Proposed |
