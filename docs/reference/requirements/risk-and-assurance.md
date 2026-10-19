@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 Every risk and issue has an owner, a response and a status that runs to closed, may threaten a piece of work, a result or a benefit, and uses a common scale so it can be compared and rolled up.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Risk guidance consolidates risks on one scale, and benefits assurance asks for risks to the benefits themselves.
 - **Accepted when:**
   - A risk has an owner, a response, a status and a rating on the workspace's scale.
@@ -23,7 +23,7 @@ Every risk and issue has an owner, a response and a status that runs to closed, 
 A risk beyond its owner's authority is escalated to a named role that can decide, and the record shows when, and what was decided.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Escalation beyond tolerance is the standard control.
 - **Accepted when:**
   - Escalating a risk names the role it goes to and records the response.
@@ -36,7 +36,7 @@ A risk beyond its owner's authority is escalated to a named role that can decide
 A workspace can state its appetite for each category of risk it uses, and a piece of work its tolerances; a risk rated beyond appetite, or a breach of tolerance, shows.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Risk guidance asks the governing body to say how much risk of each category it will take to meet its objectives; many small organisations never state one, so it is optional.
 - **Accepted when:**
   - A workspace can hold an appetite for each risk category, the categories coming from the profile and starting from the Orange Book's examples.
@@ -51,7 +51,7 @@ A workspace can state its appetite for each category of risk it uses, and a piec
 Dependencies between pieces of work are recorded with an owner and the effect if the other side slips.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Large work fails at its interfaces.
 - **Accepted when:**
   - A dependency has an owner and a stated effect.
@@ -64,7 +64,7 @@ Dependencies between pieces of work are recorded with an owner and the effect if
 A review records when, what it looked at, who reviewed and how independent they were, what they found, and each recommendation with an owner and a status; a review is never an approval.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Assurance reviews advise and approvers decide. The author never gives the formal assurance, and how much assurance is needed grows with the work's complexity and risk. A person working alone can still look back at their own work, provided no one could take it for an independent review.
 - **Accepted when:**
   - A review records its independence: self-review (by the author), peer review (by someone not involved in producing the work) or independent review (by someone outside the work's management or organisation).
@@ -81,7 +81,7 @@ A review records when, what it looked at, who reviewed and how independent they 
 The assurance expected before each decision is planned, in proportion to risk, and shown beside the decision.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The UK standard asks for an integrated plan of assurance and approvals.
 - **Accepted when:**
   - A decision point can list the reviews expected before it.

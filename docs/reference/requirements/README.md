@@ -87,12 +87,12 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [M5](results-and-measures.md#m5-adding-up-and-breaking-down) Adding up and breaking down | results and measures | Must | Proposed |
 | [M6](results-and-measures.md#m6-recognised-indicator-lists) Recognised indicator lists | results and measures | Should | Proposed |
 | [M7](results-and-measures.md#m7-an-outcome-measured-only-by-outputs) An outcome measured only by outputs | results and measures | Should | Proposed |
-| [A1](risk-and-assurance.md#a1-owned-risks-on-one-scale) Owned risks on one scale | risk and assurance | Must | Proposed |
-| [A2](risk-and-assurance.md#a2-escalation-to-authority) Escalation to authority | risk and assurance | Must | Proposed |
-| [A3](risk-and-assurance.md#a3-appetite-and-tolerance) Appetite and tolerance | risk and assurance | Should | Proposed |
-| [A4](risk-and-assurance.md#a4-dependencies-with-owners) Dependencies with owners | risk and assurance | Must | Proposed |
-| [A5](risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals) Reviews are records, apart from approvals | risk and assurance | Must | Proposed |
-| [A6](risk-and-assurance.md#a6-planned-assurance) Planned assurance | risk and assurance | Should | Proposed |
+| [A1](risk-and-assurance.md#a1-owned-risks-on-one-scale) Owned risks on one scale | risk and assurance | Must | Approved |
+| [A2](risk-and-assurance.md#a2-escalation-to-authority) Escalation to authority | risk and assurance | Must | Approved |
+| [A3](risk-and-assurance.md#a3-appetite-and-tolerance) Appetite and tolerance | risk and assurance | Should | Approved |
+| [A4](risk-and-assurance.md#a4-dependencies-with-owners) Dependencies with owners | risk and assurance | Must | Approved |
+| [A5](risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals) Reviews are records, apart from approvals | risk and assurance | Must | Approved |
+| [A6](risk-and-assurance.md#a6-planned-assurance) Planned assurance | risk and assurance | Should | Approved |
 | [R1](shape-of-the-record.md#r1-one-shape-at-any-scale) One shape at any scale | shape of the record | Must | Approved |
 | [R2](shape-of-the-record.md#r2-the-kind-is-a-label-given-after) The kind is a label, given after | shape of the record | Must | Approved |
 | [R3](shape-of-the-record.md#r3-work-without-an-end) Work without an end | shape of the record | Must | Approved |
