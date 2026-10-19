@@ -6,30 +6,30 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 
 ### D1 A case that grows
 
-The justification (the need, options, benefits, cost, risk, how it will be delivered) is one record, revised before each decision and held at several levels of completeness.
+The case is one record per piece of work, organised by the five questions of [D2](#d2-five-questions-at-any-scale), revised before each decision, and each question may be at its own level of completeness at each stage.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Staged business cases, design stages and funding cycles all grow one case and decide on it at each step.
+- **Why:** Staged business cases develop the five dimensions together, not as separate cases, and complete them in turn: the first stage mostly the need and the value for money, the later stages the buying, the funding and the delivery. Design stages and funding cycles grow one case and decide on it at each step in the same way.
 - **Accepted when:**
   - The case has one record per piece of work, with a version per revision.
-  - Each part of the case shows how complete it is.
+  - Each of the five questions shows how complete it is.
 - **Holds across:** UK public sector, public sector elsewhere, development finance, construction, project standards
-- **Evidence:** [HMT-CASES](../bibliography.md) 4.13 to 4.25; [NZT-BBC](../bibliography.md); [WB-CYCLE](../bibliography.md); [RIBA](../bibliography.md); [PRINCE2](../bibliography.md) project brief, business case
+- **Evidence:** [HMT-CASES](../bibliography.md) 2.3, 4.10 to 4.25; [NZT-BBC](../bibliography.md); [WB-CYCLE](../bibliography.md); [RIBA](../bibliography.md); [PRINCE2](../bibliography.md) project brief, business case
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### D2 Five questions at any scale
 
-The same five questions can be asked at any scale: is there a need, is it good value, is it viable to buy or build, is it affordable, and can it be delivered.
+The same five questions can be asked at any scale: is there a need, is it good value, is it viable to buy or build, is it affordable, and can it be delivered (the strategic, economic, commercial, financial and management cases).
 
 - **Priority:** Must
 - **Status:** Proposed
 - **Why:** The five case model asks these whatever the size; only the depth changes.
 - **Accepted when:**
-  - The parts of the case are grouped under the five questions.
+  - Every part of the case sits under one of the five questions.
   - A one-page brief and a full business case draw on the same parts.
 - **Holds across:** UK public sector, public sector elsewhere
-- **Evidence:** [HMT-GREEN](../bibliography.md) five case model; [NZT-BBC](../bibliography.md)
+- **Evidence:** [HMT-GREEN](../bibliography.md) five case model; [HMT-CASES](../bibliography.md) 2.2, 3.22; [NZT-BBC](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### D3 If nothing new is done
