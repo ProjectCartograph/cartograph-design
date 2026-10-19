@@ -29,7 +29,7 @@ The parts of the exploratory implementation ([cartograph-engine](https://github.
 | Charter rendering | Replace | Views become templates over one record ([DD-0010](../explanation/decisions/DD-0010-views-are-renderings.md)) |
 | Process improvement phases, failure-mode ratings, control charts | Extension | X5 |
 | Metric formulas, semantic model and analytics export | Extension | X5 |
-| Live co-editing: CRDT library, synchronisation socket, presence | Extension | [DD-0018](../explanation/decisions/DD-0018-live-co-editing-is-not-core.md) |
+| Live co-editing: CRDT library, synchronisation socket, presence | Adapt | Becomes the platform's synchronisation of encrypted replicas, with live editing confined to drafts ([DD-0018](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md)) |
 | Rewriting of retired names on read | Drop | No compatibility owed ([DD-0002](../explanation/decisions/DD-0002-exploratory-releases-carry-no-promise.md)) |
 | Traces of people's and agents' use | Reuse | Meet K7 |
 | Nix toolchain, test container, release, CI, Helm chart, high-availability stack | Reuse | Generic |

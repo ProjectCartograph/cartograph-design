@@ -30,19 +30,21 @@ Storage, identity and synchronisation sit behind ports with conformance suites, 
 - **Evidence:** [GDS-MANUAL](../bibliography.md) open standards
 - **Verified by:** an automated test in the build
 
-### K3 Reviewable change, straight in when alone
+### K3 Versioned change, reviewed where the policy asks
 
-Every change can be reviewed before it becomes the record, and the record keeps who changed what and why; a person working alone saves straight in.
+Every change becomes a new version of the record, with who made it, when and why, and any earlier version can be restored; a workspace's policy decides whether a person's change waits for acceptance, and a person working alone may accept their own straight in.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Bodies that must account for their decisions need review and a trail; a person alone should not pay for it.
+- **Why:** Bodies that must account for their decisions need review and a trail. Anyone, a person working alone included, needs to see what changed and to go back: review is a cost only some need, history a benefit all do. Change tracking that is always on, shown as a clear difference between versions, serves writers better than a tracking mode they must remember to turn on.
 - **Accepted when:**
-  - A workspace's policy decides whether changes wait for acceptance.
-  - Every accepted change records who and why.
-- **Holds across:** charity, UK public sector, software
-- **Evidence:** [CC-REPORT](../bibliography.md); [GOVS002](../bibliography.md); [SCRUM](../bibliography.md)
-- **Verified by:** a session with people, technical and not, recorded with the people's trace
+  - Every change, including one accepted straight in, creates a version recording who, when and why.
+  - Any earlier version can be restored; restoring creates a new version and erases nothing.
+  - The difference between any two versions can be shown.
+  - A workspace's policy decides whether a person's changes wait for acceptance.
+- **Holds across:** charity, UK public sector, software, design research
+- **Evidence:** [CC-REPORT](../bibliography.md); [GOVS002](../bibliography.md); [SCRUM](../bibliography.md); [UPWELLING](../bibliography.md)
+- **Verified by:** an automated test in the build
 
 ### K4 Durable history
 
@@ -59,13 +61,15 @@ Versions, decisions and their reasons survive rebuilding any index.
 
 ### K5 Agents propose; people decide
 
-An agent reads and proposes and cannot change the record by itself; its proposals meet the same checks as a person's.
+An agent reads and proposes, and cannot change the record by itself: whatever the workspace's policy, a workspace of one included, an agent's change is always a proposal that a person accepts, and it meets the same checks as a person's.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Accountability stays with people, under one standard for both.
+- **Why:** Accountability stays with people, under one standard for both. The straight-in policy spares a person a review nobody would perform; it must never let an agent's change bypass a person.
 - **Accepted when:**
-  - No agent can accept its own proposal.
+  - No agent can accept its own or another agent's proposal.
+  - The straight-in policy never applies to an agent's change.
+  - The version an accepted proposal creates names the agent that proposed it and the person who accepted it.
 - **Holds across:** UK public sector, charity
 - **Evidence:** [GOVS002](../bibliography.md); [CC-REPORT](../bibliography.md)
 - **Verified by:** an automated test in the build
@@ -83,15 +87,63 @@ From the first stable release, a record opens in every later release, and the to
 - **Evidence:** [GDS-MANUAL](../bibliography.md) open standards
 - **Verified by:** an automated test in the build
 
-### K7 Measured on people's use
+### K7 Measured on people's use, by consent
 
-The tool records what people do, by shape and never by content, and design changes are judged on it.
+Measurement of use is off unless a workspace turns it on, and then records a person's use only with their consent, which they can withdraw at any time; it records the shape of what people do, never what they write, and design changes are judged on what it shows.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** What people believe about a system differs from what its designers intend, and the difference shows in what people do rather than in what they say; services are expected to learn from their users' behaviour at every phase, not only before launch.
+- **Why:** How people use a system shows where its design and their understanding differ, and services are expected to learn from it at every phase. Measuring use is not strictly necessary to provide the service, so storing or reading anything on a person's device for it needs their consent, given by a positive act; leading practice asks first and lets people change their choice.
 - **Accepted when:**
-  - Sessions can be traced without recording anything people wrote.
-- **Holds across:** public services, design research
-- **Evidence:** [GDS-MANUAL](../bibliography.md) user needs, live; [NNG](../bibliography.md) mental models
+  - Measurement is off by default in every workspace.
+  - When a workspace turns it on, each person is asked and can decline or withdraw; nothing is recorded without consent.
+  - Traces never contain what people wrote.
+  - Traces stay within the deployment unless the workspace chooses to share them.
+- **Holds across:** public services, design research, UK public sector
+- **Evidence:** [GDS-MANUAL](../bibliography.md) user needs, live; [NNG](../bibliography.md) mental models; [ICO-PECR](../bibliography.md) regulation 6; [GOVUK-COOKIES](../bibliography.md)
+- **Verified by:** an automated test in the build
+
+### K8 Local-first
+
+A person can read and change their records without a connection, on any of their devices; changes made apart merge without loss when the devices reconnect, and the records live on the person's own devices as well as on any server.
+
+- **Priority:** Must
+- **Status:** Proposed
+- **Why:** Work should not depend on a server being reachable or a service continuing to exist, and records a person holds outlive the tool ([O1](openness-and-exchange.md#o1-plain-open-files-both-ways), [K6](#k6-records-open-in-later-releases)). Replicated data types merge changes made without coordination, and their replicas provably converge.
+- **Accepted when:**
+  - Every function that needs no other person works offline.
+  - Changes made on two disconnected devices merge without loss on reconnection.
+  - A workspace can run with no server, from files alone ([K2](#k2-from-files-to-a-shared-database)).
+- **Holds across:** software, design research
+- **Evidence:** [LOCAL-FIRST](../bibliography.md); [CRDT](../bibliography.md)
+- **Verified by:** an automated test in the build
+
+### K9 Live and private drafts
+
+People work on a draft privately or edit it together live, seeing who is present; a draft enters the record only as a proposal under the workspace's policy ([K3](#k3-versioned-change-reviewed-where-the-policy-asks)), and an agent's draft always waits for a person ([K5](#k5-agents-propose-people-decide)).
+
+- **Priority:** Must
+- **Status:** Proposed
+- **Why:** Teams need both live and asynchronous collaboration, and writers do not want first drafts watched, so a draft is private until shared. Automatic merging cannot resolve conflicts of meaning, such as an objective and its indicator changed apart in ways that each pass alone, so the record still changes only through proposals and checks.
+- **Accepted when:**
+  - A draft is private until its author shares it.
+  - Several people can edit a shared draft at once and see who is present.
+  - Accepting a draft creates a version that attributes every contributor.
+  - A draft's changes are checked when it is proposed, and a conflict of meaning is shown to a person, never resolved silently.
+- **Holds across:** software, design research
+- **Evidence:** [UPWELLING](../bibliography.md); [LOCAL-FIRST](../bibliography.md); [PATCHWORK](../bibliography.md)
+- **Verified by:** a session with people, technical and not, recorded with the people's trace
+
+### K10 Encrypted by default
+
+Records are encrypted on the person's devices before they are synchronised or stored remotely, so that a synchronisation or storage server cannot read them.
+
+- **Priority:** Must
+- **Status:** Proposed
+- **Why:** Privacy and security by default is an ideal of local-first software: a server that only relays and stores what it cannot read cannot leak, misuse or be compelled to disclose it.
+- **Accepted when:**
+  - Data leaves a device for synchronisation or remote storage only encrypted.
+  - A synchronisation or storage server holds no key that decrypts the records.
+- **Holds across:** software, design research
+- **Evidence:** [LOCAL-FIRST](../bibliography.md); [KEYHIVE](../bibliography.md)
 - **Verified by:** an automated test in the build

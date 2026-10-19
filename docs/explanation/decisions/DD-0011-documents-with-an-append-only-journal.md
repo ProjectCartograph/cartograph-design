@@ -24,6 +24,7 @@ Option C. Each record is a plain document holding its current state. Every accep
 ## Consequences
 
 - What the case said when a decision was taken is always answerable.
+- Restoring an earlier version appends it as a new version; nothing is erased ([K3](../../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks)).
 - The approved plan is a named version, so comparing the current plan with it is a difference between two versions.
 - The journal records roles and principals, never personal content ([O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)).
 

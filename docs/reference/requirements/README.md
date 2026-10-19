@@ -14,7 +14,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [Benefits, handover and closure](benefits-handover-closure.md) | B1 to B8 |
 | [Domains and configuration](domains-and-configuration.md) | X1 to X8 |
 | [Openness and exchange](openness-and-exchange.md) | O1 to O6 |
-| [The platform](platform.md) | K1 to K7 |
+| [The platform](platform.md) | K1 to K10 |
 
 ## Every requirement
 
@@ -75,11 +75,14 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Approved |
 | [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Proposed |
 | [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Proposed |
-| [K3](platform.md#k3-reviewable-change-straight-in-when-alone) Reviewable change, straight in when alone | platform | Must | Proposed |
+| [K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks) Versioned change, reviewed where the policy asks | platform | Must | Proposed |
 | [K4](platform.md#k4-durable-history) Durable history | platform | Must | Proposed |
 | [K5](platform.md#k5-agents-propose-people-decide) Agents propose; people decide | platform | Must | Proposed |
 | [K6](platform.md#k6-records-open-in-later-releases) Records open in later releases | platform | Must | Proposed |
-| [K7](platform.md#k7-measured-on-peoples-use) Measured on people's use | platform | Must | Proposed |
+| [K7](platform.md#k7-measured-on-peoples-use-by-consent) Measured on people's use, by consent | platform | Must | Proposed |
+| [K8](platform.md#k8-local-first) Local-first | platform | Must | Proposed |
+| [K9](platform.md#k9-live-and-private-drafts) Live and private drafts | platform | Must | Proposed |
+| [K10](platform.md#k10-encrypted-by-default) Encrypted by default | platform | Must | Proposed |
 | [M1](results-and-measures.md#m1-a-complete-indicator) A complete indicator | results and measures | Must | Approved |
 | [M2](results-and-measures.md#m2-readings-apart-from-definitions) Readings apart from definitions | results and measures | Must | Approved |
 | [M3](results-and-measures.md#m3-targets-over-time-and-what-achievement-means) Targets over time, and what achievement means | results and measures | Must | Approved |

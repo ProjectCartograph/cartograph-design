@@ -22,5 +22,5 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0015 Bounded contexts and their map](../explanation/decisions/DD-0015-bounded-contexts.md) | Proposed |
 | [DD-0016 Exchange through mappings and global identifiers](../explanation/decisions/DD-0016-exchange-through-mappings.md) | Proposed |
 | [DD-0017 Agents propose; questions of meaning go behind a port](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md) | Proposed |
-| [DD-0018 Live co-editing is not core](../explanation/decisions/DD-0018-live-co-editing-is-not-core.md) | Proposed |
+| [DD-0018 Live co-editing happens in drafts](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md) | Proposed |
 <!-- index:end -->
