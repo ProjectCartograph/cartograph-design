@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [O2](../../reference/requirements/openness-and-exchange.md#o2-identifiers-beyond-the-workspace), [O3](../../reference/requirements/openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form), [O4](../../reference/requirements/openness-and-exchange.md#o4-mappings-to-open-standards), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [O6](../../reference/requirements/openness-and-exchange.md#o6-published-packages-say-who-and-how)
+**Requirements:** [O1](../../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [O2](../../reference/requirements/openness-and-exchange.md#o2-identifiers-beyond-the-workspace), [O3](../../reference/requirements/openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form), [O4](../../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [O6](../../reference/requirements/openness-and-exchange.md#o6-published-packages-say-who-and-how)
 
 ## Context
 
@@ -17,4 +17,4 @@ The open standards require identifiers unique beyond one organisation, parties w
 
 ## Decision (proposed)
 
-Option B. Identifiers carry a publisher prefix; parties have one identity and a role; money carries its currency, source and dates; dates are ISO 8601. Each mapping is a view ([DD-0010](DD-0010-views-are-renderings.md)) that lists what it drops. Publishing removes personal data and stamps the publisher, date, licence and version.
+Option B. Identifiers carry a publisher prefix; parties have one identity and a role; money carries its currency, source and dates; dates are ISO 8601. Each mapping is a view ([DD-0010](DD-0010-views-are-renderings.md)) of a record that is a superset of the standard: every field and code a supported standard defines has a place in the core or in the standard's extension, so the mapping drops only what the standard has no place for, and lists it. Publishing removes personal data and stamps the publisher, date, licence and version.
