@@ -46,32 +46,35 @@ An indicator can carry interim or per-period targets, and say what falling short
 - **Evidence:** [HMT-MAGENTA](../bibliography.md); [IATI](../bibliography.md) result element; [OKR](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### M4 Any kind of target
+### M4 Every indicator on a defined scale
 
-A target may be a value by a date, a threshold, a graded stretch or a statement in words; an indicator may be numeric or qualitative.
+Every indicator is measured on a defined scale: an amount or count, a percentage or rate, ordered levels each with a description, or categories. A target is a value, a threshold or a level on that scale, by a date or an event. Narrative goes with a reading as its evidence, never in place of one.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Governments use thresholds, objectives and key results are graded, and some measures are qualitative.
+- **Why:** Indicator guidance prefers quantitative indicators, because their results are read the same way by everyone, and uses qualitative observation to supplement them. Judgements that resist counting are made credible as rubrics: ordered levels, each described. Each scale allows its own summaries. Ordinal levels say only which is higher, not by how much: a median depends only on order, so it is the same however the levels are numbered, while a mean adds the gaps between levels as if they were equal, so renumbering them can change which group looks better. Ordinal levels therefore take a median, never a mean.
 - **Accepted when:**
-  - An indicator can be qualitative.
-  - A target can be a value, a threshold, a grade or words.
-- **Holds across:** public sector elsewhere, corporate strategy
-- **Evidence:** [TBS-RESULTS](../bibliography.md); [OKR](../bibliography.md); [AUS-PERFORMANCE](../bibliography.md)
+  - An indicator states its scale, and each ordered level has a description.
+  - A reading's value lies on its indicator's scale; narrative is a note on the reading ([M2](#m2-readings-apart-from-definitions)).
+  - A target is a value, a threshold or a level on the indicator's scale.
+  - The summaries offered for an indicator follow its scale.
+- **Holds across:** international development, evaluation, open data, public sector elsewhere, corporate strategy
+- **Evidence:** [USAID-TIPS](../bibliography.md) criterion 4; [STEVENS](../bibliography.md); [RUBRICS](../bibliography.md); [IATI](../bibliography.md) indicator measure codelist; [OECD-GLOSSARY](../bibliography.md) indicator; [TBS-RESULTS](../bibliography.md); [OKR](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### M5 Adding up and breaking down
+### M5 Aggregation and disaggregation
 
-An indicator says whether it can be added across pieces of work, and can be broken down by group.
+Each indicator states its aggregation rule (how its readings roll up across pieces of work and periods: summed, weighted by its denominator, or not aggregable), and its readings can be disaggregated (broken down) by group.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Totals across work are only honest when the measure can be added, and averages hide groups.
+- **Why:** An aggregate is honest only when the measure can be aggregated, and a rate aggregates only through its numerators and denominators. An association in an aggregate can disappear or reverse in its disaggregations (Simpson's paradox); which view answers a question depends on how the groups relate to the cause, so an aggregate is shown with its disaggregation and the reader judges. Results about people are disaggregated by groups such as gender, age and location, because work often affects them differently.
 - **Accepted when:**
-  - An indicator states whether it can be summed.
-  - A reading can carry a breakdown by group.
-- **Holds across:** open data, health, evaluation
-- **Evidence:** [IATI](../bibliography.md) result element; [WHO-INDICATORS](../bibliography.md); [OECD-CRITERIA](../bibliography.md) effectiveness
+  - An indicator states its aggregation rule: summed, weighted by its denominator, or not aggregable.
+  - A rate rolls up by its numerator and denominator, never by averaging the rates.
+  - A reading can carry a disaggregation by group, and an aggregate can be shown with its disaggregation.
+- **Holds across:** open data, health, evaluation, international development
+- **Evidence:** [IATI](../bibliography.md) result element, aggregation status; [SIMPSON](../bibliography.md); [USAID-TIPS](../bibliography.md) criterion 5; [WHO-INDICATORS](../bibliography.md); [OECD-CRITERIA](../bibliography.md) effectiveness
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### M6 Recognised indicator lists
@@ -88,15 +91,16 @@ An indicator from a recognised list (the Sustainable Development Goals, IRIS+, a
 - **Evidence:** [IATI](../bibliography.md) result element; [WHO-INDICATORS](../bibliography.md); [HMT-MAGENTA](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### M7 An outcome measured only by outputs
+### M7 Outcomes measured as change, not as work done
 
-A warning appears when an outcome or impact is measured only by indicators of activity or output.
+An outcome or impact is measured by at least one indicator of the change itself; when every indicator on it measures activity or output, the tool warns and asks for one that measures the change.
 
 - **Priority:** Should
 - **Status:** Proposed
-- **Why:** Evaluators find objectives and indicators often measure activity rather than change.
+- **Why:** Counting work done shows effort, not whether anything changed: an outcome such as "farmers earn more" is not shown by "workshops held" (an activity) or "farmers trained" (an output), but by a measure such as median farm income. Evaluators find that objectives and indicators often focus on activities, and a results chain keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)).
 - **Accepted when:**
-  - An outcome whose indicators are all at output level is flagged.
+  - An indicator states the level it measures: activity, output, outcome or impact.
+  - An outcome or impact whose indicators all measure activity or output is flagged with a request for an indicator of the change; the flag never blocks.
 - **Holds across:** evaluation, charity
 - **Evidence:** [OECD-APPLYING](../bibliography.md) chapter 4; [KELLOGG](../bibliography.md)
 - **Verified by:** an automated test in the build
