@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [R5](../../reference/requirements/shape-of-the-record.md#r5-views-not-copies), [D9](../../reference/requirements/case-and-decisions.md#d9-the-chain-upward), [B3](../../reference/requirements/benefits-handover-closure.md#b3-from-benefit-to-work-and-back), [O4](../../reference/requirements/openness-and-exchange.md#o4-mappings-to-open-standards)
+**Requirements:** [R5](../../reference/requirements/shape-of-the-record.md#r5-views-not-copies), [D9](../../reference/requirements/case-and-decisions.md#d9-the-chain-upward), [B3](../../reference/requirements/benefits-handover-closure.md#b3-from-benefit-to-work-and-back), [O4](../../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole)
 
 ## Context
 
@@ -23,4 +23,4 @@ Option B. A **view** is a template that selects and orders parts of the case, it
 ## Consequences
 
 - A charter is one view among several.
-- A mapping to an open standard is a view that lists what it leaves out ([O4](../../reference/requirements/openness-and-exchange.md#o4-mappings-to-open-standards)).
+- A mapping to an open standard is a view of a record that holds the whole standard; it lists only the parts of the record it leaves out ([O4](../../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole)).
