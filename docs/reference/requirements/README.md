@@ -49,14 +49,14 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [E7](change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found) Findings change decisions, and lessons are found | change and evaluation | Must | Approved |
 | [E8](change-and-evaluation.md#e8-evaluation-lenses-as-views) Evaluation lenses as views | change and evaluation | Should | Approved |
 | [E9](change-and-evaluation.md#e9-the-theory-keeps-its-history) The theory keeps its history | change and evaluation | Must | Approved |
-| [X1](domains-and-configuration.md#x1-the-workspaces-taxonomy) The workspace's taxonomy | domains and configuration | Must | Proposed |
-| [X2](domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels) Results hierarchies mapped to reference levels | domains and configuration | Must | Proposed |
-| [X3](domains-and-configuration.md#x3-a-decider-at-every-decision-point) A decider at every decision point | domains and configuration | Must | Proposed |
-| [X4](domains-and-configuration.md#x4-standard-profiles-tailored-within-their-references) Standard profiles, tailored within their references | domains and configuration | Should | Proposed |
-| [X5](domains-and-configuration.md#x5-methods-are-extensions) Methods are extensions | domains and configuration | Must | Proposed |
-| [X6](domains-and-configuration.md#x6-hold-results-link-to-tools) Hold results, link to tools | domains and configuration | Must | Proposed |
-| [X7](domains-and-configuration.md#x7-reporting-periods-as-date-intervals) Reporting periods as date intervals | domains and configuration | Must | Proposed |
-| [X8](domains-and-configuration.md#x8-more-than-one-language) More than one language | domains and configuration | Should | Proposed |
+| [X1](domains-and-configuration.md#x1-the-workspaces-taxonomy) The workspace's taxonomy | domains and configuration | Must | Approved |
+| [X2](domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels) Results hierarchies mapped to reference levels | domains and configuration | Must | Approved |
+| [X3](domains-and-configuration.md#x3-a-decider-at-every-decision-point) A decider at every decision point | domains and configuration | Must | Approved |
+| [X4](domains-and-configuration.md#x4-standard-profiles-tailored-within-their-references) Standard profiles, tailored within their references | domains and configuration | Should | Approved |
+| [X5](domains-and-configuration.md#x5-methods-are-extensions) Methods are extensions | domains and configuration | Must | Approved |
+| [X6](domains-and-configuration.md#x6-hold-results-link-to-tools) Hold results, link to tools | domains and configuration | Must | Approved |
+| [X7](domains-and-configuration.md#x7-reporting-periods-as-date-intervals) Reporting periods as date intervals | domains and configuration | Must | Approved |
+| [X8](domains-and-configuration.md#x8-more-than-one-language) More than one language | domains and configuration | Should | Approved |
 | [O1](openness-and-exchange.md#o1-plain-open-files-both-ways) Plain open files, both ways | openness and exchange | Must | Approved |
 | [O2](openness-and-exchange.md#o2-identifiers-beyond-the-workspace) Identifiers beyond the workspace | openness and exchange | Must | Approved |
 | [O3](openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form) Parties, money and dates in standard form | openness and exchange | Must | Approved |
