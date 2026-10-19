@@ -40,15 +40,15 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [D9](case-and-decisions.md#d9-the-chain-upward) The chain upward | case and decisions | Must | Approved |
 | [D10](case-and-decisions.md#d10-portfolio-decisions) Portfolio decisions | case and decisions | Must | Approved |
 | [D11](case-and-decisions.md#d11-still-relevant-and-not-duplicated) Still relevant, and not duplicated | case and decisions | Should | Approved |
-| [E1](change-and-evaluation.md#e1-how-the-change-is-expected-to-happen) How the change is expected to happen | change and evaluation | Must | Proposed |
-| [E2](change-and-evaluation.md#e2-assumptions-that-can-be-tested) Assumptions that can be tested | change and evaluation | Must | Proposed |
-| [E3](change-and-evaluation.md#e3-who-is-affected-and-would-it-have-happened-anyway) Who is affected, and would it have happened anyway | change and evaluation | Should | Proposed |
-| [E4](change-and-evaluation.md#e4-decisions-the-evidence-must-inform) Decisions the evidence must inform | change and evaluation | Must | Proposed |
-| [E5](change-and-evaluation.md#e5-evaluation-in-proportion-and-possible) Evaluation in proportion, and possible | change and evaluation | Must | Proposed |
-| [E6](change-and-evaluation.md#e6-the-evaluation-plan-fixed-before-analysis) The evaluation plan, fixed before analysis | change and evaluation | Should | Proposed |
-| [E7](change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found) Findings change decisions, and lessons are found | change and evaluation | Must | Proposed |
-| [E8](change-and-evaluation.md#e8-evaluation-lenses-as-views) Evaluation lenses as views | change and evaluation | Should | Proposed |
-| [E9](change-and-evaluation.md#e9-the-theory-keeps-its-history) The theory keeps its history | change and evaluation | Must | Proposed |
+| [E1](change-and-evaluation.md#e1-how-the-change-is-expected-to-happen) How the change is expected to happen | change and evaluation | Must | Approved |
+| [E2](change-and-evaluation.md#e2-assumptions-that-can-be-tested) Assumptions that can be tested | change and evaluation | Must | Approved |
+| [E3](change-and-evaluation.md#e3-who-is-affected-and-would-it-have-happened-anyway) Who is affected, and would it have happened anyway | change and evaluation | Should | Approved |
+| [E4](change-and-evaluation.md#e4-decisions-the-evidence-must-inform) Decisions the evidence must inform | change and evaluation | Must | Approved |
+| [E5](change-and-evaluation.md#e5-evaluation-in-proportion-and-possible) Evaluation in proportion, and possible | change and evaluation | Must | Approved |
+| [E6](change-and-evaluation.md#e6-the-evaluation-plan-fixed-before-analysis) The evaluation plan, fixed before analysis | change and evaluation | Should | Approved |
+| [E7](change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found) Findings change decisions, and lessons are found | change and evaluation | Must | Approved |
+| [E8](change-and-evaluation.md#e8-evaluation-lenses-as-views) Evaluation lenses as views | change and evaluation | Should | Approved |
+| [E9](change-and-evaluation.md#e9-the-theory-keeps-its-history) The theory keeps its history | change and evaluation | Must | Approved |
 | [X1](domains-and-configuration.md#x1-the-organisations-own-words) The organisation's own words | domains and configuration | Must | Proposed |
 | [X2](domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy) The shape of the results hierarchy | domains and configuration | Must | Proposed |
 | [X3](domains-and-configuration.md#x3-the-approval-route) The approval route | domains and configuration | Must | Proposed |

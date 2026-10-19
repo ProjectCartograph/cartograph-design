@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 A person can set out how the change is expected to happen, as steps a reader can follow with what must hold at each, for any piece of work.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Evaluation guidance, logic models and funders' pathways to impact start here, and evaluators rebuild the theory where it is missing.
 - **Accepted when:**
   - Any piece of work can hold a theory of change.
@@ -23,7 +23,7 @@ A person can set out how the change is expected to happen, as steps a reader can
 Each assumption can be marked for how much depends on it and how well it is evidenced, has an owner and a point to look at it again, and the most critical, least evidenced ones can be read first.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Work rests on assumptions that age; testing the riskiest first is the advice of digital service and evaluation guidance, and reviews look back at how accurate assumptions were.
 - **Accepted when:**
   - An assumption has an owner, how much depends on it, its evidence and when to look again.
@@ -37,7 +37,7 @@ Each assumption can be marked for how much depends on it and how well it is evid
 The record can say who experiences a change, for more than one group, and whether the change would have happened anyway.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Impact and evaluation frameworks ask both; a hobbyist does not need them.
 - **Accepted when:**
   - A result can name the groups it affects.
@@ -51,7 +51,7 @@ The record can say who experiences a change, for more than one group, and whethe
 Before delivery, a person can list the decisions the evidence must inform, who takes each and when, and the questions to be answered, each tied to a decision or a weak point in the theory.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Evaluation that informs no decision is wasted effort.
 - **Accepted when:**
   - An evaluation plan lists questions, each tied to a decision or an assumption.
@@ -64,7 +64,7 @@ Before delivery, a person can list the decisions the evidence must inform, who t
 How much evaluation is proportionate, and why, is recorded, with an early check that the work can be evaluated given its data and access; evaluation design is never needed to finish a first definition.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Proportion is the first principle of evaluation guidance, and an early evaluability check avoids plans that cannot be carried out.
 - **Accepted when:**
   - An evaluation plan records its proportion and the reason.
@@ -78,7 +78,7 @@ How much evaluation is proportionate, and why, is recorded, with an early check 
 An evaluation plan's questions, design, data and method of analysis are fixed, with the date, before outcome data are collected or analysed; each later revision is kept with its reason.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Fixing the plan before the data are seen stops the analysis being adjusted until it finds what was hoped for, and keeps unfavourable results from being dropped; it leaves a record of what was intended to compare with what was done. The plan may still change, provided each change is explained. How much is fixed follows the evaluation's scale and stakes ([E5](#e5-evaluation-in-proportion-and-possible)): a short statement for small work, a full protocol and analysis plan where the stakes are high.
 - **Accepted when:**
   - An evaluation plan records its questions, design, data, method of analysis and the date it was fixed.
@@ -92,7 +92,7 @@ An evaluation plan's questions, design, data and method of analysis are fixed, w
 When findings arrive, the decision taken because of them is recorded and linked to the evidence, and lessons can be found by later work in the same area.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every source closes the loop from evidence to decision, and benefits reviews look for lessons for the next piece of work.
 - **Accepted when:**
   - A finding can link to the decision it informed.
@@ -106,7 +106,7 @@ When findings arrive, the decision taken because of them is recorded and linked 
 Evaluation lenses (the OECD criteria, the Magenta Book's types of evaluation) are views over the record, optional by default and required where a profile says so.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The OECD warns against applying its criteria mechanically, while letting institutions require some.
 - **Accepted when:**
   - A lens shows what the record holds for each of its questions.
@@ -120,7 +120,7 @@ Evaluation lenses (the OECD criteria, the Magenta Book's types of evaluation) ar
 The theory of change keeps its history: what it said earlier, and why it changed.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The value of a theory of change lies in revising it.
 - **Accepted when:**
   - Each revision of a theory of change is kept with its reason.
