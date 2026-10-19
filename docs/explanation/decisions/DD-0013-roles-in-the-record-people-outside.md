@@ -18,4 +18,4 @@ Every domain names an accountable role, and accountability passes between roles 
 
 ## Decision (proposed)
 
-Option C. The record names roles and parties. Who holds a role is kept in the identity and access layer, outside the record, and shown to people allowed to see it. Exports carry roles and organisations, never persons, unless a workspace chooses otherwise. A change of holder, or of the accountable role, is recorded with its acceptance ([R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on)).
+Option C. The record names roles and parties. Who holds a role is kept in the identity and access layer, outside the record, and shown to people allowed to see it. Exports carry roles and organisations, never persons, unless a workspace chooses otherwise. A change of holder, or of the accountable role, is recorded with its acceptance ([R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on)). The identity provider decides who receives a workspace's keys; the keys, not a central server, enforce who may read and write ([DD-0018](DD-0018-live-co-editing-in-drafts.md)).

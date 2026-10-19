@@ -28,6 +28,6 @@ Option C. Each record is a plain document holding its current state. Every accep
 - The approved plan is a named version, so comparing the current plan with it is a difference between two versions.
 - The journal records roles and principals, never personal content ([O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)).
 
-## Open questions
+## Settled questions
 
-- May a workspace prune old versions, and what must it always keep?
+- **May a workspace prune old versions?** No: the journal keeps every accepted version. Only a draft's fine-grained history is compacted once the draft is accepted or discarded, and personal data is erased by destroying its key, not by rewriting the journal ([DD-0018](DD-0018-live-co-editing-in-drafts.md)).

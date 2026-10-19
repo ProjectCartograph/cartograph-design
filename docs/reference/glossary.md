@@ -58,5 +58,6 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Draft | Collaboration | A set of changes being prepared, private to its author or shared for live editing, that enters the record only as a proposal | The record, which changes only by accepted proposals |
 | Proposal | Collaboration | A set of changes to records, accepted at once or by someone, as the workspace's policy says | A review or a decision |
 | Journal | History | The append-only list of accepted versions, who, when and why | The index |
+| Cryptographic erase | History | Destroying the key that encrypts data, so that every remaining copy becomes unreadable | Deleting a version from the journal, which never happens |
 | Restore | History | Making an earlier version current again by appending it as a new version | Deleting later versions, which never happens |
 | Meaning model | Assistance | A language model behind a port, asked questions of meaning; it may answer "not judged" | A decision |

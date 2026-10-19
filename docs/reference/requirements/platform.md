@@ -76,15 +76,16 @@ An agent reads and proposes, and cannot change the record by itself: whatever th
 
 ### K6 Records open in later releases
 
-From the first stable release, a record opens in every later release, and the tool says what it changed.
+From the first stable release, a record opens in every later release, and the tool says what it changed; replicas on different releases still merge.
 
 - **Priority:** Must
 - **Status:** Proposed
 - **Why:** People's records must outlive the releases of the tool that wrote them; open, stable formats are how public services keep data usable as software changes.
 - **Accepted when:**
   - Every release opens records written by every earlier stable release.
-- **Holds across:** public services
-- **Evidence:** [GDS-MANUAL](../bibliography.md) open standards
+  - A release that changes the schema translates changes to and from the version before it; where a change cannot be translated back without loss, older replicas read that record but cannot change it until they update.
+- **Holds across:** public services, software
+- **Evidence:** [GDS-MANUAL](../bibliography.md) open standards; [CAMBRIA](../bibliography.md)
 - **Verified by:** an automated test in the build
 
 ### K7 Measured on people's use, by consent
