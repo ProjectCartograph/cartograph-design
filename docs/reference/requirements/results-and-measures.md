@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 Each indicator holds what it measures, its unit, which way is better, a baseline or a stated unknown with when it will be known, a target, its source, who collects it, how often (matched to when the data arrive) and who checks it.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Indicator reference sheets, results frameworks and benefits guidance agree on these fields.
 - **Accepted when:**
   - An indicator has a field for each of these.
@@ -23,7 +23,7 @@ Each indicator holds what it measures, its unit, which way is better, a baseline
 Readings are stored per period apart from the indicator, with the value, whether it may still change, and an optional note and breakdown; a target never overwrites an actual.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Results standards keep targets and actuals per period, and overwriting loses the record.
 - **Accepted when:**
   - A reading belongs to one period of one indicator.
@@ -37,7 +37,7 @@ Readings are stored per period apart from the indicator, with the value, whether
 An indicator can carry interim or per-period targets, and say what falling short and exceeding would mean.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Results frameworks score against interim targets; objectives and key results are graded.
 - **Accepted when:**
   - An indicator can hold a target per period.
@@ -51,7 +51,7 @@ An indicator can carry interim or per-period targets, and say what falling short
 Every indicator is measured on a defined scale: an amount or count, a percentage or rate, ordered levels each with a description, or categories. A target is a value, a threshold or a level on that scale, by a date or an event. Narrative goes with a reading as its evidence, never in place of one.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Indicator guidance prefers quantitative indicators, because their results are read the same way by everyone, and uses qualitative observation to supplement them. Judgements that resist counting are made credible as rubrics: ordered levels, each described. Each scale allows its own summaries. Ordinal levels say only which is higher, not by how much: a median depends only on order, so it is the same however the levels are numbered, while a mean adds the gaps between levels as if they were equal, so renumbering them can change which group looks better. Ordinal levels therefore take a median, never a mean.
 - **Accepted when:**
   - An indicator states its scale, and each ordered level has a description.
@@ -67,7 +67,7 @@ Every indicator is measured on a defined scale: an amount or count, a percentage
 Each indicator states its aggregation rule (how its readings roll up across pieces of work and periods: summed, weighted by its denominator, or not aggregable), and its readings can be disaggregated (broken down) by group.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** An aggregate is honest only when the measure can be aggregated, and a rate aggregates only through its numerators and denominators. An association in an aggregate can disappear or reverse in its disaggregations (Simpson's paradox); which view answers a question depends on how the groups relate to the cause, so an aggregate is shown with its disaggregation and the reader judges. Results about people are disaggregated by groups such as gender, age and location, because work often affects them differently.
 - **Accepted when:**
   - An indicator states its aggregation rule: summed, weighted by its denominator, or not aggregable.
@@ -82,7 +82,7 @@ Each indicator states its aggregation rule (how its readings roll up across piec
 An indicator from a recognised list (the Sustainable Development Goals, IRIS+, a health registry, a funder's set) names the list and the code; an organisation's own says so. A programme or fund can declare common measures and see who reports them.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Comparison across organisations needs shared codes.
 - **Accepted when:**
   - An indicator can name a list and a code.
@@ -96,7 +96,7 @@ An indicator from a recognised list (the Sustainable Development Goals, IRIS+, a
 An outcome or impact is measured by at least one indicator of the change itself; when every indicator on it measures activity or output, the tool warns and asks for one that measures the change.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Counting work done shows effort, not whether anything changed: an outcome such as "farmers earn more" is not shown by "workshops held" (an activity) or "farmers trained" (an output), but by a measure such as median farm income. Evaluators find that objectives and indicators often focus on activities, and a results chain keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)).
 - **Accepted when:**
   - An indicator states the level it measures: activity, output, outcome or impact.
