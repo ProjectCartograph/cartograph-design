@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 A workspace sets its taxonomy, the terms it uses for levels, labels, stages and roles; each term maps to exactly one standard term, which stays one step away.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Terms are the first difference every domain shows; one level is a core responsibility in Canada, a strategic goal in the United States, a purpose in the logical framework and an objective in OKRs. Mapping each term to one standard term lets every workspace speak its own taxonomy while its records stay comparable and exportable.
 - **Accepted when:**
   - Every user-facing term can be set in the workspace's taxonomy.
@@ -24,7 +24,7 @@ A workspace sets its taxonomy, the terms it uses for levels, labels, stages and 
 A profile chooses a recognised results hierarchy, and each of its levels maps to a reference level: activity, output, outcome or impact. Category schemes, such as a balanced scorecard's perspectives or a government's core responsibilities, classify results and are not levels.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The recognised hierarchies name their levels differently but share one chain. The logical framework's overall objective, purpose, results and activities are impact, outcome, output and activity; Canada's departmental results are outcomes, and its programs have outputs and outcomes; an objective's key results describe outcomes, not activities, so they are its indicators rather than a level. Perspectives and responsibilities cut across the chain. Mapping every level keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)) and lets [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) check any hierarchy.
 - **Accepted when:**
   - A profile sets its results hierarchy by choosing a recognised one, and names its levels in the taxonomy.
@@ -39,7 +39,7 @@ A profile chooses a recognised results hierarchy, and each of its levels maps to
 Each decision point names the role with authority to decide, from recognised roles (a sponsor, a senior responsible owner, a board, a funder, a product owner); in a workspace of one, that person decides, and the record says so.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every stage is preceded by a decision taken with authority ([S1](stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference)). Who holds that authority differs: boards, ministers, steering committees, funders and product owners all decide. A person working alone is their own authority, recorded as such, as a self-review is ([A5](risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals)).
 - **Accepted when:**
   - Every decision point in a profile names a deciding role.
@@ -54,7 +54,7 @@ Each decision point names the role with authority to decide, from recognised rol
 Cartograph ships standard profiles, each built from recognised patterns and citing its sources (for example public investment, project delivery, product team, charity, research); a workspace tailors its profile only within the references each part maps to.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Domains differ in recognisable bundles of settings, and a standard profile spares each organisation configuring them one by one. Tailoring within fixed references (the standard terms, the reference levels, the reference life cycle, date intervals, the fields a published standard requires) keeps work comparable across workspaces and the standards met. Whether people want to choose a profile at the start is untested.
 - **Accepted when:**
   - Cartograph ships standard profiles, each naming the patterns and sources it draws on.
@@ -68,7 +68,7 @@ Cartograph ships standard profiles, each built from recognised patterns and citi
 Method-specific parts (process improvement and control charts, metric formulas, economic appraisal, a particular evaluation framework) are extensions outside the core and the first walk, off unless turned on.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** No cross-domain source asks a core to hold them.
 - **Accepted when:**
   - The core schema holds no method-specific field.
@@ -82,7 +82,7 @@ Method-specific parts (process improvement and control charts, metric formulas, 
 Cartograph holds the result of a domain's own analysis (an appraisal, a building information model, a backlog) and links to the tool that made it, rather than absorbing it.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Absorbing each domain's analysis would make the core everyone's tool and no one's: a core built to do every domain's specialist work (appraisal models, building models, backlogs) would do each worse than the domain's own tools, while loading every other user with features they do not need. Cartograph holds what those tools conclude, and links to where the work was done.
 - **Accepted when:**
   - A part of the record can hold a result with a link to its source tool.
@@ -95,7 +95,7 @@ Cartograph holds the result of a domain's own analysis (an appraisal, a building
 Every reporting period is an interval with ISO 8601 start and end dates, generated by a recognised calendar (a financial year with its start month, a quarter, a month, an academic term, a season, a sprint) or given explicitly.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Reporting cycles differ by domain and country. Results standards report a period as its start and end dates, which lets periods from different calendars be compared, aggregated and exported without translation.
 - **Accepted when:**
   - Every period has ISO 8601 start and end dates.
@@ -110,7 +110,7 @@ Every reporting period is an interval with ISO 8601 start and end dates, generat
 Text can be held in more than one language.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** International standards and bilingual governments carry text in several languages.
 - **Accepted when:**
   - A text field can hold a value per language.
