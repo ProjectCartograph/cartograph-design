@@ -33,16 +33,17 @@ A risk beyond its owner's authority is escalated to a named role that can decide
 
 ### A3 Appetite and tolerance
 
-The governing body can state its appetite for each kind of risk, and tolerances for a piece of work; a breach shows.
+A workspace can state its appetite for each category of risk it uses, and a piece of work its tolerances; a risk rated beyond appetite, or a breach of tolerance, shows.
 
 - **Priority:** Should
 - **Status:** Proposed
-- **Why:** Risk guidance asks for a stated appetite; many small organisations never state one.
+- **Why:** Risk guidance asks the governing body to say how much risk of each category it will take to meet its objectives; many small organisations never state one, so it is optional.
 - **Accepted when:**
-  - A workspace can hold risk appetite by kind.
-  - A piece of work can hold tolerances, and a breach is flagged.
+  - A workspace can hold an appetite for each risk category, the categories coming from the profile and starting from the Orange Book's examples.
+  - A piece of work can hold tolerances, and a breach is flagged and can be escalated ([A2](#a2-escalation-to-authority)).
+  - A workspace with no stated appetite is never blocked.
 - **Holds across:** UK public sector
-- **Evidence:** [HMT-ORANGE](../bibliography.md)
+- **Evidence:** [HMT-ORANGE](../bibliography.md) principle A3, Annex 4
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### A4 Dependencies with owners
@@ -60,16 +61,19 @@ Dependencies between pieces of work are recorded with an owner and the effect if
 
 ### A5 Reviews are records, apart from approvals
 
-A review is a record of when, what it looked at, who, what it found, and each recommendation with an owner and a status. The reviewer is not the author, and a review is never an approval.
+A review records when, what it looked at, who reviewed and how independent they were, what they found, and each recommendation with an owner and a status; a review is never an approval.
 
 - **Priority:** Must
 - **Status:** Proposed
-- **Why:** Assurance reviews advise and approvers decide; independence between who produces and who assures is the rule.
+- **Why:** Assurance reviews advise and approvers decide. The author never gives the formal assurance, and how much assurance is needed grows with the work's complexity and risk. A person working alone can still look back at their own work, provided no one could take it for an independent review.
 - **Accepted when:**
-  - A review cannot be recorded by the author of what it reviews.
+  - A review records its independence: self-review (by the author), peer review (by someone not involved in producing the work) or independent review (by someone outside the work's management or organisation).
+  - A self-review is labelled as one wherever the review appears, views and exports included, and never meets a planned review that requires more independence ([A6](#a6-planned-assurance)).
+  - The profile sets the least independence required for each decision point; a workspace of one allows self-review, and a profile for public or funded work requires more.
+  - The reviewer may be someone outside the workspace, named in a role.
   - A review has no outcome that approves.
 - **Holds across:** UK public sector
-- **Evidence:** [NISTA-GATES](../bibliography.md); [HMT-AQUA](../bibliography.md); [GOVS002](../bibliography.md)
+- **Evidence:** [HMT-AQUA](../bibliography.md) 3, 5.1; [HMT-ORANGE](../bibliography.md) Annex 2; [NISTA-GATES](../bibliography.md); [GOVS002](../bibliography.md)
 - **Verified by:** an automated test in the build
 
 ### A6 Planned assurance

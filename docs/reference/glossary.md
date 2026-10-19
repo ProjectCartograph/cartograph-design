@@ -19,7 +19,7 @@ The words of the new model, by context. Inside a context a word means one thing.
 | Condition | Governance | Something a decision requires, with an owner and a due point | |
 | Stage | Governance | A point in the work's life, from the profile's stage model | A cycle |
 | Cycle | Governance | A repeating period that work is steered by (a sprint, a quarter, a season) | A stage |
-| Review | Governance | An assurance look at the work, by someone who did not make it; it advises, never approves | Accepting a proposal |
+| Review | Governance | An assurance look at the work, recording how independent the reviewer was (self, peer or independent); it advises, never approves | Accepting a proposal |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
 | Handover | Governance | The acceptance of a result, its benefit tracking and its open risks by the role that carries them on | Closure |
 | Indicator | Measurement | What is measured, how, by whom, with a baseline and targets | A reading |
@@ -38,6 +38,8 @@ The words of the new model, by context. Inside a context a word means one thing.
 | Role | Parties and money | What a party, or a person outside the record, does in the work | |
 | Funding line | Parties and money | Money from a source for a period, with currency and status | |
 | Risk | Risk | Something that may happen and would affect the work | An issue, which has happened |
+| Risk category | Risk | A grouping of risks by their source, such as legal, financial or technology, from the profile | The kind of work, which is a label |
+| Risk appetite | Risk | How much risk of a category an organisation will take to meet its objectives | A tolerance, a limit set for one piece of work |
 | Profile | Configuration | The data that makes Cartograph speak a domain's language: words, hierarchy, stages, route, required parts, calendar, views, extensions | |
 | Extension | Configuration | A method-specific addition, off unless turned on | |
 | View | Publishing | A rendering of the record for an audience | A copy |
