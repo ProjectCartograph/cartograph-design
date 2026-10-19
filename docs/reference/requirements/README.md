@@ -57,12 +57,12 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [X6](domains-and-configuration.md#x6-hold-results-link-to-tools) Hold results, link to tools | domains and configuration | Must | Proposed |
 | [X7](domains-and-configuration.md#x7-the-organisations-calendar) The organisation's calendar | domains and configuration | Must | Proposed |
 | [X8](domains-and-configuration.md#x8-more-than-one-language) More than one language | domains and configuration | Should | Proposed |
-| [O1](openness-and-exchange.md#o1-plain-open-files-both-ways) Plain open files, both ways | openness and exchange | Must | Proposed |
-| [O2](openness-and-exchange.md#o2-identifiers-beyond-the-workspace) Identifiers beyond the workspace | openness and exchange | Must | Proposed |
-| [O3](openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form) Parties, money and dates in standard form | openness and exchange | Must | Proposed |
-| [O4](openness-and-exchange.md#o4-each-supported-standard-held-whole) Each supported standard held whole | openness and exchange | Should | Proposed |
-| [O5](openness-and-exchange.md#o5-personal-data-separable) Personal data separable | openness and exchange | Must | Proposed |
-| [O6](openness-and-exchange.md#o6-published-packages-say-who-and-how) Published packages say who and how | openness and exchange | Should | Proposed |
+| [O1](openness-and-exchange.md#o1-plain-open-files-both-ways) Plain open files, both ways | openness and exchange | Must | Approved |
+| [O2](openness-and-exchange.md#o2-identifiers-beyond-the-workspace) Identifiers beyond the workspace | openness and exchange | Must | Approved |
+| [O3](openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form) Parties, money and dates in standard form | openness and exchange | Must | Approved |
+| [O4](openness-and-exchange.md#o4-each-supported-standard-held-whole) Each supported standard held whole | openness and exchange | Should | Approved |
+| [O5](openness-and-exchange.md#o5-personal-data-separable) Personal data separable | openness and exchange | Must | Approved |
+| [O6](openness-and-exchange.md#o6-published-packages-say-who-and-how) Published packages say who and how | openness and exchange | Should | Approved |
 | [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Approved |
 | [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Approved |
 | [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Approved |
