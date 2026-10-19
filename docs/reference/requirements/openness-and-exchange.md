@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 The whole record exports as plain, open files and imports again without loss.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Decisions must outlive the tool and the organisation that made them.
 - **Accepted when:**
   - Exporting and importing a workspace gives an identical record.
@@ -22,7 +22,7 @@ The whole record exports as plain, open files and imports again without loss.
 Each thing has an identifier unique beyond its workspace: a publisher's prefix and a local identifier.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Open data standards require globally unique identifiers.
 - **Accepted when:**
   - Every identifier carries the workspace's publisher prefix.
@@ -35,7 +35,7 @@ Each thing has an identifier unique beyond its workspace: a publisher's prefix a
 Parties have one identity and a role wherever they appear; money carries its currency, source and dates; dates are in ISO 8601.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every open standard studied requires these.
 - **Accepted when:**
   - Every amount has a currency; every date is ISO 8601; every party has one identifier.
@@ -48,7 +48,7 @@ Parties have one identity and a role wherever they appear; money carries its cur
 For each open standard Cartograph supports (such as IATI, 360Giving or OC4IDS), the record can hold every field and code the standard defines, in the core or in the standard's extension. An export therefore omits nothing the standard asks for, and a document in that standard imports and exports again without loss. A mapping drops only parts of the record the standard has no place for, and lists them.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Several domains publish to a standard by law or under funders' rules. A record that cannot hold one of the standard's fields forces the publisher to leave it out or keep a second system; holding the whole standard keeps the record the single source. The record may hold more than a standard, never less. The fields the core lacks live in the standard's extension, turned on when a workspace publishes to it, so the core stays small ([X5](domains-and-configuration.md#x5-methods-are-extensions)).
 - **Accepted when:**
   - For each supported standard and version, every element, attribute and code it defines maps to a place in the record; the build checks the mapping against the standard's schema.
@@ -65,7 +65,7 @@ For each open standard Cartograph supports (such as IATI, 360Giving or OC4IDS), 
 Personal data can be separated, and the record published without it; who may see findings is a recorded choice.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Open data rules exempt personal data, and evaluation findings may concern people.
 - **Accepted when:**
   - A published record contains no personal data unless the workspace chooses it.
@@ -79,7 +79,7 @@ Personal data can be separated, and the record published without it; who may see
 A published package says who published it, when, under what licence, and which version of the shape it uses.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Open data packages carry this, and readers need it.
 - **Accepted when:**
   - Every published package has publisher, date, licence and version.
