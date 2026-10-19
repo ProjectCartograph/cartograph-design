@@ -11,7 +11,7 @@ People in the field gave up at the first screen and finished only a guided walk 
 | Entry | Makes easy | Makes hard |
 |---|---|---|
 | The decision and its case | Approval, audit, boards | Steering over time; it reads as form filling |
-| The change wanted | The why and the how-will-we-know, in people's own words | Money and authority need their own place |
+| The change wanted | The why and the how-will-we-know, in plain language | Money and authority need their own place |
 | The unit of work | Money, dates, exchange | Output-shaped; brings back classifying first |
 
 ## Decision (proposed)

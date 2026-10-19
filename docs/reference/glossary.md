@@ -1,6 +1,6 @@
 # Glossary
 
-The words of the new model, by context. Inside a context a word means one thing. An organisation may rename any of them in its profile; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
+The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
 
 | Term | Context | Meaning | Not to be confused with |
 |---|---|---|---|
@@ -50,7 +50,8 @@ The words of the new model, by context. Inside a context a word means one thing.
 | Risk | Risk | Something that may happen and would affect the work | An issue, which has happened |
 | Risk category | Risk | A grouping of risks by their source, such as legal, financial or technology, from the profile | The kind of work, which is a label |
 | Risk appetite | Risk | How much risk of a category an organisation will take to meet its objectives | A tolerance, a limit set for one piece of work |
-| Profile | Configuration | The data that makes Cartograph speak a domain's language: words, hierarchy, stages, route, required parts, calendar, views, extensions | |
+| Profile | Configuration | The data that fits Cartograph to a domain: its taxonomy, results hierarchy, life cycle, approval route, required parts, calendar, views and extensions | |
+| Taxonomy | Configuration | The terms a workspace uses for levels, labels, stages and roles, each standing for a default term in this glossary | Free text a person writes |
 | Extension | Configuration | A method-specific addition, off unless turned on | |
 | View | Publishing | A rendering of the record for an audience | A copy |
 | Proposal | Collaboration | A set of changes to records, accepted at once or by someone, as the workspace's policy says | A review or a decision |

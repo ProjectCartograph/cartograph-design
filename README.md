@@ -10,7 +10,7 @@ The design is reviewed and approved here before the code in [cartograph-engine](
 - **People start from the change they want.** The first questions are what is wrong, what should be different and for whom; the kind of work is suggested afterwards.
 - **The case grows, and every step is a decision.** One justification becomes more complete through the work's life, and each step ends in a recorded decision, which may be to stop.
 - **The work continues after delivery.** Benefits are accepted by an owner and tracked until a review says whether they arrived.
-- **Domains configure; they do not fork.** Words, stages, approval routes and calendars are a profile; methods are extensions.
+- **Domains configure; they do not fork.** A profile holds the taxonomy, life cycles, approval routes and calendars; methods are extensions.
 - **One truth, many views.** A charter, a business case, a logical framework and an open data file are views of the same record.
 
 ## Reading it

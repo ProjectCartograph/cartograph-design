@@ -2,11 +2,11 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [X1](../../reference/requirements/domains-and-configuration.md#x1-the-organisations-own-words), [X2](../../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy), [X3](../../reference/requirements/domains-and-configuration.md#x3-the-approval-route), [X4](../../reference/requirements/domains-and-configuration.md#x4-profiles-as-starting-points), [X7](../../reference/requirements/domains-and-configuration.md#x7-the-organisations-calendar), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [P4](../../reference/requirements/people-and-first-use.md#p4-the-persons-own-words)
+**Requirements:** [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy), [X3](../../reference/requirements/domains-and-configuration.md#x3-the-approval-route), [X4](../../reference/requirements/domains-and-configuration.md#x4-profiles-as-starting-points), [X7](../../reference/requirements/domains-and-configuration.md#x7-the-organisations-calendar), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [P4](../../reference/requirements/people-and-first-use.md#p4-the-persons-vocabulary)
 
 ## Context
 
-The frameworks share a core and differ in their words, the shape of their results hierarchy, their stages, their approval routes, what each step requires, how they read targets and their reporting calendars ([the evidence](../the-evidence.md); [TBS-RESULTS](../../reference/bibliography.md), [OMB-A11](../../reference/bibliography.md), [EC-PCM](../../reference/bibliography.md), [OKR](../../reference/bibliography.md), [EC-PM2](../../reference/bibliography.md), [RIBA](../../reference/bibliography.md), [SCRUM](../../reference/bibliography.md)). Any one answer built in serves one domain.
+The frameworks share a core and differ in their vocabulary, the shape of their results hierarchy, their stages, their approval routes, what each step requires, how they read targets and their reporting calendars ([the evidence](../the-evidence.md); [TBS-RESULTS](../../reference/bibliography.md), [OMB-A11](../../reference/bibliography.md), [EC-PCM](../../reference/bibliography.md), [OKR](../../reference/bibliography.md), [EC-PM2](../../reference/bibliography.md), [RIBA](../../reference/bibliography.md), [SCRUM](../../reference/bibliography.md)). Any one answer built in serves one domain.
 
 ## Options
 
@@ -18,11 +18,11 @@ The frameworks share a core and differ in their words, the shape of their result
 
 ## Decision (proposed)
 
-Option B. A **profile** is data in a workspace that sets the words for levels, labels, stages and roles; the results hierarchy; the stage model and the decision at each point; the approval route; the parts each decision needs; the reporting calendar; the views offered; and the extensions turned on. Cartograph ships starting profiles (for example public investment, project delivery, product team, charity, research, improvement), and an organisation starts from one and changes it.
+Option B. A **profile** is data in a workspace that sets the taxonomy for levels, labels, stages and roles; the results hierarchy; the stage model and the decision at each point; the approval route; the parts each decision needs; the reporting calendar; the views offered; and the extensions turned on. Cartograph ships starting profiles (for example public investment, project delivery, product team, charity, research, improvement), and an organisation starts from one and changes it.
 
 ```mermaid
 flowchart LR
-  PR["Profile"] --> W["Words"]
+  PR["Profile"] --> W["Taxonomy"]
   PR --> H["Results hierarchy"]
   PR --> ST["Stage model and decisions"]
   PR --> RT["Approval route"]
@@ -37,7 +37,7 @@ flowchart LR
 
 ## Consequences
 
-- The engine serves walks, words and checks from the profile; nothing domain-specific is compiled in.
+- The engine serves walks, vocabulary and checks from the profile; nothing domain-specific is compiled in.
 - Changing a profile in use needs rules, for example for work sitting in a stage that is removed.
 - Whether people want to choose a profile at the start is untested ([X4](../../reference/requirements/domains-and-configuration.md#x4-profiles-as-starting-points) is a Should).
 

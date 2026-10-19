@@ -6,7 +6,7 @@ Cartograph helps people write down what they have decided to do and why, and ste
 
 Cartograph is for anyone who must justify and steer work: a hobbyist's group, a cooperative, a charity, a research team, a company, a public body, a national government. Some of them are technical and many are not. Some define one piece of work; others define programmes over long horizons, portfolios of investment, or projects large enough to have parts of their own.
 
-They share one need, which in their own words is:
+They share one need, which they state as:
 
 > We need to write down what we have decided to do and why, so that others can see it, challenge it, fund it or carry it on, and so that we can tell whether it is working and change it when it is not.
 
@@ -14,7 +14,7 @@ They share one need, which in their own words is:
 
 | Need | Mode of use | Who has it most |
 |---|---|---|
-| Say what we want to change and why it matters, in our own words, without learning a method first | Learning | Everyone, above all non-technical people |
+| Say what we want to change and why it matters, in plain language, without learning a method first | Learning | Everyone, above all non-technical people |
 | See where we are and what to do next, without a wall of controls | Doing | Everyone |
 | Say how the work will bring the change about, and what we are assuming | Doing, understanding | Sponsors, managers, funders |
 | Say how we will know it worked, and record what we find | Doing | Managers, analysts |
@@ -30,7 +30,7 @@ The modes are Diataxis's: a person moves between learning, doing, looking up and
 
 ## What a good result looks like
 
-A person who has never used Cartograph says what they want to change, one question at a time and in their own words, and ends with a record their board, funder or team accepts. They always know the next step. Anyone who wants the full workspace finds it one step away. The same record serves a hobbyist and a national government, each in its own words and stages, and outlives the tool.
+A person who has never used Cartograph says what they want to change, one question at a time and in plain language, and ends with a record their board, funder or team accepts. They always know the next step. Anyone who wants the full workspace finds it one step away. The same record serves a hobbyist and a national government, each in its own taxonomy and life cycle, and outlives the tool.
 
 These are measured, not asserted: by sessions with people traced as they work, and by an audit of what each screen shows ([P2](../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen), [K7](../reference/requirements/platform.md#k7-measured-on-peoples-use)).
 

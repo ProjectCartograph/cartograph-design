@@ -73,7 +73,7 @@ Events: benefit accepted; benefit reviewed; question added; finding recorded; le
 
 | Aggregate | Parts | Rules |
 |---|---|---|
-| Profile | Words, labels and their rules, results hierarchy, stage model, decision points and the parts each needs, approval route, calendar, views, extensions | Validated as a whole; a change to a profile in use says what it affects |
+| Profile | Taxonomy, labels and their rules, results hierarchy, stage model, decision points and the parts each needs, approval route, calendar, views, extensions | Validated as a whole; a change to a profile in use says what it affects |
 
 ## Publishing, Assistance, Collaboration and History
 

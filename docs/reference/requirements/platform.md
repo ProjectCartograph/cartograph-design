@@ -6,7 +6,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 
 ### K1 The contract as data
 
-The schemas, walks, words and checks are data served to any interface or agent.
+The schemas, walks, vocabulary and checks are data served to any interface or agent.
 
 - **Priority:** Must
 - **Status:** Proposed
