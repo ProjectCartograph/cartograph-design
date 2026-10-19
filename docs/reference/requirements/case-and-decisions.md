@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 The case is one record per piece of work, organised by the five questions of [D2](#d2-five-questions-at-any-scale), revised before each decision, and each question may be at its own level of completeness at each stage.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Staged business cases develop the five dimensions together, not as separate cases, and complete them in turn: the first stage mostly the need and the value for money, the later stages the buying, the funding and the delivery. Design stages and funding cycles grow one case and decide on it at each step in the same way.
 - **Accepted when:**
   - The case has one record per piece of work, with a version per revision.
@@ -23,7 +23,7 @@ The case is one record per piece of work, organised by the five questions of [D2
 The same five questions can be asked at any scale: is there a need, is it good value, is it viable to buy or build, is it affordable, and can it be delivered (the strategic, economic, commercial, financial and management cases).
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The five case model asks these whatever the size; only the depth changes.
 - **Accepted when:**
   - Every part of the case sits under one of the five questions.
@@ -37,7 +37,7 @@ The same five questions can be asked at any scale: is there a need, is it good v
 The record says what is expected if nothing new is done (the organisation carrying on as it is, with its own costs, benefits and risks), or says plainly that this is not known.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Appraisal and evaluation measure against what would happen anyway, and carrying on as now is not free.
 - **Accepted when:**
   - The case holds a statement of what happens if nothing new is done, or a stated unknown.
@@ -50,7 +50,7 @@ The record says what is expected if nothing new is done (the organisation carryi
 The options considered, including carrying on as now and a minimum option, and why one was preferred, can be recorded before commitment; a profile for public or funded investment requires them.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Public and funded investment must compare a shortlist against carrying on as now; a hobbyist need not.
 - **Accepted when:**
   - The case can hold options, each with why it was kept or set aside.
@@ -64,7 +64,7 @@ The options considered, including carrying on as now and a minimum option, and w
 A decision is a record of who decided, in what role, when, the outcome (approve, approve with conditions, change the scope, try another option, pilot, defer or stop), the reasons, and the version of the case it rested on.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Every life cycle studied turns on recorded decisions; the outcomes follow the Treasury's list, with approval under conditions added as boards use it.
 - **Accepted when:**
   - A decision names the version of the case it rested on.
@@ -78,7 +78,7 @@ A decision is a record of who decided, in what role, when, the outcome (approve,
 Each condition on a decision has an owner, a due point and what it holds back, and the record shows when it is met.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Funding and approvals are often given with conditions; without an owner and a due point, a condition is not followed up.
 - **Accepted when:**
   - Each condition has an owner, a due point and what it holds back.
@@ -92,7 +92,7 @@ Each condition on a decision has an owner, a due point and what it holds back, a
 Stopping, pausing and cancelling are ordinary outcomes with a reason, and the work stays readable afterwards.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The standards treat stopping or resetting as a legitimate decision, and stopped work holds lessons.
 - **Accepted when:**
   - A stopped piece of work keeps every part and can still be read.
@@ -106,7 +106,7 @@ Stopping, pausing and cancelling are ordinary outcomes with a reason, and the wo
 The approved plan (scope, cost, dates, benefits) is kept as a named version; the current plan is compared with it; a change to the approved plan is its own recorded decision with its reason and authority, apart from correcting a mistake.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Change control and later reviews need the approved plan and its changes kept apart from everyday edits.
 - **Accepted when:**
   - The approved plan is a named version of the record.
@@ -120,7 +120,7 @@ The approved plan (scope, cost, dates, benefits) is kept as a named version; the
 A piece of work draws on the level above (the strategy, a programme's case) and can show the chain upward.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Cases nest: much of a project's strategic case is its programme's.
 - **Accepted when:**
   - A view of a piece of work can show the goals and parent work it serves, to the top.
@@ -133,7 +133,7 @@ A piece of work draws on the level above (the strategy, a programme's case) and 
 A portfolio's decision to fund, hold, stop or move money between its members is a decision record, with the criteria and the objective each serves when the portfolio uses them.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Authorising, prioritising, stopping and reallocating are what a portfolio decides.
 - **Accepted when:**
   - A portfolio records a decision on each member.
@@ -147,7 +147,7 @@ A portfolio's decision to fund, hold, stop or move money between its members is 
 At each review a piece of work can be asked whether its objectives are still relevant as circumstances change, and whether other work supports, undermines or duplicates it.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Evaluators ask about relevance and coherence, and benefits guidance asks for objectives to be rechecked over time.
 - **Accepted when:**
   - A review can record whether the objectives remain relevant.
