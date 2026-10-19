@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 Each benefit has an owner, a measure, a baseline, a target and the date or event it is expected by; benefits that cannot be given a money value are held as fully as those that can.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Benefits guidance requires each, and most benefits of public and charitable work are not priced.
 - **Accepted when:**
   - A benefit has an owner, a measure, a baseline, a target and an expected date or event.
@@ -22,7 +22,7 @@ Each benefit has an owner, a measure, a baseline, a target and the date or event
 Disbenefits are recorded beside benefits with who bears them, measured like benefits, and the net position can be read.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Harms are measured and set against benefits; leaving them out biases the case.
 - **Accepted when:**
   - A disbenefit records who bears it and its measure.
@@ -36,7 +36,7 @@ Disbenefits are recorded beside benefits with who bears them, measured like bene
 A reader can follow the chain from a benefit to the objective it serves and to the work that should bring it, and back.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** A benefits map is how a board sees what its money buys.
 - **Accepted when:**
   - A view traces each benefit to its objectives and its work, and each piece of work to its benefits.
@@ -49,7 +49,7 @@ A reader can follow the chain from a benefit to the objective it serves and to t
 Readings continue after the work closes, and wider benefits are judged by evaluation at agreed points, until a review records each benefit realised, off track or stopped.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Benefits arrive late, and post-delivery reviews look after the work has ended.
 - **Accepted when:**
   - A closed piece of work keeps receiving readings for its benefits.
@@ -63,7 +63,7 @@ Readings continue after the work closes, and wider benefits are judged by evalua
 At handover a named role accepts the result, the tracking of its benefits, and each open risk, issue and action, on a recorded date and terms.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Handover is recorded as an acceptance with a date and terms in every life cycle studied.
 - **Accepted when:**
   - A handover records the receiving role, its acceptance, the date and the terms.
@@ -77,7 +77,7 @@ At handover a named role accepts the result, the tracking of its benefits, and e
 Closing records what was delivered against what was approved, what was not and how it will be handled, who answers for what remains, what is needed for the benefits to last, what was learned, how well the work was governed, and the review planned after.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Closure reviews, end reports and completion reports ask for each of these.
 - **Accepted when:**
   - Closing a piece of work requires a closing record with each part, filled in or stated unknown.
@@ -90,7 +90,7 @@ Closing records what was delivered against what was approved, what was not and h
 Benefits and disbenefits that were not foreseen can be recorded when they appear, and tracked like planned ones.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Benefits reviews ask for benefits nobody anticipated.
 - **Accepted when:**
   - A benefit can be marked unplanned, with when it was found.
@@ -103,7 +103,7 @@ Benefits and disbenefits that were not foreseen can be recorded when they appear
 Benefits can be put in priority with a reason, each names who receives it, and the record says which are pursued and why.
 
 - **Priority:** Should
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Benefits assurance asks for benefits in priority, by recipient, with the subset chosen for realisation and why.
 - **Accepted when:**
   - A benefit names its recipients.

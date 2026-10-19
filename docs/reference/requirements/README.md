@@ -21,14 +21,14 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 <!-- index:start -->
 | Requirement | Area | Priority | Status |
 |---|---|---|---|
-| [B1](benefits-handover-closure.md#b1-benefits-owned-and-dated) Benefits owned and dated | benefits handover closure | Must | Proposed |
-| [B2](benefits-handover-closure.md#b2-disbenefits-and-the-net) Disbenefits, and the net | benefits handover closure | Must | Proposed |
-| [B3](benefits-handover-closure.md#b3-from-benefit-to-work-and-back) From benefit to work and back | benefits handover closure | Must | Proposed |
-| [B4](benefits-handover-closure.md#b4-benefits-tracked-after-closure) Benefits tracked after closure | benefits handover closure | Must | Proposed |
-| [B5](benefits-handover-closure.md#b5-accepted-at-handover) Accepted at handover | benefits handover closure | Must | Proposed |
-| [B6](benefits-handover-closure.md#b6-a-closing-record-and-a-look-back) A closing record and a look back | benefits handover closure | Must | Proposed |
-| [B7](benefits-handover-closure.md#b7-benefits-nobody-planned) Benefits nobody planned | benefits handover closure | Should | Proposed |
-| [B8](benefits-handover-closure.md#b8-which-benefits-for-whom-and-why) Which benefits, for whom, and why | benefits handover closure | Should | Proposed |
+| [B1](benefits-handover-closure.md#b1-benefits-owned-and-dated) Benefits owned and dated | benefits handover closure | Must | Approved |
+| [B2](benefits-handover-closure.md#b2-disbenefits-and-the-net) Disbenefits, and the net | benefits handover closure | Must | Approved |
+| [B3](benefits-handover-closure.md#b3-from-benefit-to-work-and-back) From benefit to work and back | benefits handover closure | Must | Approved |
+| [B4](benefits-handover-closure.md#b4-benefits-tracked-after-closure) Benefits tracked after closure | benefits handover closure | Must | Approved |
+| [B5](benefits-handover-closure.md#b5-accepted-at-handover) Accepted at handover | benefits handover closure | Must | Approved |
+| [B6](benefits-handover-closure.md#b6-a-closing-record-and-a-look-back) A closing record and a look back | benefits handover closure | Must | Approved |
+| [B7](benefits-handover-closure.md#b7-benefits-nobody-planned) Benefits nobody planned | benefits handover closure | Should | Approved |
+| [B8](benefits-handover-closure.md#b8-which-benefits-for-whom-and-why) Which benefits, for whom, and why | benefits handover closure | Should | Approved |
 | [D1](case-and-decisions.md#d1-a-case-that-grows) A case that grows | case and decisions | Must | Proposed |
 | [D2](case-and-decisions.md#d2-five-questions-at-any-scale) Five questions at any scale | case and decisions | Must | Proposed |
 | [D3](case-and-decisions.md#d3-if-nothing-new-is-done) If nothing new is done | case and decisions | Must | Proposed |
