@@ -9,7 +9,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 Every life cycle maps to one reference life cycle: feasibility, appraisal, definition, delivery and operation, each stage preceded by a decision point. Recognised life cycles come as standard profiles, already mapped. An organisation tailors only by choosing a recognised life cycle, joining reference stages down to at least two (definition and delivery), splitting delivery into more stages, or naming stages in its own taxonomy; each of its stages still maps to a reference stage.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** The UK standard requires a defined life cycle, tailored by mapping to its reference, with every stage preceded by a gate and at least two stages. Life cycles from construction, digital services and gated public investment fit the same reference. A common reference keeps stages comparable across work and organisations, and keeps decision points where the standards put them.
 - **Accepted when:**
   - Every stage in a profile maps to a reference stage, and every stage begins with a decision point.
@@ -25,7 +25,7 @@ Every life cycle maps to one reference life cycle: feasibility, appraisal, defin
 Each piece of work shows its current stage in the workspace's taxonomy, together with the reference stage it maps to.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** People recognise their own organisation's stage names, while comparing work across organisations and against the standards needs the reference stage; showing both serves each reader.
 - **Accepted when:**
   - Every piece of work shows its current stage in the workspace's taxonomy, with its reference stage beside it.
@@ -39,7 +39,7 @@ Each piece of work shows its current stage in the workspace's taxonomy, together
 Work without an end that is steered by cycles (a sprint, a quarter, a season, a financial year) keeps decisions, risks and reviews on that cycle without passing gates; stages do not apply to it.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** Products, services and objectives are steered by regular review, not by gates ([R3](shape-of-the-record.md#r3-work-without-an-end)).
 - **Accepted when:**
   - A piece of work can be given a cycle, and its reviews fall due on it.
@@ -52,7 +52,7 @@ Work without an end that is steered by cycles (a sprint, a quarter, a season, a 
 A group of work (a programme, a portfolio) has its own decision points and reviews through its life, apart from its members'. A programme has no reference life cycle; it is phased in tranches.
 
 - **Priority:** Must
-- **Status:** Proposed
+- **Status:** Approved
 - **Why:** A programme's case is reviewed before each tranche and each year; a portfolio reviews its members on its own cycle.
 - **Accepted when:**
   - A programme or portfolio has decisions and reviews of its own.
