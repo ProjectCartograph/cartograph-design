@@ -73,16 +73,16 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [P8](people-and-first-use.md#p8-help-organised-by-need) Help organised by need | people and first use | Must | Approved |
 | [P9](people-and-first-use.md#p9-save-anything-completeness-only-when-deciding) Save anything; completeness only when deciding | people and first use | Must | Approved |
 | [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Approved |
-| [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Proposed |
-| [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Proposed |
-| [K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks) Versioned change, reviewed where the policy asks | platform | Must | Proposed |
-| [K4](platform.md#k4-durable-history) Durable history | platform | Must | Proposed |
-| [K5](platform.md#k5-agents-propose-people-decide) Agents propose; people decide | platform | Must | Proposed |
-| [K6](platform.md#k6-records-open-in-later-releases) Records open in later releases | platform | Must | Proposed |
-| [K7](platform.md#k7-measured-on-peoples-use-by-consent) Measured on people's use, by consent | platform | Must | Proposed |
-| [K8](platform.md#k8-local-first) Local-first | platform | Must | Proposed |
-| [K9](platform.md#k9-live-and-private-drafts) Live and private drafts | platform | Must | Proposed |
-| [K10](platform.md#k10-encrypted-by-default) Encrypted by default | platform | Must | Proposed |
+| [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Approved |
+| [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Approved |
+| [K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks) Versioned change, reviewed where the policy asks | platform | Must | Approved |
+| [K4](platform.md#k4-durable-history) Durable history | platform | Must | Approved |
+| [K5](platform.md#k5-agents-propose-people-decide) Agents propose; people decide | platform | Must | Approved |
+| [K6](platform.md#k6-records-open-in-later-releases) Records open in later releases | platform | Must | Approved |
+| [K7](platform.md#k7-measured-on-peoples-use-by-consent) Measured on people's use, by consent | platform | Must | Approved |
+| [K8](platform.md#k8-local-first) Local-first | platform | Must | Approved |
+| [K9](platform.md#k9-live-and-private-drafts) Live and private drafts | platform | Must | Approved |
+| [K10](platform.md#k10-encrypted-by-default) Encrypted by default | platform | Must | Approved |
 | [M1](results-and-measures.md#m1-a-complete-indicator) A complete indicator | results and measures | Must | Approved |
 | [M2](results-and-measures.md#m2-readings-apart-from-definitions) Readings apart from definitions | results and measures | Must | Approved |
 | [M3](results-and-measures.md#m3-targets-over-time-and-what-achievement-means) Targets over time, and what achievement means | results and measures | Must | Approved |
