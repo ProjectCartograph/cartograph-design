@@ -14,7 +14,7 @@ The project, programme and portfolio standards distinguish the three by purpose 
 |---|---|---|
 | A. A separate kind for each | Each kind's rules are explicit; matches the standards' terminology | Classification comes first ([P1](../../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first)); shapes duplicate ([R6](../../reference/requirements/shape-of-the-record.md#r6-one-place-for-each-concept)); changing kind moves data |
 | B. One record, its kind a label | One shape to learn, exchange and render; the kind can change ([R2](../../reference/requirements/shape-of-the-record.md#r2-the-kind-is-a-label-given-after)) | Rules that differ by kind need another home |
-| C. One record with fixed levels | A simple hierarchy | Fails work serving several parents ([R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work)) and domains with other hierarchies ([X2](../../reference/requirements/domains-and-configuration.md#x2-the-shape-of-the-results-hierarchy)) |
+| C. One record with fixed levels | A simple hierarchy | Fails work serving several parents ([R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work)) and domains with other hierarchies ([X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels)) |
 
 ## Decision (proposed)
 
