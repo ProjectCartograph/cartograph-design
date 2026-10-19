@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [D6](../../reference/requirements/case-and-decisions.md#d6-conditions-on-a-decision), [D7](../../reference/requirements/case-and-decisions.md#d7-stopping-is-ordinary), [D8](../../reference/requirements/case-and-decisions.md#d8-an-approved-plan-and-changes-to-it), [D10](../../reference/requirements/case-and-decisions.md#d10-portfolio-decisions), [S1](../../reference/requirements/stages-and-cycles.md#s1-where-it-is-in-its-life), [S2](../../reference/requirements/stages-and-cycles.md#s2-stages-are-data), [S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates), [S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points), [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals), [E7](../../reference/requirements/change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found), [B4](../../reference/requirements/benefits-handover-closure.md#b4-benefits-tracked-after-closure), [B5](../../reference/requirements/benefits-handover-closure.md#b5-accepted-at-handover), [B6](../../reference/requirements/benefits-handover-closure.md#b6-a-closing-record-and-a-look-back)
+**Requirements:** [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [D6](../../reference/requirements/case-and-decisions.md#d6-conditions-on-a-decision), [D7](../../reference/requirements/case-and-decisions.md#d7-stopping-is-ordinary), [D8](../../reference/requirements/case-and-decisions.md#d8-an-approved-plan-and-changes-to-it), [D10](../../reference/requirements/case-and-decisions.md#d10-portfolio-decisions), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [S2](../../reference/requirements/stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference), [S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates), [S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points), [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals), [E7](../../reference/requirements/change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found), [B4](../../reference/requirements/benefits-handover-closure.md#b4-benefits-tracked-after-closure), [B5](../../reference/requirements/benefits-handover-closure.md#b5-accepted-at-handover), [B6](../../reference/requirements/benefits-handover-closure.md#b6-a-closing-record-and-a-look-back)
 
 ## Context
 
@@ -23,27 +23,29 @@ Option B, with these records:
 | Record | Holds |
 |---|---|
 | **Decision** | Who decided, in what role, when; the outcome (approve, approve with conditions, change the scope, try another option, pilot, defer, stop); the reasons; the version of the case; its conditions |
-| **Stage** | Where the work is in its life, entered by a decision, from the profile's stage model |
-| **Review** | When, what it looked at, who (never the author), findings, recommendations with owners; never an approval |
+| **Stage** | A part of the work's life between two decision points, mapped to the reference life cycle |
+| **Review** | When, what it looked at, who and how independent they were ([A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals)), findings, recommendations with owners; never an approval |
 | **Lesson** | What was learned and where it applies |
 | **Handover** | Who accepts the result, the benefits' tracking and the open risks and actions, when, on what terms |
 | **Benefit review** | Whether a benefit is realised, on track, off track or stopped |
 
 ```mermaid
 stateDiagram-v2
-  [*] --> Idea
-  Idea --> Defined: decision to go ahead
-  Defined --> Underway: decision to commit
-  Underway --> HandedOver: handover accepted
-  HandedOver --> Closed: closing record
-  Idea --> Stopped: decision to stop
-  Defined --> Stopped: decision to stop
-  Underway --> Stopped: decision to stop
+  [*] --> Feasibility: decision to explore
+  Feasibility --> Appraisal: decision to appraise options
+  Appraisal --> Definition: decision on the preferred option
+  Definition --> Delivery: decision to invest
+  Delivery --> Operation: handover accepted
+  Operation --> Closed: closing record
+  Feasibility --> Stopped: decision to stop
+  Appraisal --> Stopped: decision to stop
+  Definition --> Stopped: decision to stop
+  Delivery --> Stopped: decision to stop
   Closed --> [*]
   Stopped --> [*]
 ```
 
-The diagram is the default stage model; a profile replaces it, and work steered by cycles has decisions and reviews on its cycle and no stages ([S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates)).
+The diagram is the reference life cycle ([S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference)); a profile's life cycle maps to it, and work steered by cycles has decisions and reviews on its cycle and no stages ([S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates)).
 
 ## Consequences
 
