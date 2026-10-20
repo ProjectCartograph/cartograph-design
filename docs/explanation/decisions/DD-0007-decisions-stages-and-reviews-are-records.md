@@ -1,6 +1,6 @@
 # DD-0007 Decisions, stages and reviews are records
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [X3](../../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point), [A6](../../reference/requirements/risk-and-assurance.md#a6-planned-assurance), [D11](../../reference/requirements/case-and-decisions.md#d11-still-relevant-and-not-duplicated), [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [D6](../../reference/requirements/case-and-decisions.md#d6-conditions-on-a-decision), [D7](../../reference/requirements/case-and-decisions.md#d7-stopping-is-ordinary), [D8](../../reference/requirements/case-and-decisions.md#d8-an-approved-plan-and-changes-to-it), [D10](../../reference/requirements/case-and-decisions.md#d10-portfolio-decisions), [S1](../../reference/requirements/stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference), [S2](../../reference/requirements/stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference), [S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates), [S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points), [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals), [E7](../../reference/requirements/change-and-evaluation.md#e7-findings-change-decisions-and-lessons-are-found), [B4](../../reference/requirements/benefits-handover-closure.md#b4-benefits-tracked-after-closure), [B5](../../reference/requirements/benefits-handover-closure.md#b5-accepted-at-handover), [B6](../../reference/requirements/benefits-handover-closure.md#b6-a-closing-record-and-a-look-back)
 
@@ -16,7 +16,7 @@ Every life cycle studied turns on a few acts: a decision at a point in the work'
 | B. Small records of their own, linked to the work and to a version of its case | Each has its own life, owner and history, at any scale | More records to show; the walk must stay light |
 | C. A workflow engine | Powerful | Builds one method in; fails work steered by cycles rather than gates ([S3](../../reference/requirements/stages-and-cycles.md#s3-cycles-without-gates)) |
 
-## Decision (proposed)
+## Decision
 
 Option B, with these records:
 
