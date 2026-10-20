@@ -22,7 +22,7 @@ Open [DD-0005 The entry is the change](../explanation/decisions/DD-0005-the-entr
 
 ## 5. See the model
 
-Open [DD-0004 One record for work at any scale](../explanation/decisions/DD-0004-one-record-for-work-at-any-scale.md) and look at its diagram: one kind of record carries the labels portfolio, programme, project and service. Then open [the domain model](../explanation/domain-model.md) and find Work definition on the context map.
+Open [DD-0004 One record for work at any scale](../explanation/decisions/DD-0004-one-record-for-work-at-any-scale.md), which is Accepted, and look at its diagram: one kind of record carries the labels portfolio, programme, project and service. Then open [the domain model](../explanation/domain-model.md) and find Work definition on the context map.
 
 ## 6. See it run
 
@@ -30,6 +30,6 @@ Open [the architecture](../explanation/architecture.md) and read "How a change f
 
 ## 7. Leave a comment
 
-Open the [M3 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/3), choose the issue for DD-0004, and comment with your verdict on it: accept, change or reject, and why, naming the requirements your view rests on.
+Open the [M5 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/5), choose the issue for DD-0005, and comment with your view on it: accept, change or reject, and why, naming the requirements your view rests on.
 
 You have followed one requirement from the field to the shape of the system. Every other requirement can be traced the same way ([trace a requirement](../how-to/trace-a-requirement.md)).

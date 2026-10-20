@@ -8,7 +8,7 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0001 A new model, reusing only what earns its place](../explanation/decisions/DD-0001-a-new-model-reusing-only-what-earns-its-place.md) | Accepted |
 | [DD-0002 The exploratory releases carry no compatibility promise](../explanation/decisions/DD-0002-exploratory-releases-carry-no-promise.md) | Accepted |
 | [DD-0003 The design is approved before the code changes](../explanation/decisions/DD-0003-design-approved-before-the-code-changes.md) | Accepted |
-| [DD-0004 One record for work at any scale](../explanation/decisions/DD-0004-one-record-for-work-at-any-scale.md) | Proposed |
+| [DD-0004 One record for work at any scale](../explanation/decisions/DD-0004-one-record-for-work-at-any-scale.md) | Accepted |
 | [DD-0005 The entry is the change](../explanation/decisions/DD-0005-the-entry-is-the-change.md) | Proposed |
 | [DD-0006 The case grows inside the record](../explanation/decisions/DD-0006-the-case-grows-inside-the-record.md) | Proposed |
 | [DD-0007 Decisions, stages and reviews are records](../explanation/decisions/DD-0007-decisions-stages-and-reviews-are-records.md) | Proposed |
