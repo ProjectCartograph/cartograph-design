@@ -12,7 +12,7 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0005 The entry is the change](../explanation/decisions/DD-0005-the-entry-is-the-change.md) | Proposed |
 | [DD-0006 The case grows inside the record](../explanation/decisions/DD-0006-the-case-grows-inside-the-record.md) | Accepted |
 | [DD-0007 Decisions, stages and reviews are records](../explanation/decisions/DD-0007-decisions-stages-and-reviews-are-records.md) | Accepted |
-| [DD-0008 Profiles hold what differs between domains](../explanation/decisions/DD-0008-profiles-hold-what-differs-between-domains.md) | Proposed |
+| [DD-0008 Profiles hold what differs between domains](../explanation/decisions/DD-0008-profiles-hold-what-differs-between-domains.md) | Accepted |
 | [DD-0009 A small core, with methods as extensions](../explanation/decisions/DD-0009-a-small-core-with-extensions.md) | Proposed |
 | [DD-0010 Views are renderings of the one record](../explanation/decisions/DD-0010-views-are-renderings.md) | Proposed |
 | [DD-0011 Documents, with an append-only journal for history](../explanation/decisions/DD-0011-documents-with-an-append-only-journal.md) | Proposed |
