@@ -13,7 +13,7 @@ It also separates what must be excellent from what only has to work. The **core 
 | Context | Type | Responsible for |
 |---|---|---|
 | Work definition | Core | The piece of work, its label, its life (planned, running, retired or stopped, with the reason), the depth agreed for it, its case under the five questions (need, change wanted, if nothing is done, options, intended results, the theory of change, assumptions, cost, delivery) and its links to other work |
-| Governance | Core | Decisions, stages and cycles, conditions, reviews and their independence, the approved plan, handovers, closing records |
+| Governance | Core | Decisions, stages and cycles, a programme's tranches, conditions, reviews and their independence, the approved plan, handovers, closing records |
 | Measurement | Core | Indicators on their scales, with their aggregation rules, targets, readings and their breakdowns, data sources |
 | Benefits and learning | Core | Benefits and disbenefits, benefit reviews, evaluation plans and their questions, findings, lessons |
 | Strategy | Supporting | Purpose, goals, gaps, groups affected: the shared context work serves |

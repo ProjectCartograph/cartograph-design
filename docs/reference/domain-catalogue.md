@@ -21,9 +21,10 @@ Events: work started; case revised; label changed; work linked; work retired.
 | Review | Review: what it looked at, reviewer role, independence (self-review, peer review or independent review), date, findings, whether the objectives remain relevant and what other work overlaps; recommendations with owner and status | Its independence meets the least the profile sets for the decision point it advises. A self-review is labelled as one wherever it appears. The reviewer may be outside the workspace, named in a role. A review is never an approval. |
 | Approved plan | A named version of scope, cost, dates and benefits | Changed only by a decision; correcting a mistake is not a change to it. |
 | Handover | Receiver role, acceptance, date and terms, readiness evidence, open risks, issues and actions moved | Accepted by a named role. |
+| Tranche | A phase of a programme ([DD-0019](../explanation/decisions/DD-0019-tranches-are-records-of-a-programme.md)): its step change and how it serves the programme's objective, the work linked to it, the benefits it starts, its dependencies, risks and assumptions, its conditions to go on, its share of the envelope, the decision that opened it, its look back | Opened only by a decision, after the programme's decision to commit and a review of whether the programme is still justified. A piece of work may join more than one tranche, and tranches may overlap. Only the current tranche is declared in full. A change to the programme's objective or ceiling is a decision on the programme. |
 | Closing record | Delivered against approved, what was not and how it will be handled, who answers for what remains, what the benefits need to last, lessons, how well the work was governed, the review planned after | Each part filled in or stated unknown before the work closes. |
 
-Events: decision recorded; stage entered; condition met; condition overdue; review recorded; plan approved; handover accepted; work stopped; work closed.
+Events: decision recorded; stage entered; tranche opened; tranche closed; condition met; condition overdue; review recorded; plan approved; handover accepted; work stopped; work closed.
 
 ## Measurement (core)
 

@@ -144,3 +144,17 @@ The depth asked of a piece of work follows what the person and whoever approves 
 - **Holds across:** UK public sector, charity, corporate strategy
 - **Evidence:** [HMT-CASES](../bibliography.md) 3.21; [HMT-MAGENTA](../bibliography.md) 1.9; [NPC](../bibliography.md); [OKR](../bibliography.md)
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
+
+### P11 A programme set out in order
+
+When a piece of work is labelled a programme, or its structure suggests one ([R2](shape-of-the-record.md#r2-the-kind-is-a-label-given-after)), the walk sets it out in this order: the need and what happens if nothing new is done; the one change it brings about; the accountable owner; the future state; the benefits, for whom and when; what must exist for them; the parts of the change and the options considered; the work in each part; the tranches, with the current one in full ([S6](stages-and-cycles.md#s6-a-tranche-declares-its-step-change)); the money and the conditions to go on; who decides and how it is assured; the risks and assumptions; then the programme case for the decision to commit ([S5](stages-and-cycles.md#s5-a-programmes-decision-points)).
+
+- **Priority:** Could
+- **Status:** Proposed
+- **Why:** The guidance on programme business cases asks for the parts in an order that runs from the need to the decision: the Treasury's seven steps, New Zealand's logic from problem to benefits to options, Canada's definition of a programme, and PM²'s programme initiation. The sources agree on the direction (need, change, benefits, parts, tranches, money, governance, case) though not on every step: some ask for options before the parts of the work, others after. The UK standard appoints the accountable owner when a programme is first identified. Whether a walk in this order helps people define a programme is untested, so this waits on the test with people in milestone M5.
+- **Accepted when:**
+  - The walk for a programme asks each part in this order, one decision per screen ([P2](#p2-one-decision-per-screen)), at the depth agreed ([P10](#p10-depth-in-proportion)).
+  - Tranches after the current one can be left in outline.
+- **Holds across:** UK public sector, public sector elsewhere, development finance, project standards
+- **Evidence:** [HMT-CASES](../bibliography.md) 5.6; [NZT-PBC](../bibliography.md) 5 to 10; [TBS-DMPP](../bibliography.md) appendix G; [EC-PGM](../bibliography.md) 5.1 to 5.3; [GOVS002](../bibliography.md) 6.4.2; [TEAL](../bibliography.md) 15.5
+- **Verified by:** a session with people, technical and not, recorded with the people's trace

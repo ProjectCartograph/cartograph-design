@@ -4,10 +4,10 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 
 | Area | Requirements |
 |---|---|
-| [People and first use](people-and-first-use.md) | P1 to P10 |
+| [People and first use](people-and-first-use.md) | P1 to P11 |
 | [The shape of the record](shape-of-the-record.md) | R1 to R8 |
 | [The case and the decisions](case-and-decisions.md) | D1 to D11 |
-| [Stages and cycles](stages-and-cycles.md) | S1 to S4 |
+| [Stages and cycles](stages-and-cycles.md) | S1 to S10 |
 | [Results and measures](results-and-measures.md) | M1 to M7 |
 | [How change happens, evidence and evaluation](change-and-evaluation.md) | E1 to E9 |
 | [Risk and assurance](risk-and-assurance.md) | A1 to A6 |
@@ -73,6 +73,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [P8](people-and-first-use.md#p8-help-organised-by-need) Help organised by need | people and first use | Must | Approved |
 | [P9](people-and-first-use.md#p9-save-anything-completeness-only-when-deciding) Save anything; completeness only when deciding | people and first use | Must | Approved |
 | [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Approved |
+| [P11](people-and-first-use.md#p11-a-programme-set-out-in-order) A programme set out in order | people and first use | Could | Proposed |
 | [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Approved |
 | [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Approved |
 | [K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks) Versioned change, reviewed where the policy asks | platform | Must | Approved |
@@ -108,4 +109,10 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [S2](stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference) The current stage, shown against the reference | stages and cycles | Must | Approved |
 | [S3](stages-and-cycles.md#s3-cycles-without-gates) Cycles without gates | stages and cycles | Must | Approved |
 | [S4](stages-and-cycles.md#s4-a-groups-own-decision-points) A group's own decision points | stages and cycles | Must | Approved |
+| [S5](stages-and-cycles.md#s5-a-programmes-decision-points) A programme's decision points | stages and cycles | Must | Proposed |
+| [S6](stages-and-cycles.md#s6-a-tranche-declares-its-step-change) A tranche declares its step change | stages and cycles | Must | Proposed |
+| [S7](stages-and-cycles.md#s7-a-programme-stays-justified) A programme stays justified | stages and cycles | Must | Proposed |
+| [S8](stages-and-cycles.md#s8-a-reference-cycle) A reference cycle | stages and cycles | Must | Proposed |
+| [S9](stages-and-cycles.md#s9-goals-hold-within-a-period-cycles-nest) Goals hold within a period; cycles nest | stages and cycles | Should | Proposed |
+| [S10](stages-and-cycles.md#s10-every-period-ends-in-a-decision) Every period ends in a decision | stages and cycles | Must | Proposed |
 <!-- index:end -->
