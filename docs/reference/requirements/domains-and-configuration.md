@@ -25,13 +25,13 @@ A profile chooses a recognised results hierarchy, and each of its levels maps to
 
 - **Priority:** Must
 - **Status:** Approved
-- **Why:** The recognised hierarchies name their levels differently but share one chain. The logical framework's overall objective, purpose, results and activities are impact, outcome, output and activity; Canada's departmental results are outcomes, and its programs have outputs and outcomes; an objective's key results describe outcomes, not activities, so they are its indicators rather than a level. Perspectives and responsibilities cut across the chain. Mapping every level keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)) and lets [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) check any hierarchy.
+- **Why:** The recognised hierarchies name their levels differently but share one chain. The logical framework's overall objective, purpose, results and activities are impact, outcome, output and activity; Canada's departmental results are outcomes, and its programs have outputs and outcomes; an objective's key results describe outcomes, not activities, so they are its indicators rather than a level. A balanced scorecard links its perspectives as cause and effect, from long-term financial objectives down through customers and processes to people, technology and culture, but the perspectives are viewpoints on a business's strategy, not the activity, output, outcome and impact of a results chain; a government's core responsibilities cut across the chain. Mapping every level keeps outputs and outcomes apart ([R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)) and lets [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) check any hierarchy.
 - **Accepted when:**
   - A profile sets its results hierarchy by choosing a recognised one, and names its levels in the taxonomy.
   - Each level maps to activity, output, outcome or impact.
   - A category scheme classifies results without adding a level.
 - **Holds across:** corporate strategy, international development, public sector elsewhere
-- **Evidence:** [EC-PCM](../bibliography.md) 3.3.2; [TBS-RESULTS](../bibliography.md) Directive on Results A.2.2, A.2.5; [OKR](../bibliography.md); [BALANCED-SCORECARD](../bibliography.md); [KELLOGG](../bibliography.md)
+- **Evidence:** [EC-PCM](../bibliography.md) 3.3.2; [TBS-RESULTS](../bibliography.md) Directive on Results A.2.2, A.2.5; [OKR](../bibliography.md); [BALANCED-SCORECARD](../bibliography.md); [KN-2008](../bibliography.md); [KELLOGG](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### X3 A decider at every decision point

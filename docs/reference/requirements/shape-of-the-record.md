@@ -24,12 +24,12 @@ The kind of work (project, programme, portfolio, service, grant, product) is a l
 
 - **Priority:** Must
 - **Status:** Approved
-- **Why:** Asking people to sort their work into a tool's categories before they have described it works against what they already believe about it; and in the standards, structure decides the kind (a large project split into related projects with managed benefits becomes a programme).
+- **Why:** Asking people to sort their work into a tool's categories before they have described it works against what they already believe about it; and in the standards, structure decides the kind: an initiative can start as a project and be managed as a programme once further projects are added.
 - **Accepted when:**
   - The walk suggests a label from the person's answers.
   - Changing a label keeps every part of the record.
 - **Holds across:** design research, project standards, open data
-- **Evidence:** [NNG](../bibliography.md) mental models; [PMI-STANDARDS](../bibliography.md); [IATI](../bibliography.md) activity standard
+- **Evidence:** [NNG](../bibliography.md) mental models; [TEAL](../bibliography.md) 3.3; [IATI](../bibliography.md) activity standard
 - **Verified by:** inspection of the model's schemas and their examples
 
 ### R3 Work without an end

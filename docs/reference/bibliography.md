@@ -83,6 +83,7 @@ Every source the design cites, by key. Requirements and decisions cite a key and
 | KELLOGG | W.K. Kellogg Foundation (2004). [*Logic model development guide*](https://www.naccho.org/uploads/downloadable-resources/Programs/Public-Health-Infrastructure/KelloggLogicModelGuide_161122_162808.pdf) | In part |
 | NPC | New Philanthropy Capital. [*Theory of change in ten steps*](https://www.thinknpc.org/wp-content/uploads/2019/10/Theory-of-Change-10-Steps.pdf); [*Four pillars*](https://www.thinknpc.org/wp-content/uploads/2014/06/NPCs-four-pillars-summary.pdf) | In full |
 | OKR | Google re:Work. [*Set goals with OKRs*](https://rework.withgoogle.com/en/guides/set-goals-with-okrs) | In full |
+| KN-2008 | Kaplan, R. and Norton, D. (2008). [*Mastering the management system*](https://hbr.org/2008/01/mastering-the-management-system). Harvard Business Review, January 2008 | In full, from a reprint IBM distributes |
 | BALANCED-SCORECARD | Kaplan, R. and Norton, D. (1992). [The balanced scorecard: measures that drive performance](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2). *Harvard Business Review* | Summary |
 | IMPACT-FRONTIERS | Impact Frontiers. [*Five dimensions of impact*](https://impactfrontiers.org/norms/five-dimensions-of-impact/) | In full |
 
