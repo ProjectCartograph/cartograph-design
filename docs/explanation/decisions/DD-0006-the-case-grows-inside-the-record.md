@@ -1,6 +1,6 @@
 # DD-0006 The case grows inside the record
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [D1](../../reference/requirements/case-and-decisions.md#d1-a-case-that-grows), [D2](../../reference/requirements/case-and-decisions.md#d2-five-questions-at-any-scale), [D3](../../reference/requirements/case-and-decisions.md#d3-if-nothing-new-is-done), [D4](../../reference/requirements/case-and-decisions.md#d4-options-considered), [P9](../../reference/requirements/people-and-first-use.md#p9-save-anything-completeness-only-when-deciding), [P10](../../reference/requirements/people-and-first-use.md#p10-depth-in-proportion)
 
@@ -16,7 +16,7 @@ Staged business cases, design stages and funding cycles describe one behaviour: 
 | B. One record whose parts have a level of completeness | Nothing written twice; any stage is a view | Needs a way to say how complete each part must be, and when |
 | C. Everything at once | Simple to build | Overload ([P2](../../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen)) |
 
-## Decision (proposed)
+## Decision
 
 Option B. The **case** is part of the piece of work: the need, the change wanted, what happens if nothing new is done ([D3](../../reference/requirements/case-and-decisions.md#d3-if-nothing-new-is-done)), the options ([D4](../../reference/requirements/case-and-decisions.md#d4-options-considered)), the intended results and their measures, cost and funding, risks, and how it will be delivered. The profile says which parts each decision needs, and how far ([DD-0008](DD-0008-profiles-hold-what-differs-between-domains.md)). Until a decision needs them, missing parts are advice, never a block ([P9](../../reference/requirements/people-and-first-use.md#p9-save-anything-completeness-only-when-deciding)). The five questions of [D2](../../reference/requirements/case-and-decisions.md#d2-five-questions-at-any-scale) organise the parts, so a five case business case and a one-page brief are two views of one case.
 
