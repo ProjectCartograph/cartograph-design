@@ -83,6 +83,6 @@ Events: benefit accepted; benefit reviewed; plan fixed; question added; finding 
 | Context | Records | Rules |
 |---|---|---|
 | Publishing | View (a template over the record), mapping (to an open standard and version, with the parts of the record it drops), package (publisher, date, licence, version) | A view stores no content of its own and uses the standard terms. An export validates against its standard and is refused, naming what is missing, when a required field is absent. Publishing leaves out personal data unless the workspace chooses otherwise. |
-| Assistance | Agent access, meaning judgements (with "not judged" as an answer) | An agent only proposes |
+| Assistance | Agent access, answers from the language model (with "not judged" as an answer) | An agent only proposes |
 | Collaboration | Replica (the schema version it writes), draft (private or shared, its contributors), proposal (a set of changes, its author, policy and state), comment, access by keys | A draft is private until its author shares it. An agent's proposal always waits for a person. A conflict of meaning is shown to a person, never resolved silently. Accepting a proposal writes the journal. |
 | History | Journal entry: version hash, record, who, when, why, the proposal, every contributor, the agent that proposed and the person who accepted | Append only; restoring appends an earlier version as a new one |

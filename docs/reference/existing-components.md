@@ -23,7 +23,7 @@ The parts of the exploratory implementation ([cartograph-engine](https://github.
 | Plain-file vault with an index as a cache | Adapt | Meets O1; the index's version numbering fails K4 |
 | Identity, OpenID Connect, authorisation server and access | Adapt | Sign-in meets R8 and [DD-0013](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md); access must be enforced by keys held on devices, not by the server, under K10 ([DD-0018](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md)) |
 | Agent server (MCP) and its tools | Adapt | Its principles meet K5; the tools are rewritten for the new model, one per act |
-| Language model port for questions of meaning | Adapt | Meets K5; renamed the meaning model ([DD-0017](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md)) |
+| Language model port for questions of meaning | Adapt | Meets K5; kept as the language model port ([DD-0017](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md)) |
 | Units, timing forms, sentence handling | Reuse | Generic |
 | Graph layout | Reuse | Serves views of links between work |
 | Charter rendering | Replace | Views become templates over one record ([DD-0010](../explanation/decisions/DD-0010-views-are-renderings.md)) |

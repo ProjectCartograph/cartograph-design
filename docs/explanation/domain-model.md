@@ -21,7 +21,7 @@ It also separates what must be excellent from what only has to work. The **core 
 | Parties and money | Supporting | Organisations and roles, funding sources, funding lines and allocations |
 | Configuration | Supporting | Profiles: taxonomy, results hierarchy, life cycle, deciding roles, review independence, risk categories, required parts and lenses, calendar, views, extensions, each mapped to its reference |
 | Publishing | Supporting | Views, printing, exchange mappings, identifiers, packages |
-| Assistance | Supporting | Agents' access and the meaning model |
+| Assistance | Supporting | Agents' access and the language model |
 | Collaboration | Generic | Replicas and their synchronisation, drafts, proposals, comments, access by keys, presence |
 | History | Generic | The journal of versions and who changed what |
 

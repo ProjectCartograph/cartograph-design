@@ -72,6 +72,7 @@ Every source the design cites, by key. Requirements and decisions cite a key and
 |---|---|---|
 | RIBA | Royal Institute of British Architects (2020). [*RIBA Plan of Work 2020 overview*](https://www.architecture.com/media/syneeeto/2020ribaplanofworkoverviewpdf.pdf) | In full |
 | ISO-19650 | UK BIM Framework. [*ISO 19650 guidance part 2: processes for project delivery*](https://ukbimframework.org/wp-content/uploads/2020/02/ISO_19650_Guidance_Part_2_Processes_for_Project_Delivery_ThirdEdition.pdf) | In part |
+| NIST-GAI | National Institute of Standards and Technology (2024). [*Artificial intelligence risk management framework: generative artificial intelligence profile*](https://doi.org/10.6028/NIST.AI.600-1), NIST AI 600-1 | In part: section 1 and its notes on terms |
 | SCRUM | Schwaber, K. and Sutherland, J. (2020). [*The Scrum Guide*](https://scrumguides.org/scrum-guide.html) | In full |
 | SAFE | Scaled Agile. [*Lean portfolio management*](https://framework.scaledagile.com/lean-portfolio-management), [epics](https://framework.scaledagile.com/epic), [strategic themes](https://framework.scaledagile.com/strategic-themes) | In part |
 

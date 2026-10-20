@@ -10,4 +10,4 @@ Agents read records and suggest changes; accountability for the record stays wit
 
 ## Decision (proposed)
 
-Agents use the same proposals as people ([DD-0014](DD-0014-proposals-saved-straight-in-when-alone.md)) and meet the same checks. Questions of meaning go to a **meaning model** behind a port, off by default, whose answer may be "not judged". It is named the meaning model so that "decision" keeps its governance sense.
+Agents use the same proposals as people ([DD-0014](DD-0014-proposals-saved-straight-in-when-alone.md)) and meet the same checks. Questions of meaning go to a **language model** behind a port, off by default, whose answer may be "not judged". It is called by its standard name, as in the guidance on generative AI that treats large language models as one class of model ([NIST-GAI](../../reference/bibliography.md)), and its answers are never called decisions, so that "decision" keeps its governance sense.

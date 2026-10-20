@@ -9,7 +9,7 @@ flowchart LR
   PE["People: sponsors, managers, officers, analysts, board members"] --> CG["Cartograph"]
   AG["Agents, through MCP"] --> CG
   CG --> ID["Identity provider: OIDC"]
-  CG --> MM["Meaning model: a language model, optional"]
+  CG --> MM["Language model: optional, for questions of meaning"]
   CG --> ST["Storage: files, SQLite or Postgres"]
   CG --> RL["Sync relay: stores and forwards what it cannot read"]
   CG --> OD["Open data registries: IATI, 360Giving"]
@@ -43,7 +43,7 @@ flowchart TB
   PORTS --> S2["Journal"]
   PORTS --> S3["Identity and access"]
   PORTS --> S4["Renderer: print and export"]
-  PORTS --> S5["Meaning model"]
+  PORTS --> S5["Language model"]
   PORTS --> S6["Sync: encrypted replicas and live drafts"]
 ```
 
@@ -53,7 +53,7 @@ The engine is one program, from a single person's laptop to a national deploymen
 |---|---|---|---|---|
 | Contract as data | Schemas, walks, vocabulary and checks served by the engine | Each interface hard-coding the model | One definition for every interface and agent ([K1](../reference/requirements/platform.md#k1-the-contract-as-data)); profiles change the served data, not the code | A generic interface is harder to make beautiful than a bespoke one |
 | One program | A modular monolith with a module per context | Services per context | Runs anywhere from a laptop to a cluster; contexts stay separate by architecture tests, not by networks | Scaling is of the whole, not of a part |
-| Ports and adapters | Storage, identity, rendering, meaning and sync behind ports | Direct dependencies | Files for a hobbyist, Postgres for a nation ([K2](../reference/requirements/platform.md#k2-from-files-to-a-shared-database)); each swappable | An interface to keep per port |
+| Ports and adapters | Storage, identity, rendering, the language model and sync behind ports | Direct dependencies | Files for a hobbyist, Postgres for a nation ([K2](../reference/requirements/platform.md#k2-from-files-to-a-shared-database)); each swappable | An interface to keep per port |
 | Documents and a journal | Plain documents as the truth, an append-only journal of versions | Event sourcing; git | Readable files ([O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways)) with durable history ([K4](../reference/requirements/platform.md#k4-durable-history)) ([DD-0011](decisions/DD-0011-documents-with-an-append-only-journal.md)) | Two structures to keep consistent |
 | Proposals for every write | One route for people and agents, with a per-workspace policy | Direct writes | Review where needed, none where not ([K3](../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks)); agents never write ([K5](../reference/requirements/platform.md#k5-agents-propose-people-decide)) | A concept every person meets, made light by the straight-in policy |
 | Local-first replicas | Encrypted replicas on people's devices, live editing inside drafts, a relay that holds only ciphertext ([DD-0018](decisions/DD-0018-live-co-editing-in-drafts.md)) | A central server holding the truth | Offline work on any device, and a host that cannot read the records ([K8](../reference/requirements/platform.md#k8-local-first), [K9](../reference/requirements/platform.md#k9-live-and-private-drafts), [K10](../reference/requirements/platform.md#k10-encrypted-by-default)) | Checks and search run on devices; removing a person cannot take back what they already held |
