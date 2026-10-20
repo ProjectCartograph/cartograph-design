@@ -14,4 +14,4 @@ Write a decision record when a choice shapes the system and has real alternative
 3. Add a Mermaid diagram where a structure or a flow is clearer seen than read.
 4. Run `just index`, then `just test`.
 5. Open an issue labelled `decision` in the milestone it belongs to, and a pull request that refers to it.
-6. When the verdict is given, set **Status:** to `Accepted` or `Rejected`. A decision that replaces another sets the earlier one to `Superseded by DD-NNNN`.
+6. When the verdict is given, set **Status:** to `Accepted` or `Rejected`, and rename the heading *Decision (proposed)* to *Decision*. A decision that replaces another sets the earlier one to `Superseded by DD-NNNN`.

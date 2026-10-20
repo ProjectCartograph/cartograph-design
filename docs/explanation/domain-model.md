@@ -12,8 +12,8 @@ It also separates what must be excellent from what only has to work. The **core 
 
 | Context | Type | Responsible for |
 |---|---|---|
-| Work definition | Core | The piece of work, its label, its life (planned, running, retired or stopped, with the reason), the depth agreed for it, its case under the five questions (need, change wanted, if nothing is done, options, intended results, the theory of change, assumptions, cost, delivery) and its links to other work |
-| Governance | Core | Decisions, stages and cycles, a programme's tranches, conditions, reviews and their independence, the approved plan, handovers, closing records |
+| Work definition | Core | The piece of work, its label, its life (planned, running, retired or stopped, with the reason), the depth agreed for it, its case, whose parts (need, change wanted, if nothing is done, options, intended results, the theory of change, assumptions, cost, delivery) sit under the five questions and its links to other work |
+| Governance | Core | Decisions, stages, the current period of work steered by a cycle, a programme's tranches, conditions, reviews and their independence, the approved plan, handovers, closing records |
 | Measurement | Core | Indicators on their scales, with their aggregation rules, targets, readings and their breakdowns, data sources |
 | Benefits and learning | Core | Benefits and disbenefits, benefit reviews, evaluation plans and their questions, findings, lessons |
 | Strategy | Supporting | Purpose, goals, gaps, groups affected: the shared context work serves |
@@ -51,7 +51,7 @@ flowchart TB
 
 The relations, in domain-driven design's terms:
 
-- **Configuration publishes a language** the other contexts read: the profile's taxonomy, results hierarchy, life cycle, deciding roles and required parts. They conform to it and never change it, and the profile itself is tailored only within the fixed references each part maps to.
+- **Configuration publishes a language** the other contexts read: the profile's taxonomy, results hierarchy, life cycle, cycles, a programme's decision points, deciding roles and required parts. They conform to it and never change it, and the profile itself is tailored only within the fixed references each part maps to.
 - **Work definition is upstream of Governance.** A decision refers to a version of the case and never edits it.
 - **Measurement is downstream of Work definition** for what to measure, and upstream of Benefits and learning, which reads readings to judge benefits.
 - **Publishing keeps an anticorruption layer** toward the open standards, so their shapes never leak into the model ([DD-0016](decisions/DD-0016-exchange-through-mappings.md)).
@@ -64,6 +64,10 @@ The relations, in domain-driven design's terms:
 **Is a benefit a record of its own?** A benefit is an intended result of the work with an owner, a measure and a date, so its definition belongs with the work. What happens to it after delivery (acceptance, readings, benefit reviews) outlives the work, so that belongs to Benefits and learning.
 
 **Is a portfolio a piece of work?** The standards define a portfolio as part or all of an organisation's investment toward its objectives, managed with no end, whose members need not share an outcome ([PMI-PORTFOLIO](../reference/bibliography.md) 1.2, [GOVS002](../reference/bibliography.md) glossary, [TEAL](../reference/bibliography.md) chapter 12). It is treated as a piece of work labelled portfolio, because it has a sponsor, a budget, reviews and decisions to fund, hold or stop its members, which a view over many pieces of work would have nowhere to keep. Its objectives are not its own: they are the shared goals of Strategy, which its intended results point to ([DD-0004](decisions/DD-0004-one-record-for-work-at-any-scale.md)).
+
+**Is a tranche a piece of work, or a stage?** Neither. A tranche has no case of its own and overlaps others, so it is a record of its programme that work links to, opened by its own decision ([DD-0019](decisions/DD-0019-tranches-are-records-of-a-programme.md)); one run as a programme of its own is a piece of work labelled programme.
+
+**Is a cycle a record?** No. Its events already produce goals, readings, reviews, lessons and decisions, so a cycle is a pattern in the profile and each record made in a period names it ([DD-0020](decisions/DD-0020-cycles-are-profile-patterns.md)).
 
 **Why is Strategy supporting, not core?** Purpose and goals matter, but they are shared context that work points at, and the logic is simple. The hard problems are in how work justifies itself against them.
 

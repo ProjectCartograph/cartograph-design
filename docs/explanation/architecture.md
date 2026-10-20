@@ -1,6 +1,6 @@
 # The architecture
 
-This page explains the shape of the system at a level above the code: what Cartograph talks to, what it is made of, how a change flows through it, and the trade-offs behind each choice. Which parts of the exploratory implementation may be reused is judged in [existing components](../reference/existing-components.md).
+This page explains the shape of the system at a level above the code: what Cartograph talks to, what it is made of, how a change flows through it, and the trade-offs behind each choice. What the new build carries over from the exploratory implementation is judged in [existing components](../reference/existing-components.md).
 
 ## What Cartograph talks to
 
@@ -47,7 +47,7 @@ flowchart TB
   PORTS --> S6["Sync: encrypted replicas and live drafts"]
 ```
 
-The engine is one program, from a single person's laptop to a national deployment. The dependencies point inward: the domain knows nothing of adapters, and each adapter passes a conformance suite.
+The engine is one program, from a single person's laptop to a national deployment. Under local-first work the checks run, and views are rendered, on people's devices, since a server holds only what it cannot read ([DD-0010](decisions/DD-0010-views-are-renderings.md), [DD-0018](decisions/DD-0018-live-co-editing-in-drafts.md)). The dependencies point inward: the domain knows nothing of adapters, and each adapter passes a conformance suite.
 
 | Choice | Chosen | Instead of | Because | At the cost of |
 |---|---|---|---|---|
@@ -93,7 +93,7 @@ A decision follows the same route, and names the journal version of the case it 
 | Portability | The record leaves the tool whole, as files and as open standards | [O1](../reference/requirements/openness-and-exchange.md#o1-plain-open-files-both-ways), [O4](../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole) |
 | Durability | History and decisions survive any rebuild | [K4](../reference/requirements/platform.md#k4-durable-history) |
 | Availability | Every function that needs no other person works offline, and changes made apart merge without loss | [K8](../reference/requirements/platform.md#k8-local-first) |
-| Confidentiality | Records leave a device only encrypted; no server holds a key that reads them | [K10](../reference/requirements/platform.md#k10-encrypted-by-default) |
+| Confidentiality | Records leave a device for synchronisation or storage only encrypted, and no server holds a key that reads them; what a language model may read is the workspace's choice ([DD-0017](decisions/DD-0017-agents-propose-meaning-behind-a-port.md)) | [K10](../reference/requirements/platform.md#k10-encrypted-by-default) |
 | Longevity | A record opens in every later release, and replicas on different releases still merge | [K6](../reference/requirements/platform.md#k6-records-open-in-later-releases) |
 | Privacy | Personal data separable; roles in the record, people outside | [O5](../reference/requirements/openness-and-exchange.md#o5-personal-data-separable), [R8](../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on) |
 | Adaptability | A domain expresses itself through a profile, not a fork | [X1](../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [X2](../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels), [X3](../reference/requirements/domains-and-configuration.md#x3-a-decider-at-every-decision-point) |
@@ -105,3 +105,4 @@ A decision follows the same route, and names the journal version of the case it 
 - How profiles are validated and changed on a workspace in use ([DD-0008](decisions/DD-0008-profiles-hold-what-differs-between-domains.md)).
 - How extensions declare their fields and views without loosening the core contract ([DD-0009](decisions/DD-0009-a-small-core-with-extensions.md)).
 - Whether the interface stays one generic renderer of walks, or has a bespoke walk for the first use.
+- Where the language model runs, and what it may read, given that records are encrypted before they leave a device ([DD-0017](decisions/DD-0017-agents-propose-meaning-behind-a-port.md)).

@@ -2,7 +2,7 @@
 
 Cartograph helps people write down what they have decided to do and why, and steer it: from a hobbyist's group to a national government, from a single idea to a portfolio of programmes. This repository holds its design: the requirements, the evidence they rest on, the domain model, the architecture, and the decisions that shape them.
 
-The design is reviewed and approved here before the code in [cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui) changes to follow it.
+The design is reviewed and approved here before the new build starts. The exploratory implementation in [cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui) informs it; the build starts from the requirements.
 
 ## The design in brief
 
@@ -10,7 +10,8 @@ The design is reviewed and approved here before the code in [cartograph-engine](
 - **People start from the change they want.** The first questions are what is wrong, what should be different and for whom; the kind of work is suggested afterwards.
 - **The case grows, and every step is a decision.** One justification becomes more complete through the work's life, and each step ends in a recorded decision, which may be to stop.
 - **The work continues after delivery.** Benefits are accepted by an owner and tracked until a review says whether they arrived.
-- **Domains configure; they do not fork.** A profile holds the taxonomy, life cycles, approval routes and calendars; methods are extensions.
+- **Domains configure; they do not fork.** A profile holds the taxonomy, life cycles, cycles, deciding roles and calendars; methods are extensions.
+- **Programmes run in tranches; ongoing work runs in cycles.** A programme commits to delivery and opens each tranche by its own decision; work without an end is steered by cycles, each period ending in a decision.
 - **One truth, many views.** A charter, a business case, a logical framework and an open data file are views of the same record.
 - **Records live with the people who keep them.** They work offline on any device, are encrypted before they leave it, keep every version, and change only through proposals a person accepts.
 
@@ -38,7 +39,7 @@ flowchart LR
 
 ## Status
 
-The research (M1) is complete and all 87 requirements are approved (M2). The decisions on the domain model (M3) and the architecture (M4) are under review, and the change-first entry is tested with people next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
+The research (M1), the requirements (M2, with all 94 approved) and the domain model (M3) are complete. The architecture decisions (M4) are under review, and the change-first entry is tested with people next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
 
 ## Contributing
 

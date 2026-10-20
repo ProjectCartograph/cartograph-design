@@ -4,7 +4,7 @@ Eight principles carry the evidence into the design. Each says what it means, wh
 
 ## 1. Start from the change
 
-A person first says what is wrong and what should be different; the kind of work, its stages and its method come later, and are suggested rather than asked. Every framework asks in this order, and people in the field could answer these questions when they could answer no others.
+A person first says what is wrong and what should be different; the kind of work, its stages and its method come later, and are suggested rather than asked. Every framework asks in this order, and people in the field could say what they wanted to change when a request to classify their work stopped them ([the evidence](the-evidence.md#people-start-from-the-change)).
 
 *Rules out:* a first screen that asks which kind of record to create. *Applied in:* [DD-0005](decisions/DD-0005-the-entry-is-the-change.md), [P1](../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first).
 
@@ -24,7 +24,7 @@ Ask only what the next decision needs. The depth of the case, the rigour of eval
 
 The acts that every life cycle turns on (a decision, a review, a handover, a look back at benefits) are records with their own authors, dates and reasons, resting on a fixed version of the case.
 
-*Rules out:* a status field standing in for a decision. *Applied in:* [DD-0007](decisions/DD-0007-decisions-stages-and-reviews-are-records.md), [D5](../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record).
+*Rules out:* a status field standing in for a decision. *Applied in:* [DD-0007](decisions/DD-0007-decisions-stages-and-reviews-are-records.md), [DD-0019](decisions/DD-0019-tranches-are-records-of-a-programme.md), [D5](../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record), [S10](../reference/requirements/stages-and-cycles.md#s10-every-period-ends-in-a-decision).
 
 ## 5. The work continues after delivery
 
@@ -34,9 +34,9 @@ Benefits are owned, accepted and tracked after the work closes, until a review s
 
 ## 6. Domains configure; they do not fork
 
-What differs between domains (taxonomy, results hierarchy, life cycle, approval routes, required parts, calendars) is data in a profile. The core stays small and common; a method is an extension.
+What differs between domains (taxonomy, results hierarchy, life cycle, cycles, a programme's decision points, deciding roles, required parts, calendars) is data in a profile. The core stays small and common; a method is an extension.
 
-*Rules out:* building one domain's method into the core. *Applied in:* [DD-0008](decisions/DD-0008-profiles-hold-what-differs-between-domains.md), [DD-0009](decisions/DD-0009-a-small-core-with-extensions.md).
+*Rules out:* building one domain's method into the core. *Applied in:* [DD-0008](decisions/DD-0008-profiles-hold-what-differs-between-domains.md), [DD-0009](decisions/DD-0009-a-small-core-with-extensions.md), [DD-0020](decisions/DD-0020-cycles-are-profile-patterns.md).
 
 ## 7. One truth, many views
 

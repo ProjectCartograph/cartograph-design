@@ -18,6 +18,8 @@ They share one need, which they state as:
 | See where we are and what to do next, without a wall of controls | Doing | Everyone |
 | Say how the work will bring the change about, and what we are assuming | Doing, understanding | Sponsors, managers, funders |
 | Say how we will know it worked, and record what we find | Doing | Managers, analysts |
+| Run a programme in phases, and keep asking whether it is still worth doing | Doing | Sponsors, programme managers, boards |
+| Steer work that has no end, period by period, with a decision at each close | Doing | Product teams, service owners, public bodies |
 | Show it to a board, funder, minister or partner in a form they already accept | Doing | Officers, sponsors |
 | Find out what a term means or what a field expects | Looking up | Everyone |
 | Understand why the tool asks what it asks, and how the parts connect | Understanding | Managers, portfolio offices, analysts |
@@ -40,7 +42,8 @@ These are measured, not asserted: by sessions with people traced, with their con
 - Defining a piece of work at any scale: its purpose, the change it seeks, how that change is expected to happen, its options, measures, money, risks and people.
 - The decisions taken on it through its life, the reviews that inform them, and the plan they approve.
 - How progress and benefits are known, during the work and after it ends.
-- Groups of work: programmes, portfolios and work with parts.
+- Groups of work: programmes phased in tranches, portfolios and work with parts.
+- Work without an end, steered by cycles, with a decision at the close of each period.
 - Showing the record to each audience in the form it accepts, and publishing it in open standards.
 - Working alone or together, live or apart, with people and agents.
 - Working offline on any device, with records that stay on people's own devices and are encrypted before they leave them.

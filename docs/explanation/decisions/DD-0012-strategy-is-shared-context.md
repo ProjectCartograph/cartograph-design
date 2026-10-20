@@ -17,7 +17,7 @@ Many pieces of work serve the same goal and report the same indicator. Results f
 
 ## Decision
 
-Option B. **Purpose, goals, problems, indicators, groups and parties** are shared records in the workspace. A piece of work's intended results point to the goals they serve; its measures may be its own or a shared indicator, and a programme or fund can declare common measures and see which members report them ([M6](../../reference/requirements/results-and-measures.md#m6-recognised-indicator-lists)). The hierarchy is the profile's recognised one, its levels mapped to the reference levels ([X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels)).
+Option B. **Purpose, goals, gaps, indicators, groups and parties** are shared records in the workspace. A piece of work's intended results point to the goals they serve; its measures may be its own or a shared indicator, and a programme or fund can declare common measures and see which members report them ([M6](../../reference/requirements/results-and-measures.md#m6-recognised-indicator-lists)). The hierarchy is the profile's recognised one, its levels mapped to the reference levels ([X2](../../reference/requirements/domains-and-configuration.md#x2-results-hierarchies-mapped-to-reference-levels)).
 
 ## Consequences
 

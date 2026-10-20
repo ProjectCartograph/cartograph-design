@@ -1,6 +1,6 @@
 # Existing components
 
-The parts of the exploratory implementation ([cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui)), each with a verdict on what the new build carries over. The new build starts from the requirements, not from this code ([DD-0001](../explanation/decisions/DD-0001-a-new-model-reusing-only-what-earns-its-place.md)): each part is a candidate, carried over only when it meets the requirements on its own merits, and a part that is rebuilt still passes on what it taught.
+The parts of the exploratory implementation ([cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui)), each with a verdict on what the new build carries over. The verdicts are proposed and under review in M4. The new build starts from the requirements, not from this code ([DD-0001](../explanation/decisions/DD-0001-a-new-model-reusing-only-what-earns-its-place.md)): each part is a candidate, carried over only when it meets the requirements on its own merits, and a part that is rebuilt still passes on what it taught.
 
 | Verdict | Meaning |
 |---|---|
@@ -23,7 +23,7 @@ The parts of the exploratory implementation ([cartograph-engine](https://github.
 | Plain-file vault with an index as a cache | Carry over, changed | Meets O1; the index's version numbering fails K4 |
 | Identity, OpenID Connect, authorisation server and access | Carry over, changed | Sign-in meets R8 and [DD-0013](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md); access must be enforced by keys held on devices, not by the server, under K10 ([DD-0018](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md)) |
 | Agent server (MCP) and its tools | Carry over, changed | Its principles meet K5; the tools are rewritten for the new model, one per act |
-| Language model port for questions of meaning | Carry over, changed | Meets K5; kept as the language model port ([DD-0017](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md)) |
+| Language model port for questions of meaning | Carry over, changed | Meets K5; carried over as the language model port ([DD-0017](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md)) |
 | Units, timing forms, sentence handling | Carry over | Generic |
 | Graph layout | Carry over | Serves views of links between work |
 | Charter rendering | Rebuild | Views become templates over one record ([DD-0010](../explanation/decisions/DD-0010-views-are-renderings.md)) |

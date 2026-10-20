@@ -10,7 +10,7 @@ Open [vision and scope](../explanation/vision-and-scope.md) and read the table o
 
 ## 2. Find the requirement
 
-Open [people and first use](../reference/requirements/people-and-first-use.md) and read **P1 Start from the change, with no choice first**. Read its **Why**, then its **Accepted when**: these are the conditions a build must meet. Its status is Approved: every requirement was reviewed and approved in milestone M2.
+Open [people and first use](../reference/requirements/people-and-first-use.md) and read **P1 Start from the change, with no choice first**. Read its **Why**, then its **Accepted when**: these are the conditions a build must meet. Its status is Approved: every requirement was reviewed and approved, in milestone M2 or, for programmes and cycles, M3.
 
 ## 3. Check the evidence
 

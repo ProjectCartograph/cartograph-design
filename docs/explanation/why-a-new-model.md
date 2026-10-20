@@ -27,7 +27,7 @@ The failures are not missing fields. They are the centre of the model: what a pe
 | A new model, reusing parts that earn their place | Every requirement is reachable; proven parts are kept on their merits | The model, its screens and its help are rewritten |
 | Rebuild everything | Every technology chosen afresh | Rebuilds parts that already pass, for no requirement that needs it |
 
-The second is chosen. It is greenfield where the evidence calls for it, at the model and the first use, and keeps a platform part only when it meets the requirements on its own ([existing components](../reference/existing-components.md)).
+The second is chosen. It is greenfield where the evidence calls for it, at the model and the first use, and carries a platform part over only when it meets the requirements on its own ([existing components](../reference/existing-components.md)).
 
 ## What could make this wrong
 
