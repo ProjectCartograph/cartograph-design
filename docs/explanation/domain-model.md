@@ -19,7 +19,7 @@ It also separates what must be excellent from what only has to work. The **core 
 | Strategy | Supporting | Purpose, goals, gaps, groups affected: the shared context work serves |
 | Risk | Supporting | Risks, issues, dependencies, appetite and tolerance, escalation |
 | Parties and money | Supporting | Organisations and roles, funding sources, funding lines and allocations |
-| Configuration | Supporting | Profiles: taxonomy, results hierarchy, life cycle, deciding roles, review independence, risk categories, required parts and lenses, calendar, views, extensions, each mapped to its reference |
+| Configuration | Supporting | Profiles: taxonomy, results hierarchy, life cycle, programme decision points, cycles, deciding roles, review independence, risk categories, required parts and lenses, calendar, views, extensions, each mapped to its reference |
 | Publishing | Supporting | Views, printing, exchange mappings, identifiers, packages |
 | Assistance | Supporting | Agents' access and the language model |
 | Collaboration | Generic | Replicas and their synchronisation, drafts, proposals, comments, access by keys, presence |

@@ -24,5 +24,5 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0017 Agents propose; questions of meaning go behind a port](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md) | Proposed |
 | [DD-0018 Live co-editing happens in drafts](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md) | Proposed |
 | [DD-0019 Tranches are records of a programme](../explanation/decisions/DD-0019-tranches-are-records-of-a-programme.md) | Accepted |
-| [DD-0020 Cycles are patterns in the profile](../explanation/decisions/DD-0020-cycles-are-profile-patterns.md) | Proposed |
+| [DD-0020 Cycles are patterns in the profile](../explanation/decisions/DD-0020-cycles-are-profile-patterns.md) | Accepted |
 <!-- index:end -->
