@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [K3](../../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks), [K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide), [K8](../../reference/requirements/platform.md#k8-local-first), [K9](../../reference/requirements/platform.md#k9-live-and-private-drafts), [K10](../../reference/requirements/platform.md#k10-encrypted-by-default)
+**Requirements:** [K3](../../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks), [K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide), [K8](../../reference/requirements/platform.md#k8-local-first), [K9](../../reference/requirements/platform.md#k9-live-and-private-drafts), [K10](../../reference/requirements/platform.md#k10-encrypted-by-default), [K6](../../reference/requirements/platform.md#k6-records-open-in-later-releases), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)
 
 ## Context
 
