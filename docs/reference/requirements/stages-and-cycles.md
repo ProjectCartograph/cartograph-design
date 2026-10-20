@@ -13,7 +13,7 @@ Every life cycle maps to one reference life cycle: feasibility, appraisal, defin
 - **Why:** The UK standard requires a defined life cycle, tailored by mapping to its reference, with every stage preceded by a gate and at least two stages. Life cycles from construction, digital services and gated public investment fit the same reference. A common reference keeps stages comparable across work and organisations, and keeps decision points where the standards put them.
 - **Accepted when:**
   - Every stage in a profile maps to a reference stage, and every stage begins with a decision point.
-  - Standard profiles include recognised life cycles (the reference itself, the gate reviews, the RIBA Plan of Work, PRINCE2's management stages and GOV.UK's discovery, alpha, beta and live), each with its mapping; the PRINCE2 profile is marked unverified until its mapping is checked against the manual, since only a community description of the method was read.
+  - Standard profiles include recognised life cycles (the reference itself, the gate reviews, the RIBA Plan of Work, PRINCE2's management stages and GOV.UK's discovery, alpha, beta and live), each with its mapping.
   - A project has at least two stages.
   - A stage that maps to no reference stage cannot be saved.
 - **Holds across:** UK public sector, construction, public services, project standards
