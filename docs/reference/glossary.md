@@ -2,7 +2,7 @@
 
 The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
 
-**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)). A change to a term is reviewed in an issue labelled `domain` before it is made.
+**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)); the terms for programmes and cycles approved the same day ([issue 64](https://github.com/ProjectCartograph/cartograph-design/issues/64)). A change to a term is reviewed in an issue labelled `domain` before it is made.
 
 | Term | Context | Meaning | Not to be confused with |
 |---|---|---|---|
@@ -29,8 +29,12 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Definition | Governance | The reference stage that plans the selected option in full (scope, cost, commercial and delivery arrangements), ending in the decision to invest | The case, which grows through every stage |
 | Delivery | Governance | The reference stage, or stages, that produce the outputs | Operation |
 | Operation | Governance | The reference stage in which the outputs are used, the benefits realised and the work closed | Handover, one event within it |
-| Tranche | Governance | A phase of a programme, grouping projects and related work and ending in a review; a programme is phased in tranches, not stages | A stage of a project |
-| Cycle | Governance | A repeating period that work without an end is steered by (a sprint, a quarter, a season, a financial year), on which its decisions, risks and reviews fall due | A stage |
+| Decision to commit | Governance | The decision that authorises delivery spending on a programme, at the level its profile sets: the programme case, its first tranche or each project's case | Approval of the programme case alone, where the profile commits delivery later |
+| Step change | Governance | The new capability a tranche puts in place, from which some of the programme's benefits start | An output, which may be one part of it |
+| Tranche | Governance | A phase of a programme that begins with a decision point, is built around a step change and the benefits it starts, and ends in a review; tranches may overlap, and a piece of work may belong to more than one | A stage of a project. PM²'s programme stages and the World Bank's phases map to it through the taxonomy |
+| Cycle | Governance | A repeating pattern that steers work without an end (a sprint, a quarter, a financial year), with a deciding role and a length that is fixed, variable or continuous; each turn of it is a period | A stage; a reporting period, which only dates readings |
+| Period | Governance | One turn of a cycle, with planned start and end dates, that ends in a decision | A reporting period, which has no decision of its own |
+| Cycle event | Governance | One of the six things a cycle does: set, check, review, look back, evaluate and decide | A decision point, which opens a stage |
 | Review | Governance | An assurance look at the work, recording how independent the reviewer was; it advises, never approves | Accepting a proposal |
 | Independence | Governance | How far a reviewer stands from the work: self-review (by the author), peer review (by someone not involved in producing it) or independent review (by someone outside its management or organisation) | |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
