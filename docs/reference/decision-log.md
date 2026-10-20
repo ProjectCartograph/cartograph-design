@@ -17,7 +17,7 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0010 Views are renderings of the one record](../explanation/decisions/DD-0010-views-are-renderings.md) | Proposed |
 | [DD-0011 Documents, with an append-only journal for history](../explanation/decisions/DD-0011-documents-with-an-append-only-journal.md) | Proposed |
 | [DD-0012 Strategy is shared context, not inside the work](../explanation/decisions/DD-0012-strategy-is-shared-context.md) | Accepted |
-| [DD-0013 Roles in the record, people outside it](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md) | Proposed |
+| [DD-0013 Roles in the record, people outside it](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md) | Accepted |
 | [DD-0014 Proposals for change, saved straight in when alone](../explanation/decisions/DD-0014-proposals-saved-straight-in-when-alone.md) | Proposed |
 | [DD-0015 Bounded contexts and their map](../explanation/decisions/DD-0015-bounded-contexts.md) | Accepted |
 | [DD-0016 Exchange through mappings and global identifiers](../explanation/decisions/DD-0016-exchange-through-mappings.md) | Proposed |

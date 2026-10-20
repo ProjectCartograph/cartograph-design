@@ -1,6 +1,6 @@
 # DD-0013 Roles in the record, people outside it
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on), [O3](../../reference/requirements/openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)
 
@@ -16,6 +16,6 @@ Every domain names an accountable role, and accountability passes between roles 
 | B. Roles only | Private and durable | "Who is that?" has no answer |
 | C. Roles in the record, each linked to a person in the identity store | Private exports; names shown to those allowed | One more link to manage |
 
-## Decision (proposed)
+## Decision
 
 Option C. The record names roles and parties. Who holds a role is kept in the identity and access layer, outside the record, and shown to people allowed to see it. Exports carry roles and organisations, never persons, unless a workspace chooses otherwise. A change of holder, or of the accountable role, is recorded with its acceptance ([R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on)). The identity provider decides who receives a workspace's keys; the keys, not a central server, enforce who may read and write ([DD-0018](DD-0018-live-co-editing-in-drafts.md)).
