@@ -23,5 +23,6 @@ Option B. The **case** is part of the piece of work: the need, the change wanted
 ## Consequences
 
 - A decision rests on a version of the case ([DD-0007](DD-0007-decisions-stages-and-reviews-are-records.md), [DD-0011](DD-0011-documents-with-an-append-only-journal.md)).
-- Completeness is computed per decision, not as one flag for the whole record.
+- Each revision of the case is a version, and each of the five questions shows how complete it is ([D1](../../reference/requirements/case-and-decisions.md#d1-a-case-that-grows)); what a decision needs is computed per decision, not as one flag for the whole record.
+- Asking for a decision lists every part it needs that is missing; saving never fails for one ([P9](../../reference/requirements/people-and-first-use.md#p9-save-anything-completeness-only-when-deciding)).
 - Proportion ([P10](../../reference/requirements/people-and-first-use.md#p10-depth-in-proportion)) is agreed once and applied by the walk.

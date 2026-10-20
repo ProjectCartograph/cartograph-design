@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 **Date:** 2026-10-17
-**Requirements:** [R1](../../reference/requirements/shape-of-the-record.md#r1-one-shape-at-any-scale), [R2](../../reference/requirements/shape-of-the-record.md#r2-the-kind-is-a-label-given-after), [R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end), [R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work), [R6](../../reference/requirements/shape-of-the-record.md#r6-one-place-for-each-concept), [P1](../../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy)
+**Requirements:** [R7](../../reference/requirements/shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart), [R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on), [R1](../../reference/requirements/shape-of-the-record.md#r1-one-shape-at-any-scale), [R2](../../reference/requirements/shape-of-the-record.md#r2-the-kind-is-a-label-given-after), [R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end), [R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work), [R6](../../reference/requirements/shape-of-the-record.md#r6-one-place-for-each-concept), [P1](../../reference/requirements/people-and-first-use.md#p1-start-from-the-change-with-no-choice-first), [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy)
 
 ## Context
 
@@ -18,7 +18,7 @@ The project, programme and portfolio standards distinguish the three by purpose 
 
 ## Decision (proposed)
 
-Option B. The core record is a **piece of work**. Its label (project, programme, portfolio, service, grant, product, or a term from the organisation's taxonomy) comes from the profile and is suggested from what the person says. Rules that differ by label (one objective for a project, outcomes and components for a programme, a sponsor and a budget of its own) are **checks attached to the label in the profile**, never separate schemas. Links between pieces of work are typed and declared on one side.
+Option B. The core record is a **piece of work**. Its label (project, programme, portfolio, service, grant, product, or a term from the organisation's taxonomy) comes from the profile and is suggested from what the person says. Rules that differ by label (one objective for a project, outcomes and components for a programme, a sponsor and a budget of its own) are **checks attached to the label in the profile**, never separate schemas. Links between pieces of work are typed (part of, depends on, funds, hands over to), declared on one side and read from both, and a piece of work may serve more than one parent ([R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work)). Work with no end date has the same core, with a life of its own (planned, running, retired) and a reason recorded for retiring it ([R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end)).
 
 A **portfolio** follows the standards' definition: a piece of work labelled portfolio that holds an organisation's standing investment in other work toward its goals ([PMI-PORTFOLIO](../../reference/bibliography.md) 1.2, [GOVS002](../../reference/bibliography.md) glossary, [TEAL](../../reference/bibliography.md) chapter 12). The checks on its label say what makes it one:
 
@@ -43,4 +43,5 @@ flowchart TB
 - "This may be a programme" becomes advice on a label, offered when the structure suggests it, not a choice at the door.
 - A portfolio adds members from its own page, since membership is one link seen from either end.
 - Members that need one another to bring about one change are a programme, not a portfolio; the tool advises the label when the structure suggests it.
+- Every intended result is marked output, outcome or impact ([R7](../../reference/requirements/shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart)), and every result, decision, indicator and risk names one accountable role at a time ([R8](../../reference/requirements/shape-of-the-record.md#r8-accountability-named-and-handed-on)), whatever the label.
 - Rules lose the static guarantee a separate schema gives; checks enforce them.

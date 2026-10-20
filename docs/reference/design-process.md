@@ -16,14 +16,16 @@ flowchart LR
   M5 --> M6["M6 Ready to build"]
 ```
 
-| Milestone | Due | Closes when |
-|---|---|---|
-| M1 Research | 2026-10-19 | The evidence is complete enough to decide on |
-| M2 Requirements approved | 2026-10-30 | Every requirement is Approved, Changed or Dropped |
-| M3 Domain model approved | 2026-11-13 | The decisions on the model and the glossary are accepted |
-| M4 Architecture approved | 2026-11-20 | The system-level decisions and the component verdicts are accepted |
-| M5 Validated with people | 2026-12-04 | The first walk is tested with people, with their use traced |
-| M6 Ready to build | 2026-12-11 | The build is planned in the engine and the interface |
+| Milestone | Due | Closed | Closes when |
+|---|---|---|---|
+| M1 Research | 2026-10-19 | 2026-10-18 | The evidence is complete enough to decide on |
+| M2 Requirements approved | 2026-10-30 | 2026-10-19 | Every requirement is Approved, Changed or Dropped |
+| M3 Domain model approved | 2026-11-02 | | The decisions on the model and the glossary are accepted |
+| M4 Architecture approved | 2026-11-09 | | The system-level decisions and the component verdicts are accepted |
+| M5 Validated with people | 2026-11-23 | | The first walk is tested with people, with their use traced |
+| M6 Ready to build | 2026-11-30 | | The build is planned in the engine and the interface |
+
+M2 closed eleven days early, and the later targets moved forward by the same eleven days.
 
 ```mermaid
 gantt
@@ -31,20 +33,21 @@ gantt
   dateFormat YYYY-MM-DD
   axisFormat %d %b
   section Done
+  M1 Research :done, m1, 2026-10-12, 2026-10-18
   M2 Requirements approved :done, m2, 2026-10-18, 2026-10-19
   section Approve
-  M3 Domain model approved :m3, after m2, 2026-11-13
-  M4 Architecture approved :m4, after m2, 2026-11-20
+  M3 Domain model approved :m3, 2026-10-20, 2026-11-02
+  M4 Architecture approved :m4, 2026-10-20, 2026-11-09
   section Test and plan
-  M5 Validated with people :m5, after m4, 2026-12-04
-  M6 Ready to build :m6, after m5, 2026-12-11
+  M5 Validated with people :m5, after m4, 2026-11-23
+  M6 Ready to build :m6, after m5, 2026-11-30
 ```
 
 ## What each milestone settles
 
 | Milestone | Records under review | Also closed in it |
 |---|---|---|
-| M2 Requirements approved (closed) | All 87 requirements, one issue per [area](requirements/README.md): 72 Must, 15 Should, all Approved | The sources that need a person with access to read |
+| M2 Requirements approved | All 87 requirements, one issue per [area](requirements/README.md): 72 Must, 15 Should, all Approved | The sources that need a person with access to read |
 | M3 Domain model approved | [DD-0004](../explanation/decisions/DD-0004-one-record-for-work-at-any-scale.md), [DD-0006](../explanation/decisions/DD-0006-the-case-grows-inside-the-record.md), [DD-0007](../explanation/decisions/DD-0007-decisions-stages-and-reviews-are-records.md), [DD-0008](../explanation/decisions/DD-0008-profiles-hold-what-differs-between-domains.md), [DD-0012](../explanation/decisions/DD-0012-strategy-is-shared-context.md), [DD-0013](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md), [DD-0015](../explanation/decisions/DD-0015-bounded-contexts.md) | The [glossary](glossary.md) |
 | M4 Architecture approved | [DD-0009](../explanation/decisions/DD-0009-a-small-core-with-extensions.md), [DD-0010](../explanation/decisions/DD-0010-views-are-renderings.md), [DD-0011](../explanation/decisions/DD-0011-documents-with-an-append-only-journal.md), [DD-0014](../explanation/decisions/DD-0014-proposals-saved-straight-in-when-alone.md), [DD-0016](../explanation/decisions/DD-0016-exchange-through-mappings.md), [DD-0017](../explanation/decisions/DD-0017-agents-propose-meaning-behind-a-port.md), [DD-0018](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md) | The verdicts in [existing components](existing-components.md) |
 | M5 Validated with people | [DD-0005](../explanation/decisions/DD-0005-the-entry-is-the-change.md), conditional on the test | A change-first entry tested with people, their use traced |
