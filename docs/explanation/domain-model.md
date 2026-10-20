@@ -1,10 +1,10 @@
 # The domain model
 
-This page explains how the new model divides Cartograph's domain into parts, using domain-driven design, and why the boundaries fall where they do. The parts themselves, their records, rules and events, are listed in [the domain catalogue](../reference/domain-catalogue.md). The division is proposed in [DD-0015](decisions/DD-0015-bounded-contexts.md).
+This page explains how the new model divides Cartograph's domain into parts, using domain-driven design, and why the boundaries fall where they do. The parts themselves, their records, rules and events, are listed in [the domain catalogue](../reference/domain-catalogue.md). The division is decided in [DD-0015](decisions/DD-0015-bounded-contexts.md).
 
 ## Why domain-driven design
 
-A model that grows without boundaries lets its words drift: "decision" comes to mean both a governance act and a language model's judgement, "review" both accepting a change and an assurance review, and two words name one measure. Domain-driven design answers this with **bounded contexts**: parts of the model each with its own language and rules, joined by explicit relations. Inside a context a word means one thing ([the glossary](../reference/glossary.md)).
+A model that grows without boundaries lets its words drift: "decision" comes to mean both a governance act and a language model's judgement, "review" both accepting a change and an assurance review, and two words may be used to describe the same measure. Domain-driven design answers this with **bounded contexts**: parts of the model each with its own language and rules, joined by explicit relations. Inside a context vocabulary remains consistent among its users, and a word has a single, unambiguous meaning ([the glossary](../reference/glossary.md)).
 
 It also separates what must be excellent from what only has to work. The **core domain** is where Cartograph earns its place; **supporting** parts are specific to it but not its reason for being; **generic** parts are problems others have solved.
 
