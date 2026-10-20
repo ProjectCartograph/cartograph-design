@@ -104,6 +104,6 @@ Work without an end is steered by cycles: sprints and planning intervals in soft
 
 ## Limits of the evidence
 
-- The field sessions were not recorded. The requirements about first use rest on that testimony and on design research, and must be tested with people ([milestone M5](../reference/design-process.md)).
+- The field sessions were not recorded. What the first walk asks, and in what order, rests on the frameworks and design research above; whether people find it easy to use is checked in sessions with people, their use traced with consent ([milestone M5](../reference/design-process.md)).
 - Several standards are sold or restricted (the ISO 21500 family, PMI's standards, MSP and MoP ([MSP-MOP](../reference/bibliography.md)), the current APM programme guide, parts of SAFe and of the Kanban method); only their public pages were read. The programme and cycle standards rest on government, bank and framework owners' texts read at source.
 - The domains covered are many but not all. New evidence enters through [adding evidence](../how-to/add-evidence.md).

@@ -31,5 +31,4 @@ The second is chosen. It is greenfield where the evidence calls for it, at the m
 
 ## What could make this wrong
 
-- If people turn out to start more easily from the work than from the change, the entry changes; [DD-0005](decisions/DD-0005-the-entry-is-the-change.md) is conditional on a test.
 - If one record cannot express what distinguishes a programme from a project without becoming as complex as separate kinds, [DD-0004](decisions/DD-0004-one-record-for-work-at-any-scale.md) must be revisited.

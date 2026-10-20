@@ -18,7 +18,7 @@ P1 cites HMT-CASES and NNG among others. Open [the evidence](../explanation/the-
 
 ## 4. See the decision
 
-Open [DD-0005 The entry is the change](../explanation/decisions/DD-0005-the-entry-is-the-change.md). Compare the three possible entries and what each makes hard. Note that its status is Proposed, and that it depends on a test with people.
+Open [DD-0005 The entry is the change](../explanation/decisions/DD-0005-the-entry-is-the-change.md). Compare the three possible entries and what each makes hard. Note that it is Accepted, and that it rests on the frameworks and design research, not on a test.
 
 ## 5. See the model
 
@@ -30,6 +30,6 @@ Open [the architecture](../explanation/architecture.md) and read "How a change f
 
 ## 7. Leave a comment
 
-Open the [M5 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/5), choose the issue for DD-0005, and comment with your view on it: accept, change or reject, and why, naming the requirements your view rests on.
+Open the [M4 milestone](https://github.com/ProjectCartograph/cartograph-design/milestone/4), choose the issue for DD-0010, and comment with your view on it: accept, change or reject, and why, naming the requirements your view rests on.
 
 You have followed one requirement from the field to the shape of the system. Every other requirement can be traced the same way ([trace a requirement](../how-to/trace-a-requirement.md)).
