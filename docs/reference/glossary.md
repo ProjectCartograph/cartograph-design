@@ -2,6 +2,8 @@
 
 The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
 
+**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)). A change to a term is reviewed in an issue labelled `domain` before it is made.
+
 | Term | Context | Meaning | Not to be confused with |
 |---|---|---|---|
 | Piece of work | Work definition | The one record of something an organisation does, at any scale | A label such as project or programme, which it carries |
