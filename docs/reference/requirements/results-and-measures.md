@@ -104,3 +104,31 @@ An outcome or impact is measured by at least one indicator of the change itself;
 - **Holds across:** evaluation, charity
 - **Evidence:** [OECD-APPLYING](../bibliography.md) chapter 4; [KELLOGG](../bibliography.md)
 - **Verified by:** an automated test in the build
+
+### M8 Success criteria stated and confirmed
+
+A piece of work states what must be true for it to be judged successful: for each criterion, the outcome, the evidence and the threshold that settles it, how and how often it is measured, the role that owns it, and the role that confirms it. The criteria are reviewed at closing and in the reviews after.
+
+- **Priority:** Must
+- **Status:** Approved
+- **Why:** The UK standard has the senior responsible owner set the criteria for measuring success when a project is initiated, for its outputs, outcomes and benefits, and reviews the degree of success after closing; method and project standards ask for the criteria, their measures and who verifies them before work begins. A target tracks progress in a period; a success criterion judges the work itself.
+- **Accepted when:**
+  - A success criterion holds its outcome, evidence, threshold, method, frequency, owner and confirming role.
+  - The closing record and the reviews after it record each criterion as met or not, with the evidence.
+- **Holds across:** UK public sector, project standards
+- **Evidence:** [GOVS002](../bibliography.md) 6.4.5, 6.4.9; [PRINCE2](../bibliography.md) project product description; [PMI-STANDARDS](../bibliography.md) measurement performance domain
+- **Verified by:** inspection of the model's schemas and their examples
+
+### M9 Outputs accepted against their criteria
+
+An output states the criteria it must meet to be accepted, how it is verified against its design and validated against the need, and the role that accepts it; handover records the criteria as met.
+
+- **Priority:** Must
+- **Status:** Approved
+- **Why:** The UK standard requires outputs to meet defined quality criteria, verified against the design and validated against the need; project methods state each product's acceptance criteria, method and responsibilities before it is made.
+- **Accepted when:**
+  - An output can hold its acceptance criteria, verification, validation and accepting role.
+  - A handover records each acceptance criterion as met or not.
+- **Holds across:** UK public sector, project standards
+- **Evidence:** [GOVS002](../bibliography.md) 8.2, 8.6; [PRINCE2](../bibliography.md) project product description
+- **Verified by:** inspection of the model's schemas and their examples

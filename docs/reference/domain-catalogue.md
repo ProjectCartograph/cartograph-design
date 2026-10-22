@@ -8,7 +8,7 @@ An **aggregate** is a cluster of records changed together, with one root that gu
 
 | Aggregate | Root and parts | Rules |
 |---|---|---|
-| Piece of work | Piece of work: label, name, life state (planned, running, retired or stopped, with the reason), the depth agreed and why, its stage or its cycle; the case under the five questions, each with how complete it is: need, change wanted, if nothing is done, options, intended results, theory of change steps, assumptions, scope, cost estimate, delivery approach; links to other work | The label is one of the profile's labels, and can change without loss. A result is an output, an outcome or an impact. Each result names one accountable role; each assumption has an owner. A "part of" chain has no loop. An end date is optional. Retiring or stopping records why. Saving never fails because a part is missing. |
+| Piece of work | Piece of work: label, name, life state (planned, running, retired or stopped, with the reason), the depth agreed and why, its stage or its cycle, its classification; the case under the five questions, each with how complete it is: need, change wanted, future state, if nothing is done, constraints, critical success factors, options, intended results (an output with its acceptance criteria, verification and validation), success criteria (outcome, evidence, threshold, method, frequency, owner, confirming role), theory of change steps, assumptions, scope, cost estimate (whole life, running costs included), delivery approach; stakeholders; links to other work | The label is one of the profile's labels, and can change without loss. A result is an output, an outcome or an impact. Each result names one accountable role; each assumption has an owner; each success criterion names an owner and the role that confirms it. A "part of" chain has no loop. An end date is optional. Retiring or stopping records why. Saving never fails because a part is missing. |
 
 Events: work started; case revised; label changed; work linked; work retired.
 
@@ -63,6 +63,7 @@ Events: benefit accepted; benefit reviewed; plan fixed; question added; finding 
 |---|---|---|
 | Risk or issue | Description, category, owner, likelihood and impact on the workspace's scale, response, status, escalation (the role it went to, when, and what was decided); what it threatens (a piece of work, a result or a benefit) | One owner; status runs to closed; a rating beyond the category's appetite shows |
 | Dependency | Between two pieces of work: owner, effect of slipping | Declared on the dependent side |
+| Risk potential | The result of a risk potential assessment: method, rating, date, link to the assessment | Held as another tool's result |
 | Appetite and tolerance | Appetite per risk category, from the profile's categories, stated by the workspace; tolerances per piece of work | Optional; a breach of tolerance is flagged and can be escalated; a workspace with none is never blocked |
 
 ## Parties and money (supporting)
@@ -70,6 +71,7 @@ Events: benefit accepted; benefit reviewed; plan fixed; question added; finding 
 | Aggregate | Parts | Rules |
 |---|---|---|
 | Party | An organisation or body, with an identifier | One identity wherever it appears |
+| Stakeholder | A party or group in relation to a piece of work: interest, influence, attitude, planned engagement | Attitude changes keep their earlier values |
 | Role | A role a party plays in work (funder, implementer, owner, affected, decider) | Holders are kept outside the record ([DD-0013](../explanation/decisions/DD-0013-roles-in-the-record-people-outside.md)); a change of accountable role is accepted by the new holder |
 | Funding line | Source, amount, currency, period, status (approved, requested, unfunded) | Currency always given |
 

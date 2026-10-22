@@ -86,3 +86,17 @@ A published package says who published it, when, under what licence, and which v
 - **Holds across:** open data
 - **Evidence:** [OCDS](../bibliography.md); [360GIVING](../bibliography.md)
 - **Verified by:** an automated test in the build
+
+### O7 Classification stated
+
+A record states its security classification, and every view and export of it shows that classification.
+
+- **Priority:** Should
+- **Status:** Approved
+- **Why:** The UK standard asks that the status, security classification and provenance of information be clear wherever it is used.
+- **Accepted when:**
+  - A record holds a classification from the profile's scheme.
+  - Every view and export shows the classification of the record it comes from.
+- **Holds across:** UK public sector
+- **Evidence:** [GOVS002](../bibliography.md) 7.9
+- **Verified by:** inspection of the model's schemas and their examples

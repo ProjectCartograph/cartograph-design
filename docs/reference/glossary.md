@@ -2,7 +2,7 @@
 
 The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
 
-**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)); the terms for programmes and cycles approved the same day ([issue 64](https://github.com/ProjectCartograph/cartograph-design/issues/64)). A change to a term is reviewed in an issue labelled `domain` before it is made.
+**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)); the terms for programmes and cycles approved the same day ([issue 64](https://github.com/ProjectCartograph/cartograph-design/issues/64)); the terms every project needs approved on 2026-10-21 ([issue 83](https://github.com/ProjectCartograph/cartograph-design/issues/83)). A change to a term is reviewed in an issue labelled `domain` before it is made.
 
 | Term | Context | Meaning | Not to be confused with |
 |---|---|---|---|
@@ -16,6 +16,11 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Assumption | Work definition | A condition the work takes as true and needs to hold for the change to come about, often outside the work's control, stated as the situation wanted so that it can be checked; it has an owner, how much depends on it and how well it is evidenced ([EC-PCM](bibliography.md) 3.3.3) | A risk, an uncertain event that would affect the work's objectives if it happened, with its causes and consequences and a response to it ([HMT-ORANGE](bibliography.md) Annex 5). An assumption is held to be true now or to come true; one that may not hold gives rise to a risk, and one known to fail means the work must be redesigned |
 | Option | Work definition | A way forward considered before committing, with why it was kept or set aside; the options include carrying on as now and a minimum option, the least new work that would meet the need | The preferred option, the one chosen |
 | If nothing new is done | Work definition | What is expected if the organisation carries on as it is, with its own costs, benefits and risks, or a plain statement that this is not known; every option is compared with it | The minimum option, which is one of the options and asks for some new work |
+| Constraint | Work definition | A limit the work must keep within: a law, a budget ceiling, a date, or a safety or sustainability requirement | An assumption, which is taken as true but may prove false |
+| Critical success factor | Work definition | An attribute any option must have for the work to succeed, used to screen the long list of options | A success criterion, which judges the work itself |
+| Success criterion | Work definition | What must be true for the work to be judged successful: its evidence and threshold, how and how often it is measured, its owner and the role that confirms it | A target, which an indicator aims for by a date or event |
+| Acceptance criterion | Work definition | A condition an output must meet to be accepted, with how it is verified and validated | A success criterion, which judges the work as a whole |
+| Classification | Work definition | The security marking of a record, shown wherever the record appears | A label |
 | Case | Work definition | The justification inside a piece of work, organised by five questions: need, value, buying or building, affordability, delivery. Its parts are the change wanted, if nothing is done, intended results, theory of change and assumptions (under need), options (value), cost (affordability) and delivery | A business case document, which presents the case to one audience and is produced from it |
 | Decision | Governance | A recorded act by a role with authority (approve, approve with conditions, change the scope, try another option, pilot, defer or stop) on a version of the case | An answer from a language model, which only advises |
 | Condition | Governance | Something a decision requires, with an owner and a due point | |
@@ -58,8 +63,10 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Group | Strategy | People or things affected, without counts | |
 | Party | Parties and money | An organisation or body with an identity | A person |
 | Role | Parties and money | What a party, or a person outside the record, does in the work | |
+| Stakeholder | Parties and money | A party or group with an interest in the work: its interest, influence, attitude and how it is engaged | A role, which carries accountability in the work |
 | Funding line | Parties and money | Money from a source for a period, with currency and status | |
 | Risk | Risk | The effect of uncertainty on objectives: an event that may or may not happen, stated with its causes and consequences ([HMT-ORANGE](bibliography.md) Annex 5) | An issue, which has happened; an assumption, which is held to be true |
+| Risk potential | Risk | A rating of a proposal's overall risk, from a standard assessment, held as that assessment's result | A risk, which is one uncertain event |
 | Risk category | Risk | A grouping of risks by their source, such as legal, financial or technology, from the profile | The kind of work, which is a label |
 | Risk appetite | Risk | How much risk of a category an organisation will take to meet its objectives | A tolerance, a limit set for one piece of work |
 | Tolerance | Risk | A limit set for one piece of work, such as on cost or time; a breach is flagged and can be escalated | Risk appetite, set for the workspace |

@@ -78,13 +78,28 @@ A review records when, what it looked at, who reviewed and how independent they 
 
 ### A6 Planned assurance
 
-The assurance expected before each decision is planned, in proportion to risk, and shown beside the decision.
+The assurance expected before each decision is planned, in proportion to risk, and shown beside the decision; no more than a year passes between reviews of the whole work.
+
+- **Priority:** Should
+- **Status:** Changed
+- **Changed:** 2026-10-21, adds the longest interval between reviews of the whole work ([issue 83](https://github.com/ProjectCartograph/cartograph-design/issues/83)).
+- **Why:** The UK standard asks for an integrated plan of assurance and approvals, with no more than a year between reviews of the whole programme or project.
+- **Accepted when:**
+  - A decision point can list the reviews expected before it.
+  - Work with no review of the whole of it for a year shows a review as due.
+- **Holds across:** UK public sector
+- **Evidence:** [GOVS002](../bibliography.md) 4.2, 4.2.3
+- **Verified by:** inspection of the model's schemas and their examples
+
+### A7 Risk potential
+
+A piece of work can hold the result of a risk potential assessment made with another tool: the method, the rating, the date and a link to the assessment.
 
 - **Priority:** Should
 - **Status:** Approved
-- **Why:** The UK standard asks for an integrated plan of assurance and approvals.
+- **Why:** The UK standard has the team understand the risk potential of a project when it is initiated, and the Treasury treats a risk potential assessment as good practice for every proposal, mandatory for major projects; the assessment is made on its own form, so the record holds its result ([X6](domains-and-configuration.md#x6-hold-results-link-to-tools)).
 - **Accepted when:**
-  - A decision point can list the reviews expected before it.
+  - A piece of work can hold a risk potential result with its method, rating, date and link.
 - **Holds across:** UK public sector
-- **Evidence:** [GOVS002](../bibliography.md) 4.2
+- **Evidence:** [GOVS002](../bibliography.md) 6.4.5; [HMT-CASES](../bibliography.md) 6.4, 11.27
 - **Verified by:** inspection of the model's schemas and their examples

@@ -115,3 +115,17 @@ Every result, decision, indicator and risk names one accountable role at a time;
 - **Holds across:** UK public sector, software, charity
 - **Evidence:** [GOVS002](../bibliography.md); [IPA-BENEFITS](../bibliography.md) 5.1, 8.1; [SCRUM](../bibliography.md); [CC-REPORT](../bibliography.md)
 - **Verified by:** an automated test in the build
+
+### R9 Stakeholders and their engagement
+
+A piece of work names its stakeholders, each a party or group, with its interest, its influence, its attitude to the work and how it is engaged and kept informed, and these are reviewed as the work goes on.
+
+- **Priority:** Must
+- **Status:** Approved
+- **Why:** The UK standard requires stakeholders to be identified, their interests, expectations and attitudes understood, and their engagement and communications planned and kept up to date; project standards treat stakeholders as a domain of their own.
+- **Accepted when:**
+  - A stakeholder entry names a party or group, its interest, influence, attitude and planned engagement.
+  - A stakeholder's attitude can be updated, keeping its earlier values.
+- **Holds across:** UK public sector, project standards
+- **Evidence:** [GOVS002](../bibliography.md) 7.12, 7.13; [PMI-STANDARDS](../bibliography.md) stakeholder performance domain
+- **Verified by:** inspection of the model's schemas and their examples

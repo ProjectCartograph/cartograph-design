@@ -5,15 +5,15 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | Area | Requirements |
 |---|---|
 | [People and first use](people-and-first-use.md) | P1 to P11 |
-| [The shape of the record](shape-of-the-record.md) | R1 to R8 |
+| [The shape of the record](shape-of-the-record.md) | R1 to R9 |
 | [The case and the decisions](case-and-decisions.md) | D1 to D11 |
 | [Stages and cycles](stages-and-cycles.md) | S1 to S10 |
-| [Results and measures](results-and-measures.md) | M1 to M7 |
+| [Results and measures](results-and-measures.md) | M1 to M9 |
 | [How change happens, evidence and evaluation](change-and-evaluation.md) | E1 to E9 |
-| [Risk and assurance](risk-and-assurance.md) | A1 to A6 |
+| [Risk and assurance](risk-and-assurance.md) | A1 to A7 |
 | [Benefits, handover and closure](benefits-handover-closure.md) | B1 to B8 |
 | [Domains and configuration](domains-and-configuration.md) | X1 to X8 |
-| [Openness and exchange](openness-and-exchange.md) | O1 to O6 |
+| [Openness and exchange](openness-and-exchange.md) | O1 to O7 |
 | [The platform](platform.md) | K1 to K10 |
 
 ## Every requirement
@@ -63,6 +63,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [O4](openness-and-exchange.md#o4-each-supported-standard-held-whole) Each supported standard held whole | openness and exchange | Should | Approved |
 | [O5](openness-and-exchange.md#o5-personal-data-separable) Personal data separable | openness and exchange | Must | Approved |
 | [O6](openness-and-exchange.md#o6-published-packages-say-who-and-how) Published packages say who and how | openness and exchange | Should | Approved |
+| [O7](openness-and-exchange.md#o7-classification-stated) Classification stated | openness and exchange | Should | Approved |
 | [P1](people-and-first-use.md#p1-start-from-the-change-with-no-choice-first) Start from the change, with no choice first | people and first use | Must | Approved |
 | [P2](people-and-first-use.md#p2-one-decision-per-screen) One decision per screen | people and first use | Must | Approved |
 | [P3](people-and-first-use.md#p3-leave-and-come-back) Leave and come back | people and first use | Must | Approved |
@@ -73,7 +74,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [P8](people-and-first-use.md#p8-help-organised-by-need) Help organised by need | people and first use | Must | Approved |
 | [P9](people-and-first-use.md#p9-save-anything-completeness-only-when-deciding) Save anything; completeness only when deciding | people and first use | Must | Approved |
 | [P10](people-and-first-use.md#p10-depth-in-proportion) Depth in proportion | people and first use | Must | Approved |
-| [P11](people-and-first-use.md#p11-a-programme-set-out-in-order) A programme set out in order | people and first use | Could | Approved |
+| [P11](people-and-first-use.md#p11-work-set-out-in-order) Work set out in order | people and first use | Could | Changed |
 | [K1](platform.md#k1-the-contract-as-data) The contract as data | platform | Must | Approved |
 | [K2](platform.md#k2-from-files-to-a-shared-database) From files to a shared database | platform | Must | Approved |
 | [K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks) Versioned change, reviewed where the policy asks | platform | Must | Approved |
@@ -91,12 +92,15 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [M5](results-and-measures.md#m5-aggregation-and-disaggregation) Aggregation and disaggregation | results and measures | Must | Approved |
 | [M6](results-and-measures.md#m6-recognised-indicator-lists) Recognised indicator lists | results and measures | Should | Approved |
 | [M7](results-and-measures.md#m7-outcomes-measured-as-change-not-as-work-done) Outcomes measured as change, not as work done | results and measures | Should | Approved |
+| [M8](results-and-measures.md#m8-success-criteria-stated-and-confirmed) Success criteria stated and confirmed | results and measures | Must | Approved |
+| [M9](results-and-measures.md#m9-outputs-accepted-against-their-criteria) Outputs accepted against their criteria | results and measures | Must | Approved |
 | [A1](risk-and-assurance.md#a1-owned-risks-on-one-scale) Owned risks on one scale | risk and assurance | Must | Approved |
 | [A2](risk-and-assurance.md#a2-escalation-to-authority) Escalation to authority | risk and assurance | Must | Approved |
 | [A3](risk-and-assurance.md#a3-appetite-and-tolerance) Appetite and tolerance | risk and assurance | Should | Approved |
 | [A4](risk-and-assurance.md#a4-dependencies-with-owners) Dependencies with owners | risk and assurance | Must | Approved |
 | [A5](risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals) Reviews are records, apart from approvals | risk and assurance | Must | Approved |
-| [A6](risk-and-assurance.md#a6-planned-assurance) Planned assurance | risk and assurance | Should | Approved |
+| [A6](risk-and-assurance.md#a6-planned-assurance) Planned assurance | risk and assurance | Should | Changed |
+| [A7](risk-and-assurance.md#a7-risk-potential) Risk potential | risk and assurance | Should | Approved |
 | [R1](shape-of-the-record.md#r1-one-shape-at-any-scale) One shape at any scale | shape of the record | Must | Approved |
 | [R2](shape-of-the-record.md#r2-the-kind-is-a-label-given-after) The kind is a label, given after | shape of the record | Must | Approved |
 | [R3](shape-of-the-record.md#r3-work-without-an-end) Work without an end | shape of the record | Must | Approved |
@@ -105,6 +109,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [R6](shape-of-the-record.md#r6-one-place-for-each-concept) One place for each concept | shape of the record | Must | Approved |
 | [R7](shape-of-the-record.md#r7-outputs-outcomes-and-benefits-kept-apart) Outputs, outcomes and benefits kept apart | shape of the record | Must | Approved |
 | [R8](shape-of-the-record.md#r8-accountability-named-and-handed-on) Accountability named, and handed on | shape of the record | Must | Approved |
+| [R9](shape-of-the-record.md#r9-stakeholders-and-their-engagement) Stakeholders and their engagement | shape of the record | Must | Approved |
 | [S1](stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference) Life cycles mapped to a reference | stages and cycles | Must | Approved |
 | [S2](stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference) The current stage, shown against the reference | stages and cycles | Must | Approved |
 | [S3](stages-and-cycles.md#s3-cycles-without-gates) Cycles without gates | stages and cycles | Must | Approved |
