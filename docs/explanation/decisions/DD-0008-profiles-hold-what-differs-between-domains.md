@@ -40,6 +40,7 @@ flowchart LR
 
 - The engine serves walks, vocabulary and checks from the profile; nothing domain-specific is compiled in.
 - A tailoring that would break a mapping to its reference cannot be saved.
+- A workspace may be bound by a policy that fixes parts of its profile ([X9](../../reference/requirements/domains-and-configuration.md#x9-policies-that-bind-workspaces)); it then tailors only the parts the policy leaves open.
 - Changing a profile in use needs rules, for example for work sitting in a stage that is removed.
 - Whether people want to choose a profile at the start is untested ([X4](../../reference/requirements/domains-and-configuration.md#x4-standard-profiles-tailored-within-their-references) is a Should).
 

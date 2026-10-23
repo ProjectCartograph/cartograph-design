@@ -117,3 +117,23 @@ Text can be held in more than one language.
 - **Holds across:** open data, public sector elsewhere
 - **Evidence:** [IATI](../bibliography.md); [TBS-RESULTS](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
+
+### X9 Policies that bind workspaces
+
+A body may set a policy, a versioned set of profile parts each marked fixed or open, that binds the workspaces under it: every workspace of an organisation, applied by its administrator, or a workspace that accepts it as a condition of funding or membership. A bound workspace may tailor only what the policy leaves open, and the engine enforces it.
+
+- **Priority:** Should
+- **Status:** Approved
+- **Why:** Central bodies set frameworks that the records of those under them must follow. The UK standard requires a framework at government level with mandatory policies, process and data; Canada's directive binds every department and its projects, each department setting its gates and the evidence each gate decision needs; and a funder's agreements fix the fields its partners, and their partners, must publish, on pain of future funding. Enforced as data, as a workspace's own profile already is ([X4](#x4-standard-profiles-tailored-within-their-references)), such a framework needs no checking by hand. The content of a policy is decided by a deciding role and recorded as a decision ([X3](#x3-a-decider-at-every-decision-point)); the administrator applies it and cannot change it.
+- **Accepted when:**
+  - A policy holds profile parts, each marked fixed or open, the body that set it, and the decision that approved it.
+  - An administrator can apply a policy to every workspace of an organisation; a workspace can accept a policy for the work it covers.
+  - A bound workspace cannot save a tailoring or a record that breaks a fixed part; the refusal names the policy and the part.
+  - A policy can add to the references of [X4](#x4-standard-profiles-tailored-within-their-references), never loosen them.
+  - A change to a policy is a proposal, accepted under the setting body's own policy ([K3](platform.md#k3-versioned-change-reviewed-where-the-policy-asks)), and says what it affects in each bound workspace.
+  - Policies are delivered to each replica and checked on its devices; applying a policy gives the administrator no access to a workspace's records ([K8](platform.md#k8-local-first), [K10](platform.md#k10-encrypted-by-default)).
+  - Where two policies bind one workspace, the stricter applies to each part; a contradiction is shown to both setters, never resolved silently.
+  - A workspace that belongs to no organisation is bound by nothing it has not accepted.
+- **Holds across:** UK public sector, public sector elsewhere, development finance
+- **Evidence:** [GOVS002](../bibliography.md) 4.1.2; [TBS-DMPP](../bibliography.md) 4.1.3, 6.1 to 6.3; [FCDO-IATI](../bibliography.md)
+- **Verified by:** inspection of the model's schemas and their examples, and a test that a bound workspace refuses a tailoring that breaks a fixed part

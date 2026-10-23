@@ -12,7 +12,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [How change happens, evidence and evaluation](change-and-evaluation.md) | E1 to E9 |
 | [Risk and assurance](risk-and-assurance.md) | A1 to A7 |
 | [Benefits, handover and closure](benefits-handover-closure.md) | B1 to B8 |
-| [Domains and configuration](domains-and-configuration.md) | X1 to X8 |
+| [Domains and configuration](domains-and-configuration.md) | X1 to X9 |
 | [Openness and exchange](openness-and-exchange.md) | O1 to O7 |
 | [The platform](platform.md) | K1 to K10 |
 
@@ -57,6 +57,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [X6](domains-and-configuration.md#x6-hold-results-link-to-tools) Hold results, link to tools | domains and configuration | Must | Approved |
 | [X7](domains-and-configuration.md#x7-reporting-periods-as-date-intervals) Reporting periods as date intervals | domains and configuration | Must | Approved |
 | [X8](domains-and-configuration.md#x8-more-than-one-language) More than one language | domains and configuration | Should | Approved |
+| [X9](domains-and-configuration.md#x9-policies-that-bind-workspaces) Policies that bind workspaces | domains and configuration | Should | Approved |
 | [O1](openness-and-exchange.md#o1-plain-open-files-both-ways) Plain open files, both ways | openness and exchange | Must | Approved |
 | [O2](openness-and-exchange.md#o2-identifiers-beyond-the-workspace) Identifiers beyond the workspace | openness and exchange | Must | Approved |
 | [O3](openness-and-exchange.md#o3-parties-money-and-dates-in-standard-form) Parties, money and dates in standard form | openness and exchange | Must | Approved |
