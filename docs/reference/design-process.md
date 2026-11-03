@@ -21,9 +21,9 @@ flowchart LR
 | M1 Research | 2026-10-19 | 2026-10-18 | The evidence is complete enough to decide on |
 | M2 Requirements approved | 2026-10-30 | 2026-10-19 | Every requirement is Approved, Changed or Dropped |
 | M3 Domain model approved | 2026-11-02 | 2026-10-20 | The decisions on the model and the glossary are accepted |
-| M4 Architecture approved | 2026-11-09 | | The system-level decisions and the component verdicts are accepted |
+| M4 Architecture approved | 2026-11-09 | 2026-11-03 | The system-level decisions and the component verdicts are accepted |
 | M5 Validated with people | 2026-11-23 | | The first walk is tested with people for ease of use, with their use traced |
-| M6 Ready to build | 2026-11-30 | | The new build is planned, informed by the exploratory engine and interface |
+| M6 Ready to build | 2026-11-30 | | The new build is planned in cartograph-engine and cartograph-ui, informed by the exploratory engine and interface; this repository holds the design only |
 
 M2 closed eleven days early, and the later targets moved forward by the same eleven days.
 
@@ -36,8 +36,7 @@ gantt
   M1 Research :done, m1, 2026-10-12, 2026-10-18
   M2 Requirements approved :done, m2, 2026-10-18, 2026-10-19
   M3 Domain model approved :done, m3, 2026-10-19, 2026-10-20
-  section Approve
-  M4 Architecture approved :m4, 2026-10-20, 2026-11-09
+  M4 Architecture approved :done, m4, 2026-10-20, 2026-11-03
   section Test and plan
   M5 Validated with people :m5, after m4, 2026-11-23
   M6 Ready to build :m6, after m5, 2026-11-30

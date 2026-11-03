@@ -1,6 +1,6 @@
 # Existing components
 
-The parts of the exploratory implementation ([cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui)), each with a verdict on what the new build carries over. The verdicts are proposed and under review in M4. The new build starts from the requirements, not from this code ([DD-0001](../explanation/decisions/DD-0001-a-new-model-reusing-only-what-earns-its-place.md)): each part is a candidate, carried over only when it meets the requirements on its own merits, and a part that is rebuilt still passes on what it taught.
+The parts of the exploratory implementation ([cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui)), each with a verdict on what the new build carries over. The verdicts were approved on 2026-11-03 ([issue 29](https://github.com/ProjectCartograph/cartograph-design/issues/29)). The new build starts from the requirements, not from this code ([DD-0001](../explanation/decisions/DD-0001-a-new-model-reusing-only-what-earns-its-place.md)): each part is a candidate, carried over only when it meets the requirements on its own merits, and a part that is rebuilt still passes on what it taught.
 
 | Verdict | Meaning |
 |---|---|

@@ -2,7 +2,7 @@
 
 Cartograph helps people write down what they have decided to do and why, and steer it: from a hobbyist's group to a national government, from a single idea to a portfolio of programmes. This repository holds its design: the requirements, the evidence they rest on, the domain model, the architecture, and the decisions that shape them.
 
-The design is reviewed and approved here before the new build starts. The exploratory implementation in [cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui) informs it; the build starts from the requirements.
+The design is reviewed and approved here before the new build starts. This repository holds the specifications and the architecture only; the new build happens in cartograph-engine and cartograph-ui. The exploratory implementation in [cartograph-engine](https://github.com/ProjectCartograph/cartograph-engine) and [cartograph-ui](https://github.com/ProjectCartograph/cartograph-ui) informs it; the build starts from the requirements.
 
 ## The design in brief
 
@@ -39,7 +39,7 @@ flowchart LR
 
 ## Status
 
-The research (M1), the requirements (M2, all approved: 101 now) and the domain model (M3) are complete. The architecture decisions (M4) are accepted and the component verdicts are under review; the first walk is tested with people for ease of use next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
+The research (M1), the requirements (M2, all approved: 101 now), the domain model (M3) and the architecture (M4) are complete. The first walk is tested with people for ease of use next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
 
 ## Contributing
 

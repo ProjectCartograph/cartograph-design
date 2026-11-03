@@ -1,6 +1,6 @@
 # Working on cartograph-design
 
-This repository is Cartograph's design, written as documentation that follows Diataxis. There is no code to build; the checks run in the flake.
+This repository is Cartograph's design, written as documentation that follows Diataxis: specifications and architecture only. There is no code to build, and the new build never happens here; it happens in cartograph-engine and cartograph-ui. The checks run in the flake.
 
 - **Read first:** [README.md](README.md), [CONTRIBUTING.md](CONTRIBUTING.md), [STYLE.md](STYLE.md).
 - **Nix is the toolchain.** Every command is a `just` recipe, run in the flake (`scripts/toolchain` enters it) or in the test environment through `scripts/dev`. The gate after every edit is `just test`.
