@@ -133,16 +133,17 @@ A person can save at any point; only a step that asks for a decision or a handov
 
 ### P10 Depth in proportion
 
-The depth asked of a piece of work follows what the person and whoever approves it agree it needs; nothing appears that was not asked for or needed.
+The depth asked of a piece of work follows what the person and whoever approves it agree it needs; nothing appears that was not asked for or needed. Whatever the depth, the change is held in full: what is wrong, for whom, what should be different, how it will come about and how we will know. Depth decides which other parts must be completed, and so which views can be rendered in full.
 
 - **Priority:** Must
 - **Status:** Approved
-- **Why:** Every framework asks for proportion, and a hobbyist and a national government use the same tool.
+- **Why:** Every framework asks for proportion, and a hobbyist and a national government use the same tool. The Treasury's guidance has the approving authority agree the type of business case and how far costs, benefits and risks are measured; depth governs those, never the change itself, which is the entry at any depth ([DD-0005](../../explanation/decisions/DD-0005-the-entry-is-the-change.md)).
 - **Accepted when:**
   - A piece of work records the depth agreed for it and why.
   - Parts beyond the agreed depth are not shown in the walk.
+  - At every depth the change is held in full.
 - **Holds across:** UK public sector, charity, corporate strategy
-- **Evidence:** [HMT-CASES](../bibliography.md) 3.21; [HMT-MAGENTA](../bibliography.md) 1.9; [NPC](../bibliography.md); [OKR](../bibliography.md)
+- **Evidence:** [HMT-CASES](../bibliography.md) 3.21 to 3.22; [HMT-MAGENTA](../bibliography.md) 1.9; [NPC](../bibliography.md); [OKR](../bibliography.md)
 - **Verified by:** a session with people, technical and not, recorded with the people's trace
 
 ### P11 Work set out in order

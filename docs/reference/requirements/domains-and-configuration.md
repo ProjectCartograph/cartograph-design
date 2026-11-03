@@ -14,7 +14,9 @@ A workspace sets its taxonomy, the terms it uses for levels, labels, stages, tra
 - **Accepted when:**
   - Every user-facing term can be set in the workspace's taxonomy.
   - Each term in the taxonomy maps to exactly one standard term.
-  - Exports and standard views use the standard terms.
+  - Exports use each standard's vocabulary.
+  - A view uses the vocabulary of the workspace, or of the framework it follows, such as HM Treasury and GOV.UK for a UK public-sector profile.
+  - The glossary's standard terms stay inside the model and in exchange.
 - **Holds across:** public sector elsewhere, corporate strategy, international development
 - **Evidence:** [TBS-RESULTS](../bibliography.md); [OMB-A11](../bibliography.md); [OKR](../bibliography.md); [EC-PCM](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
