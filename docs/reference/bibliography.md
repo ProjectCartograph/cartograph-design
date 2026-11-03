@@ -53,6 +53,7 @@ Every source the design cites, by key. Requirements and decisions cite a key and
 | EC-PM2 | European Commission. *PM² project management methodology*, open edition. [PDF](https://ec.europa.eu/isa2/sites/isa/files/pm2_essentials_open.pdf) | In full |
 | EC-PCM | European Commission (1999). *Project cycle management training handbook*, version 1.0, a copy hosted by CARICOM (the logical framework). [PDF](https://caricom.org/wp-content/uploads/EC_PCM_Training_Handbook.pdf) | In part: chapters 2 to 5 |
 | EC-HORIZON | European Commission. *Horizon Europe programme guide.* [PDF](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf) | In part |
+| GDPR | European Union (2016). [*Regulation (EU) 2016/679, General Data Protection Regulation*, article 25](https://www.legislation.gov.uk/eur/2016/679/article/25) | In part: article 25, data protection by design and by default |
 
 ## Development, evaluation and open data
 
@@ -137,6 +138,10 @@ Every source the design cites, by key. Requirements and decisions cite a key and
 | CAMBRIA | Litt, G., van Hardenberg, P. and Henry, O. (2020). [*Project Cambria: translate your data with lenses*](https://www.inkandswitch.com/cambria/). Ink & Switch | In full |
 | ZKP | Goldwasser, S., Micali, S. and Rackoff, C. (1985). [*The knowledge complexity of interactive proof systems*](https://resources.mpi-inf.mpg.de/departments/d1/teaching/ss13/gitcs/GMR85.pdf). STOC 1985 | Summary: the definition of a zero-knowledge proof |
 | NIST-800-88 | National Institute of Standards and Technology (2014). [*SP 800-88 Rev. 1: guidelines for media sanitization*](https://csrc.nist.gov/pubs/sp/800/88/r1/final); [glossary: cryptographic erase](https://csrc.nist.gov/glossary/term/CE) | Summary: the definition of cryptographic erase |
+| NIST-ABAC | National Institute of Standards and Technology (2014, updated 2019). [*SP 800-162: guide to attribute based access control (ABAC) definition and considerations*](https://csrc.nist.gov/pubs/sp/800/162/upd2/final) | Summary: the definition of attribute based access control |
+| NIST-800-53 | National Institute of Standards and Technology (2020). *SP 800-53 Rev. 5: security and privacy controls*; [glossary: least privilege](https://csrc.nist.gov/glossary/term/least_privilege) | Summary: the definition of least privilege |
+| MLS | Barnes, R., Beurdouche, B., Robert, R., Millican, J., Omara, E. and Cohn-Gordon, K. (2023). [*RFC 9420: the Messaging Layer Security (MLS) protocol*](https://www.rfc-editor.org/info/rfc9420) | Summary: abstract and security properties |
+| TAILSCALE-GRANTS | Tailscale. [*Grants*](https://tailscale.com/kb/1324/grants), knowledge base | Summary: policy file, selectors, capabilities, deny by default |
 | GDS-FORMS | Government Digital Service. Jarrett, C. (2015). [*No more accordions: how to choose a form structure*](https://userresearch.blog.gov.uk/2015/08/13/no-more-accordions-how-to-choose-a-form-structure/); Paul, T. (2015). [*One thing per page*](https://designnotes.blog.gov.uk/2015/07/03/one-thing-per-page/) | In full |
 | WROBLEWSKI | Wroblewski, L. (2007). [*Primary and secondary actions in web forms*](https://www.lukew.com/ff/entry.asp?571) | In full |
 | HCI-HICK | Liu, W., Gori, J., Rioul, O., Beaudouin-Lafon, M. and Guiard, Y. (2020). *How relevant is Hick's law for HCI?* CHI 2020. [Record](https://researchportal.ip-paris.fr/en/publications/how-relevant-is-hicks-law-for-hci/) | Summary: abstract |

@@ -86,6 +86,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [K8](platform.md#k8-local-first) Local-first | platform | Must | Approved |
 | [K9](platform.md#k9-live-and-private-drafts) Live and private drafts | platform | Must | Approved |
 | [K10](platform.md#k10-encrypted-by-default) Encrypted by default | platform | Must | Approved |
+| [K11](platform.md#k11-access-by-part-enforced-by-keys) Access by part, enforced by keys | platform | Must | Approved |
 | [M1](results-and-measures.md#m1-a-complete-indicator) A complete indicator | results and measures | Must | Approved |
 | [M2](results-and-measures.md#m2-readings-apart-from-definitions) Readings apart from definitions | results and measures | Must | Approved |
 | [M3](results-and-measures.md#m3-targets-over-time-and-what-achievement-means) Targets over time, and what achievement means | results and measures | Must | Approved |

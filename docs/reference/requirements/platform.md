@@ -148,3 +148,22 @@ Records are encrypted on the person's devices before they are synchronised or st
 - **Holds across:** software, design research
 - **Evidence:** [LOCAL-FIRST](../bibliography.md); [KEYHIVE](../bibliography.md)
 - **Verified by:** an automated test in the build
+
+### K11 Access by part, enforced by keys
+
+Parts of a record can carry an access class, and only those the workspace's policy admits to a class can read the parts in it: each class is encrypted under a key that only its members hold, so a replica or server without that key relays the parts but cannot read them.
+
+- **Priority:** Must
+- **Status:** Approved
+- **Why:** Personal data and some findings must be seen only by those who need them ([O5](openness-and-exchange.md#o5-personal-data-separable)): the principle of least privilege grants each person the minimum access their function needs, and data protection by default keeps personal data from being made accessible to an indefinite number of people. In local-first collaboration every member's device receives every change ([K8](#k8-local-first)), so a check made by an interface or a server cannot keep a part from a member who holds the workspace's key ([K10](#k10-encrypted-by-default)); only a key that fewer people hold can. Who is admitted combines roles and attributes, as attribute-based access control does, and the policy is data, like any other part of a profile ([X9](domains-and-configuration.md#x9-policies-that-bind-workspaces)).
+- **Accepted when:**
+  - A profile or a policy assigns parts of the record to access classes, and states by role and attribute who is admitted to each.
+  - A part in a class is encrypted under that class's key, and its changes travel encrypted under the same key, so no change reveals a protected part to someone not admitted.
+  - A replica without a class's key keeps, relays and merges the rest of the record, and shows that a protected part exists without showing its content.
+  - Admitting or removing a person changes the class's members and its key; a removed person cannot read later changes, and the record says plainly that what they had already read cannot be withdrawn.
+  - A role, such as an auditor, can be admitted to one class without being admitted to others.
+  - Every change is signed, and every replica checks that its signer held the capability to make it.
+  - A check that needs a protected part runs only on devices admitted to it, and elsewhere answers "not judged".
+- **Holds across:** public sector elsewhere, privacy law, software
+- **Evidence:** [NIST-ABAC](../bibliography.md); [NIST-800-53](../bibliography.md) least privilege; [GDPR](../bibliography.md) article 25(2); [KEYHIVE](../bibliography.md); [MLS](../bibliography.md); [TAILSCALE-GRANTS](../bibliography.md)
+- **Verified by:** an automated test in the build that a replica without a class's key can read neither the class's parts nor their changes

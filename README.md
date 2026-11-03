@@ -39,7 +39,7 @@ flowchart LR
 
 ## Status
 
-The research (M1), the requirements (M2, all approved: 100 now) and the domain model (M3) are complete. The architecture decisions (M4) are accepted and the component verdicts are under review; the first walk is tested with people for ease of use next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
+The research (M1), the requirements (M2, all approved: 101 now) and the domain model (M3) are complete. The architecture decisions (M4) are accepted and the component verdicts are under review; the first walk is tested with people for ease of use next (M5). The [design process](docs/reference/design-process.md) shows the milestones and what each status means.
 
 ## Contributing
 
