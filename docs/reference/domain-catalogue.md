@@ -1,6 +1,6 @@
 # Domain catalogue
 
-The records, rules and events of each bounded context, following the accepted decisions; where a context rests on a decision still under review in M4 (DD-0009 to DD-0011, DD-0014, DD-0016 to DD-0018), its entries are proposed. A record made in a period of a cycle names that period ([DD-0020](../explanation/decisions/DD-0020-cycles-are-profile-patterns.md)). For why the contexts fall where they do, see [the domain model](../explanation/domain-model.md). Terms are defined in [the glossary](glossary.md).
+The records, rules and events of each bounded context, following the accepted decisions; where a context rests on a decision still under review in M4 ([DD-0014](../explanation/decisions/DD-0014-proposals-saved-straight-in-when-alone.md)), its entries are proposed. A record made in a period of a cycle names that period ([DD-0020](../explanation/decisions/DD-0020-cycles-are-profile-patterns.md)). For why the contexts fall where they do, see [the domain model](../explanation/domain-model.md). Terms are defined in [the glossary](glossary.md).
 
 An **aggregate** is a cluster of records changed together, with one root that guards its rules. A **rule** (invariant) must hold whenever the aggregate is saved. A **domain event** is something that happened that other contexts may react to.
 

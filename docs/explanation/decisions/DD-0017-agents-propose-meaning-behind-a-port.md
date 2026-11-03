@@ -1,6 +1,6 @@
 # DD-0017 Agents propose; questions of meaning go behind a port
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide), [K1](../../reference/requirements/platform.md#k1-the-contract-as-data), [K10](../../reference/requirements/platform.md#k10-encrypted-by-default), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)
 
@@ -16,7 +16,7 @@ Agents read records and suggest changes; accountability for the record stays wit
 | B. Agents propose like people; questions of meaning go to a language model behind a port, off by default | One standard for people and agents; the core works without a model and says when a question was not judged | A port and a "not judged" answer to design |
 | C. No agents and no language model | Simplest | Loses the help agents give, and checks of meaning become impossible |
 
-## Decision (proposed)
+## Decision
 
 Agents use the same proposals as people ([DD-0014](DD-0014-proposals-saved-straight-in-when-alone.md)) and meet the same checks. Questions of meaning go to a **language model** behind a port, off by default, whose answer may be "not judged". It is called by its standard name, as in the guidance on generative AI that treats large language models as one class of model ([NIST-GAI](../../reference/bibliography.md)), and its answers are never called decisions, so that "decision" keeps its governance sense.
 
@@ -26,6 +26,6 @@ Agents use the same proposals as people ([DD-0014](DD-0014-proposals-saved-strai
 - With the language model off, every check that needs it answers "not judged", and nothing blocks on it.
 - Answers from the language model advise; they are never recorded as decisions.
 
-## Open questions
+## Settled questions
 
-- **Where does the language model run, and what may it see?** Records are encrypted before they leave a device ([K10](../../reference/requirements/platform.md#k10-encrypted-by-default)), but a model asked a question of meaning must read the text it is asked about. The workspace must choose where the model runs (on the device, in its own deployment, or at a provider) and which text it may send, and personal data stays out unless the workspace chooses otherwise ([O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)).
+- **Where does the language model run, and what may it see?** A policy control decides. The workspace's profile, or a policy that binds it ([X9](../../reference/requirements/domains-and-configuration.md#x9-policies-that-bind-workspaces)), states where the model may run (on the device, in the workspace's own deployment, or at a named provider) and which parts of the record may be sent to it, and sends nothing until it says so. Personal data is never sent unless the policy says so ([O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)). The control is data, changed only by an accepted proposal and kept in the journal like the rest of the profile ([DD-0008](DD-0008-profiles-hold-what-differs-between-domains.md), [DD-0011](DD-0011-documents-with-an-append-only-journal.md)), and a policy can fix it for every workspace it binds. A check whose text the policy may not send answers "not judged". Text leaves a device unencrypted only as the policy allows, so everything else stays under [K10](../../reference/requirements/platform.md#k10-encrypted-by-default).

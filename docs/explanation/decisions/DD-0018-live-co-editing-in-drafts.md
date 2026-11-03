@@ -1,6 +1,6 @@
 # DD-0018 Live co-editing happens in drafts
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [K3](../../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks), [K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide), [K8](../../reference/requirements/platform.md#k8-local-first), [K9](../../reference/requirements/platform.md#k9-live-and-private-drafts), [K10](../../reference/requirements/platform.md#k10-encrypted-by-default), [K6](../../reference/requirements/platform.md#k6-records-open-in-later-releases), [O5](../../reference/requirements/openness-and-exchange.md#o5-personal-data-separable)
 
@@ -16,7 +16,7 @@ Teams need both live and asynchronous collaboration, and people want to work on 
 | B. Proposals only, live co-editing an optional adapter | The core stays small | Fails K8 and K9; teams lose live work and offline work |
 | C. Local-first replicas, with live co-editing inside drafts that enter the record as proposals | Live, private and offline work, all reviewed the same way | Drafts are a concept to explain; replicated history must be managed |
 
-## Decision (proposed)
+## Decision
 
 Option C. Every workspace is a set of replicas on people's devices, synchronised encrypted ([K10](../../reference/requirements/platform.md#k10-encrypted-by-default)). Work happens in **drafts**: private by default, shared for live editing with presence when the author chooses. A draft enters the record only as a proposal ([DD-0014](DD-0014-proposals-saved-straight-in-when-alone.md)); accepting it appends a version to the journal ([DD-0011](DD-0011-documents-with-an-append-only-journal.md)) that attributes every contributor. Conflicts the merge cannot settle in meaning are shown to a person when the draft is proposed.
 

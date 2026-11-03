@@ -1,6 +1,6 @@
 # DD-0010 Views are renderings of the one record
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [R5](../../reference/requirements/shape-of-the-record.md#r5-views-not-copies), [D9](../../reference/requirements/case-and-decisions.md#d9-the-chain-upward), [B3](../../reference/requirements/benefits-handover-closure.md#b3-from-benefit-to-work-and-back), [O4](../../reference/requirements/openness-and-exchange.md#o4-each-supported-standard-held-whole), [X1](../../reference/requirements/domains-and-configuration.md#x1-the-workspaces-taxonomy), [E8](../../reference/requirements/change-and-evaluation.md#e8-evaluation-lenses-as-views), [K10](../../reference/requirements/platform.md#k10-encrypted-by-default)
 
@@ -16,7 +16,7 @@ Each audience accepts its own document: a sponsor a charter, a treasury a five c
 | B. Views rendered from the record, chosen by the profile | One truth, any number of views | A view shows only what the record holds; layouts are work |
 | C. Export, then edit elsewhere | Little to build | The record stops being the truth |
 
-## Decision (proposed)
+## Decision
 
 Option B. A **view** is a template that selects and orders parts of the case, its decisions and its results for an audience. Views are declared in the profile, and printing and export use the same renderer. A view stores no content; where an audience needs something the record lacks, the record gains a part.
 
