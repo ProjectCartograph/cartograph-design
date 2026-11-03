@@ -25,4 +25,5 @@ Every design decision and its status. Each record gives the context, the options
 | [DD-0018 Live co-editing happens in drafts](../explanation/decisions/DD-0018-live-co-editing-in-drafts.md) | Accepted |
 | [DD-0019 Tranches are records of a programme](../explanation/decisions/DD-0019-tranches-are-records-of-a-programme.md) | Accepted |
 | [DD-0020 Cycles are patterns in the profile](../explanation/decisions/DD-0020-cycles-are-profile-patterns.md) | Accepted |
+| [DD-0021 Deployment follows the twelve factors, declared through Nix; the rules of the work stay data](../explanation/decisions/DD-0021-deployment-twelve-factor-configured-through-nix.md) | Accepted |
 <!-- index:end -->
