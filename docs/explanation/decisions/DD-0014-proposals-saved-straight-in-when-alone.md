@@ -1,6 +1,6 @@
 # DD-0014 Proposals for change, saved straight in when alone
 
-**Status:** Proposed
+**Status:** Accepted
 **Date:** 2026-10-17
 **Requirements:** [K3](../../reference/requirements/platform.md#k3-versioned-change-reviewed-where-the-policy-asks), [K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide), [P2](../../reference/requirements/people-and-first-use.md#p2-one-decision-per-screen), [A5](../../reference/requirements/risk-and-assurance.md#a5-reviews-are-records-apart-from-approvals), [K9](../../reference/requirements/platform.md#k9-live-and-private-drafts)
 
@@ -16,7 +16,7 @@ Bodies that must account for their decisions need every change reviewable and tr
 | B. Direct edits | Simplest | No review where it is needed; agents could change the record |
 | C. One route, a proposal, with a policy per workspace | Fits both; agents always propose | A policy to explain |
 
-## Decision (proposed)
+## Decision
 
 Option C. Every change is a **proposal**. The workspace's policy says whether a person's proposal is accepted at once (the default for a workspace of one) or waits for someone else to accept it. An agent's proposal always waits ([K5](../../reference/requirements/platform.md#k5-agents-propose-people-decide)). Accepting, at once or later, always writes a version to the journal ([DD-0011](DD-0011-documents-with-an-append-only-journal.md)), so a change saved straight in can be compared and restored like any other. Changes are *proposed*, *accepted* and *declined*, so that *review* and *decision* mean only the records of [DD-0007](DD-0007-decisions-stages-and-reviews-are-records.md).
 
