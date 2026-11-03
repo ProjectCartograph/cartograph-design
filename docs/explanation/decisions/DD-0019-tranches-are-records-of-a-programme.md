@@ -2,7 +2,7 @@
 
 **Status:** Accepted
 **Date:** 2026-10-20
-**Requirements:** [S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points), [S5](../../reference/requirements/stages-and-cycles.md#s5-a-programmes-decision-points), [S6](../../reference/requirements/stages-and-cycles.md#s6-a-tranche-declares-its-step-change), [S7](../../reference/requirements/stages-and-cycles.md#s7-a-programme-stays-justified), [R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work), [R6](../../reference/requirements/shape-of-the-record.md#r6-one-place-for-each-concept), [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record)
+**Requirements:** [S4](../../reference/requirements/stages-and-cycles.md#s4-a-programmes-or-portfolios-own-decision-points), [S5](../../reference/requirements/stages-and-cycles.md#s5-a-programmes-decision-points), [S6](../../reference/requirements/stages-and-cycles.md#s6-a-tranche-declares-its-step-change), [S7](../../reference/requirements/stages-and-cycles.md#s7-a-programme-stays-justified), [R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work), [R6](../../reference/requirements/shape-of-the-record.md#r6-one-place-for-each-concept), [D5](../../reference/requirements/case-and-decisions.md#d5-a-decision-is-a-record)
 
 ## Context
 

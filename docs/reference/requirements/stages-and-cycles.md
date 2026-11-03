@@ -47,9 +47,9 @@ Work without an end that is steered by cycles (a sprint, a quarter, a season, a 
 - **Evidence:** [SCRUM](../bibliography.md); [OKR](../bibliography.md); [OMB-A11](../bibliography.md)
 - **Verified by:** inspection of the model's schemas and their examples
 
-### S4 A group's own decision points
+### S4 A programme's or portfolio's own decision points
 
-A group of work (a programme, a portfolio) has its own decision points and reviews through its life, apart from its members'. A programme has no reference life cycle; it is phased in tranches.
+A programme or a portfolio has its own decision points and reviews through its life, apart from its members'. A programme has no reference life cycle; it is phased in tranches.
 
 - **Priority:** Must
 - **Status:** Approved

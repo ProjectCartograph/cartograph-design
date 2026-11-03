@@ -18,14 +18,14 @@ The project, programme and portfolio standards distinguish the three by purpose 
 
 ## Decision
 
-Option B. The core record is a **piece of work**. Its label (project, programme, portfolio, service, grant, product, or a term from the organisation's taxonomy) comes from the profile and is suggested from what the person says. Rules that differ by label (one objective for a project, outcomes and components for a programme, a sponsor and a budget of its own) are **checks attached to the label in the profile**, never separate schemas. Links between pieces of work are typed (part of, depends on, funds, hands over to), declared on one side and read from both, and a piece of work may serve more than one parent ([R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work)). Work with no end date has the same core, with a life of its own (planned, running, retired) and a reason recorded for retiring it ([R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end)).
+Option B. The core record is a **piece of work**. Its label (project, programme, portfolio, service, grant, product, or a term from the organisation's taxonomy) comes from the profile and is suggested from what the person says. Rules that differ by label (one objective for a project, outcomes, tranches and decision points for a programme, a sponsor and a budget of its own) are **checks attached to the label in the profile**, never separate schemas. Links between pieces of work are typed (part of, depends on, funds, hands over to), declared on one side and read from both, and a piece of work may serve more than one parent ([R4](../../reference/requirements/shape-of-the-record.md#r4-typed-links-between-work)). Work with no end date has the same core, with a life of its own (planned, running, retired) and a reason recorded for retiring it ([R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end)).
 
 A **portfolio** follows the standards' definition: a piece of work labelled portfolio that holds an organisation's standing investment in other work toward its goals ([PMI-PORTFOLIO](../../reference/bibliography.md) 1.2, [GOVS002](../../reference/bibliography.md) glossary, [TEAL](../../reference/bibliography.md) chapter 12). The checks on its label say what makes it one:
 
 - it has no end date ([R3](../../reference/requirements/shape-of-the-record.md#r3-work-without-an-end));
 - its intended results point to shared goals and hold no objectives of their own ([DD-0012](DD-0012-strategy-is-shared-context.md));
 - the parts of the case about one change and how it comes about are not asked, because its members need not share an outcome;
-- it names a sponsor, a budget and a review cycle ([S4](../../reference/requirements/stages-and-cycles.md#s4-a-groups-own-decision-points));
+- it names a sponsor, a budget and a review cycle ([S4](../../reference/requirements/stages-and-cycles.md#s4-a-programmes-or-portfolios-own-decision-points));
 - its decisions fund, hold, stop or move money between its members, with the criteria it ranks them by when it uses them ([D10](../../reference/requirements/case-and-decisions.md#d10-portfolio-decisions)).
 
 ```mermaid

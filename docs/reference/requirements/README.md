@@ -114,7 +114,7 @@ What Cartograph must do, as statements that can be checked. Each gives its reaso
 | [S1](stages-and-cycles.md#s1-life-cycles-mapped-to-a-reference) Life cycles mapped to a reference | stages and cycles | Must | Approved |
 | [S2](stages-and-cycles.md#s2-the-current-stage-shown-against-the-reference) The current stage, shown against the reference | stages and cycles | Must | Approved |
 | [S3](stages-and-cycles.md#s3-cycles-without-gates) Cycles without gates | stages and cycles | Must | Approved |
-| [S4](stages-and-cycles.md#s4-a-groups-own-decision-points) A group's own decision points | stages and cycles | Must | Approved |
+| [S4](stages-and-cycles.md#s4-a-programmes-or-portfolios-own-decision-points) A programme's or portfolio's own decision points | stages and cycles | Must | Approved |
 | [S5](stages-and-cycles.md#s5-a-programmes-decision-points) A programme's decision points | stages and cycles | Must | Approved |
 | [S6](stages-and-cycles.md#s6-a-tranche-declares-its-step-change) A tranche declares its step change | stages and cycles | Must | Approved |
 | [S7](stages-and-cycles.md#s7-a-programme-stays-justified) A programme stays justified | stages and cycles | Must | Approved |

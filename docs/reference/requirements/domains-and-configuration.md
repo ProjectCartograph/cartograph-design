@@ -6,7 +6,7 @@ Each requirement is a statement that can be checked. Its status starts Proposed 
 
 ### X1 The workspace's taxonomy
 
-A workspace sets its taxonomy, the terms it uses for levels, labels, stages and roles; each term maps to exactly one standard term, which stays one step away.
+A workspace sets its taxonomy, the terms it uses for levels, labels, stages, tranches, cycles and roles; each term maps to exactly one standard term, which stays one step away.
 
 - **Priority:** Must
 - **Status:** Approved
@@ -51,11 +51,11 @@ Each decision point names the role with authority to decide, from recognised rol
 
 ### X4 Standard profiles, tailored within their references
 
-Cartograph ships standard profiles, each built from recognised patterns and citing its sources (for example public investment, project delivery, product team, charity, research); a workspace tailors its profile only within the references each part maps to.
+Cartograph ships standard profiles, each built from recognised patterns and citing its sources (for example public investment, project delivery, a programme, a cycle, product team, charity, research); a workspace tailors its profile only within the references each part maps to.
 
 - **Priority:** Should
 - **Status:** Approved
-- **Why:** Domains differ in recognisable bundles of settings, and a standard profile spares each organisation configuring them one by one. Tailoring within fixed references (the standard terms, the reference levels, the reference life cycle, date intervals, the fields a published standard requires) keeps work comparable across workspaces and the standards met. Whether people want to choose a profile at the start is untested.
+- **Why:** Domains differ in recognisable bundles of settings, and a standard profile spares each organisation configuring them one by one. Tailoring within fixed references (the standard terms, the reference levels, the reference life cycle, the reference cycle, a programme's decision points, date intervals, the fields a published standard requires) keeps work comparable across workspaces and the standards met. Whether people want to choose a profile at the start is untested.
 - **Accepted when:**
   - Cartograph ships standard profiles, each naming the patterns and sources it draws on.
   - Every tailoring keeps each part of the profile mapped to its reference; a change that would not is refused, naming the reference it breaks.

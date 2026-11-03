@@ -1,14 +1,15 @@
 # Glossary
 
-The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md).
+The vocabulary of the new model, by context. Inside a context a term means one thing. A workspace may set its own term for any of them in its taxonomy; these are the defaults. For the contexts, see [the domain model](../explanation/domain-model.md). Every term is defined before it is used, with one exception: a contrast under "not to be confused with" may name a term defined in a later row, since a contrast must name the other term.
 
-**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)); the terms for programmes and cycles approved the same day ([issue 64](https://github.com/ProjectCartograph/cartograph-design/issues/64)); the terms every project needs approved on 2026-10-21 ([issue 83](https://github.com/ProjectCartograph/cartograph-design/issues/83)); the terms for policies that bind workspaces approved on 2026-10-23 ([issue 85](https://github.com/ProjectCartograph/cartograph-design/issues/85)). A change to a term is reviewed in an issue labelled `domain` before it is made.
+**Status:** Approved on 2026-10-20 ([issue 28](https://github.com/ProjectCartograph/cartograph-design/issues/28)); the terms for programmes and cycles approved the same day ([issue 64](https://github.com/ProjectCartograph/cartograph-design/issues/64)); the terms every project needs approved on 2026-10-21 ([issue 83](https://github.com/ProjectCartograph/cartograph-design/issues/83)); the terms for policies that bind workspaces approved on 2026-10-23 ([issue 85](https://github.com/ProjectCartograph/cartograph-design/issues/85)); the terms aligned with the work accepted after M3 approved on 2026-11-03 ([issue 79](https://github.com/ProjectCartograph/cartograph-design/issues/79)). A change to a term is reviewed in an issue labelled `domain` before it is made.
 
 | Term | Context | Meaning | Not to be confused with |
 |---|---|---|---|
 | Piece of work | Work definition | The one record of something an organisation does, at any scale | A label such as project or programme, which it carries |
 | Label | Work definition | What a piece of work is called (project, programme, portfolio, service, grant, product), from the profile | A kind of record with fields of its own: every label shares one record, and changing a label loses nothing |
 | Intended result | Work definition | A change sought: an output (produced), an outcome (changes for people) or an impact (lasting) | A goal of the organisation, which many pieces of work may serve |
+| Objective | Work definition | A result a piece of work sets out to bring about, stated as an outcome | A goal, which is shared strategy: an objective serves the goals above it |
 | Project | Work definition | The label for temporary work that delivers outputs toward an intended result | A programme, whose parts share one change |
 | Programme | Work definition | The label for temporary work whose parts together bring about one change and its benefits | A portfolio, whose members need not share an outcome |
 | Portfolio | Work definition | The label for an organisation's standing investment in other work toward its goals, with no end; its decisions fund, hold, stop or move money between its members | A programme; a list or report of many pieces of work, which holds no decisions of its own |
@@ -23,7 +24,7 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Classification | Work definition | The security marking of a record, shown wherever the record appears | A label |
 | Case | Work definition | The justification inside a piece of work, organised by five questions: need, value, buying or building, affordability, delivery. Its parts are the change wanted, if nothing is done, intended results, theory of change and assumptions (under need), options (value), cost (affordability) and delivery | A business case document, which presents the case to one audience and is produced from it |
 | Decision | Governance | A recorded act by a role with authority (approve, approve with conditions, change the scope, try another option, pilot, defer or stop) on a version of the case | An answer from a language model, which only advises |
-| Condition | Governance | Something a decision requires, with an owner and a due point | |
+| Condition | Governance | Something a decision requires, with an owner, a due point and what it holds back | |
 | Stage | Governance | A part of a piece of work's life that begins with a decision point. A profile names its stages in the workspace's taxonomy, and each maps to one stage of the reference life cycle: a stage may join several reference stages, and delivery may be split into several stages | A cycle, a repeating period that steers work without an end in place of stages |
 | Decision point | Governance | The decision that opens a stage: to go on, change course, hold or stop; also called a gate. It names the role with authority to decide | A review, which advises it |
 | Deciding role | Governance | The role with authority to decide at a decision point, such as a sponsor, a senior responsible owner, a board, a funder or a product owner; in a workspace of one, the person working alone | The accountable role for a result, which may differ |
@@ -34,12 +35,15 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Definition | Governance | The reference stage that plans the selected option in full (scope, cost, commercial and delivery arrangements), ending in the decision to invest | The case, which grows through every stage |
 | Delivery | Governance | The reference stage, or stages, that produce the outputs | Operation |
 | Operation | Governance | The reference stage in which the outputs are used, the benefits realised and the work closed | Handover, one event within it |
-| Decision to commit | Governance | The decision that authorises delivery spending on a programme, at the level its profile sets: the programme case, its first tranche or each project's case | Approval of the programme case alone, where the profile commits delivery later |
+| Decision to commit | Governance | The decision that authorises delivery spending; for a programme, at the level its profile sets: the programme case, its first tranche or each project's case | Approval of the programme case alone, where the profile commits delivery later |
 | Step change | Governance | The new capability a tranche puts in place, from which some of the programme's benefits start | An output, which may be one part of it |
-| Tranche | Governance | A phase of a programme that begins with a decision point, is built around a step change and the benefits it starts, and ends in a review; tranches may overlap, and a piece of work may belong to more than one | A stage of a project. PM²'s programme stages and the World Bank's phases map to it through the taxonomy |
+| Look back | Governance | The event that asks how the work was done, apart from its results | A review, which judges the work's case or results |
+| Tranche | Governance | A phase of a programme that begins with a decision point, is built around a step change and the benefits it starts, and closes with a look back, and a review of whether the programme is still justified comes before the next one; tranches may overlap, and a piece of work may belong to more than one | A stage of a project. PM²'s programme stages and the World Bank's phases map to it through the taxonomy |
+| Envelope | Governance | The total a programme may draw on across its tranches, indicative until a tranche is opened | A funding line, which one source provides |
 | Cycle | Governance | A repeating pattern that steers work without an end (a sprint, a quarter, a financial year), with a deciding role and a length that is fixed, variable or continuous; each turn of it is a period | A stage; a reporting period, which only dates readings |
 | Period | Governance | One turn of a cycle, with planned start and end dates, that ends in a decision | A reporting period, which has no decision of its own |
 | Cycle event | Governance | One of the six things a cycle does: set, check, review, look back, evaluate and decide | A decision point, which opens a stage |
+| Reference cycle | Governance | The six cycle events every cycle maps to, so that cycles of every kind stay comparable | A reference life cycle, which has stages |
 | Review | Governance | An assurance look at the work, recording how independent the reviewer was; it advises, never approves | Accepting a proposal |
 | Independence | Governance | How far a reviewer stands from the work: self-review (by the author), peer review (by someone not involved in producing it) or independent review (by someone outside its management or organisation) | |
 | Approved plan | Governance | The approved scope, cost, dates and benefits, kept as a named version | The current plan; a baseline |
@@ -48,7 +52,7 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Indicator | Measurement | What is measured, on what scale, how, by whom, with a baseline and targets | A reading |
 | Scale | Measurement | What an indicator's values can be: an amount or count, a percentage or rate, ordered levels each with a description, or categories; it sets which summaries apply | A unit, which an amount is counted in |
 | Baseline | Measurement | An indicator's measured starting value, or a stated unknown with when it will be known | The approved plan |
-| Reading | Measurement | A value for one period | A target |
+| Reading | Measurement | A value for one reporting period, an interval of dates from the profile's calendar | A target |
 | Target | Measurement | What is aimed for, by when; a value, a threshold or a level on the indicator's scale | |
 | Aggregation | Measurement | Rolling readings up across pieces of work, periods or groups, by the indicator's aggregation rule: summed, weighted by its denominator, or not aggregable | A sum, which is one aggregation rule |
 | Disaggregation | Measurement | Breaking readings down by group, such as gender, age or location | A filter, which hides the other groups |
@@ -72,8 +76,8 @@ The vocabulary of the new model, by context. Inside a context a term means one t
 | Tolerance | Risk | A limit set for one piece of work, such as on cost or time; a breach is flagged and can be escalated | Risk appetite, set for the workspace |
 | Escalation | Risk | Passing a risk beyond its owner's authority to a named role that can decide | A handover, which moves accountability for good |
 | Dependency | Risk | One piece of work needing another, with an owner and the effect if the other slips | A part-of link, which places one piece of work inside another |
-| Profile | Configuration | The data that fits Cartograph to a domain: its taxonomy, results hierarchy, life cycle, deciding roles, required parts, calendar, views and extensions, each chosen from a recognised pattern and mapped to a fixed reference | |
-| Taxonomy | Configuration | The terms a workspace uses for levels, labels, stages and roles, each mapped to exactly one standard term in this glossary | Free text a person writes |
+| Profile | Configuration | The data that fits Cartograph to a domain: its taxonomy, results hierarchy, life cycle, a programme's decision points, cycles, deciding roles, review independence, risk categories and scale, required parts and evaluation lenses, calendar, views and extensions, each chosen from a recognised pattern and mapped to a fixed reference | |
+| Taxonomy | Configuration | The terms a workspace uses for levels, labels, stages, tranches, cycles and roles, each mapped to exactly one standard term in this glossary | Free text a person writes |
 | Standard term | Configuration | The term in this glossary that a taxonomy's term maps to, used when the record is exported or shown in a standard's terms | The workspace's own term, shown to its people |
 | Results hierarchy | Configuration | The levels a profile arranges results in, chosen from a recognised one (a logical framework, a results framework, objectives and key results), each level mapped to a reference level | A category scheme, such as a balanced scorecard's perspectives, which classifies results without adding a level |
 | Reference level | Configuration | One of the four levels every results hierarchy maps to: activity, output, outcome or impact | A profile's own level, which maps to one |
